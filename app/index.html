@@ -6,30 +6,50 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="http://browsehappy.com/">upgrade your browser</a>
+                to improve your experience.</p>
         <![endif]-->
 
 
-        <div class="hero-unit">
-          <h1>'Allo, 'Allo!</h1>
-          <p>You now have</p>
-          <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>LESS</li>
+        <div class="hero">
+            <h1>Hello.</h1>
+            <p>
+                I am Robin Pokorný, a front-end engineer at <a href="http://www.lmc.eu/">LMC</a>
+                and a Maths student based in Prague.
+            </p>
 
-          </ul>
+            <div class="footer">
+                <ul class="footer__links">
+                    <li><a href="http://robin.medvedi.eu" rel="me">Blog</a></li>
+                    <li><a href="http://twitter.com/robinpokorny" rel="me">Twitter</a></li>
+                    <li><script>mail2("me", "robinpokorny", 0, "", "E-mail")</script></li>
+                </ul>
+                <ul class="footer__links footer__links--additional">
+                    <li><a href="http://github.com/robinpokorny" rel="me">GitHub</a></li>
+                    <li><a href="http://cz.linkedin.com/in/robinpokorny" rel="me">LinkedIn</a></li>
+                    <li><a href="http://stackoverflow.com/users/1517783/robin-pokorny" rel="me">StackOverflow</a></li>
+                    <li><a href="https://plus.google.com/114910420999584318280?rel=author" rel="me">Google+</a></li>
+                    <li><a href="http://www.facebook.com/robin.pokorny" rel="me">Facebook</a></li>
+
+                </ul>
+            </div>
         </div>
 
 
@@ -47,9 +67,5 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
 </body>
 </html>

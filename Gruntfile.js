@@ -202,7 +202,7 @@ module.exports = function (grunt) {
             app: {
                 src: ['<%= config.app %>/index.html'],
                 ignorePath: '<%= config.app %>/',
-                exclude: ['bower_components/bootstrap/dist/js/bootstrap.js']
+                exclude: ['bower_components/normalize-css/normalize.css']
             },
             less: {
                 src: ['<%= config.app %>/styles/{,*/}*.less'],
