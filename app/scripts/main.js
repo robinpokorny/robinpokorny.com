@@ -4,13 +4,11 @@ function mail2(name, dom, tl, params, display, where) {
   'use strict';
 
   // Email.js version 5
-  var tld = [],
+  var tld = ['com'],
     m = 'mailto:',
     a = '@',
     d = '.',
     e = document.createElement('a');
-
-  tld[0] = 'com';
 
   e.href =  m + name + a + dom + d + tld[tl] + params;
   e.innerHTML = display;
