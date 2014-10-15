@@ -58,7 +58,10 @@ a:active {
 
 .footer{
     margin-top: 120px;
-    text-align: center;
+
+    @media only screen and (min-width: 700px) {
+        text-align: center;
+    }
 
     &__links {
         list-style: none;
@@ -69,9 +72,11 @@ a:active {
             font-size: 80%;
         }
 
-        li {
-            display: inline-block;
-            padding: 0 12px;
+        @media only screen and (min-width: 400px) {
+            li {
+                display: inline-block;
+                padding: 0 12px;
+            }
         }
     }
 }
