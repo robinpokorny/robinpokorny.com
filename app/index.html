@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-    <head>
+    <head profile="http://gmpg.org/xfn/11">
         <meta charset="utf-8">
         <title>Robin Pokorný</title>
         <meta name="description" content="">
@@ -22,11 +22,16 @@
         <!--[if lt IE 10]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
 
-        <div class="hero">
+        <div class="hero" itemscope itemtype="http://data-vocabulary.org/Person">
             <h1>Ahoy.</h1>
             <p>
-                I am Robin Pokorný, a front-end engineer at <a href="http://www.lmc.eu/">LMC</a>
-                and a Maths student based in Prague.
+                I am <span itemprop="name">Robin Pokorný</span>,
+                a <span itemprop="title">front-end engineer</span>
+                at <a href="http://www.lmc.eu/" itemprop="affiliation">LMC</a>
+                and a Maths student based in
+                <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+                    <span itemprop="locality">Prague</span>
+                </span>.
             </p>
 
             <div class="footer">
