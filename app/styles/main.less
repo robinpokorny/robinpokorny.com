@@ -78,6 +78,23 @@ a:active {
     cursor: help;
 }
 
+.strike {
+    position: relative;
+    display: inline-block;
+    color: #b7b7b7;
+    text-decoration: none;
+
+    &:before {
+        content: '';
+        border-bottom: 2px solid #4D4D50;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 51%;
+        transform: skewY(-7deg);
+    }
+}
+
 .intro {
     -webkit-columns: 2 220px;
        -moz-columns: 2 220px;
