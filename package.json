@@ -2,7 +2,7 @@
   "name": "robinpokorny-com",
   "version": "2.1.0",
   "scripts": {
-    "start": "grunt serve"
+    "start": "bower install && grunt serve"
   },
   "dependencies": {},
   "devDependencies": {
