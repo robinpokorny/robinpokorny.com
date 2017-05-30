@@ -29,10 +29,6 @@ module.exports = function (grunt) {
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
-            bower: {
-                files: ['bower.json'],
-                tasks: ['bowerInstall']
-            },
             gruntfile: {
                 files: ['Gruntfile.js']
             },
@@ -70,7 +66,6 @@ module.exports = function (grunt) {
                     middleware: function(connect) {
                         return [
                             connect.static('.tmp'),
-                            connect().use('/bower_components', connect.static('./bower_components')),
                             connect.static(config.app)
                         ];
                     }
@@ -84,7 +79,6 @@ module.exports = function (grunt) {
                         return [
                             connect.static('.tmp'),
                             connect.static('test'),
-                            connect().use('/bower_components', connect.static('./bower_components')),
                             connect.static(config.app)
                         ];
                     }
@@ -126,7 +120,7 @@ module.exports = function (grunt) {
     // Compiles LESS to CSS and generates necessary files if requested
         less: {
             options: {
-                paths: ['./bower_components']
+                paths: ['./node_modules']
             },
             dist: {
                 options: {
@@ -169,19 +163,6 @@ module.exports = function (grunt) {
                     src: '{,*/}*.css',
                     dest: '.tmp/styles/'
                 }]
-            }
-        },
-
-        // Automatically inject Bower components into the HTML file
-        bowerInstall: {
-            app: {
-                src: ['<%= config.app %>/index.html'],
-                ignorePath: '<%= config.app %>/',
-                exclude: ['bower_components/normalize-css/normalize.css']
-            },
-            less: {
-                src: ['<%= config.app %>/styles/{,*/}*.less'],
-                ignorePath: '<%= config.app %>/bower_components/'
             }
         },
 

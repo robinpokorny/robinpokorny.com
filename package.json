@@ -2,13 +2,15 @@
   "name": "robinpokorny-com",
   "version": "2.1.0",
   "scripts": {
-    "start": "bower install && grunt serve"
+    "build": "grunt build",
+    "start": "grunt serve"
   },
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.7.2",
-    "grunt-bower-install": "~1.4.0",
     "grunt-cli": "^1.2.0",
     "grunt-concurrent": "~0.5.0",
     "grunt-contrib-clean": "~0.5.0",
