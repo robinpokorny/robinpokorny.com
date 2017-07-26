@@ -1,0 +1,21 @@
+# Site settings
+title: Robin Pokorný
+description: A zealous JavaScript Engineer
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude: [ README.md, Gemfile*]
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids: true
+sass:
+  style: compressed
+gems:
+  - jekyll-readme-index
