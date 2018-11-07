@@ -1,6 +1,6 @@
 body {
   color: #4d4d50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.7;
@@ -66,7 +66,7 @@ a:active {
 }
 
 .dash:after {
-  content: '\2014';
+  content: "\2014";
   padding: 0 0.8em;
 }
 
@@ -95,7 +95,7 @@ a:active {
     display: inline-block;
   }
   .social li:after {
-    content: '\2014';
+    content: "\2014";
     padding: 0 0.8em;
   }
   .social li:last-child:after {
@@ -122,4 +122,31 @@ a:active {
   font-size: 0.8em;
   line-height: 1.3;
   color: #b7b7b7;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #212121;
+    color: #fff;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #fff;
+  }
+
+  a,
+  a:visited {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: #b7b7b7;
+  }
 }
