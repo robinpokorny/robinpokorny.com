@@ -40,16 +40,18 @@ h4 {
 
 a,
 a:visited {
-  color: #790f5b;
+  color: #222;
   text-decoration: none;
+  box-shadow: inset 0 -2px 0 rgba(121, 15, 91, 1), 0 2px 0 rgba(121, 15, 91, 1);
+  transition: box-shadow 0.30s;
+  overflow: hidden;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #2a0520;
-  text-decoration: underline;
-  text-decoration-skip: ink;
+  text-decoration: none;
+  box-shadow: inset 0 -1.4em 0 rgba(121, 15, 91, 0.2), 0 2px 0 rgba(121, 15, 91, 1);
 }
 
 .main {
@@ -144,14 +146,13 @@ a:active {
 
   a,
   a:visited {
-    color: #fff;
-    text-decoration: underline;
-    text-decoration-skip: ink;
+    color: #eee;
   }
 
   a:hover,
   a:focus,
   a:active {
-    color: #b7b7b7;
+    color: #eee;
+    box-shadow: inset 0 -1.4em 0 rgba(182, 22, 136, 0.5), 0 2px 0 #fff;
   }
 }
