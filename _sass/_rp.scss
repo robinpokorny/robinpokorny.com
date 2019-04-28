@@ -8,15 +8,17 @@ body {
 }
 
 h1 {
-  color: #111;
+  font-family: 'Proza Libre', sans-serif;
+  color: #222;
   font-weight: 400;
   font-size: 2.8em;
   line-height: 1;
 }
 
 h2 {
+  font-family: 'Proza Libre', sans-serif;
   margin: 0 0 0.8em 0;
-  color: #111;
+  color: #222;
   font-weight: 400;
   font-size: 1.3em;
 }
@@ -25,12 +27,13 @@ h3 {
   margin-bottom: 0.5em;
   margin-top: 2em;
   font-weight: 400;
-  font-size: 2em;
+  font-size: .7em;
 }
 
 h4 {
+  font-family: 'Proza Libre', sans-serif;
   margin: 0;
-  color: #111;
+  color: #222;
   font-weight: 700;
   font-size: 1em;
 }
@@ -87,7 +90,7 @@ a:active {
   margin: 0 0 0.8em 0;
   padding-left: 0;
   list-style: none;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 @media only screen and (min-width: 800px) {
@@ -103,8 +106,10 @@ a:active {
   }
 }
 
-.social--additional {
-  font-size: 1em;
+.social-emphasis {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.3em;
+
 }
 
 .talk {
@@ -127,14 +132,14 @@ a:active {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #212121;
-    color: #fff;
+    color: #eee;
   }
 
   h1,
   h2,
   h3,
   h4 {
-    color: #fff;
+    color: #e3e3e3;
   }
 
   a,
