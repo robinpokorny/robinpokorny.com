@@ -13,20 +13,3 @@
   display: block;
   visibility: visible;
 }
-
-/* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px !important;
-  width: 1px !important;
-  border: 0 !important;
-  overflow: hidden;
-}
-
-body:hover .visually-hidden a,
-body:hover .visually-hidden input,
-body:hover .visually-hidden button {
-  display: none !important;
-}

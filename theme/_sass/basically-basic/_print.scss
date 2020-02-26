@@ -18,15 +18,14 @@
     margin: 0;
     padding: 0;
     height: auto;
-    min-height: auto !important;
     font-size: 16px;
   }
 
   body {
     margin: 0;
     height: auto;
-    background: #fff !important;
-    color: #000 !important;
+    background: #fff;
+    color: #000;
     font-size: 1rem;
     line-height: 1.5;
     -moz-osx-font-smoothing: grayscale;
@@ -98,7 +97,7 @@
 
   img {
     display: block;
-    max-width: 100% !important;
+    max-width: 100%;
     border: 0;
     vertical-align: middle;
   }
@@ -172,7 +171,7 @@
   }
 
   pre {
-    white-space: pre-wrap !important;
+    white-space: pre-wrap;
     word-wrap: break-word;
   }
 
@@ -189,7 +188,8 @@
   }
 
   .wrapper {
-    min-height: auto !important;
+    min-height: auto;
+    background: #fff;
   }
 
   #main {
@@ -246,7 +246,7 @@
   .pager,
   .site-footer,
   .adsbygoogle {
-    display: none !important;
+    display: none;
     height: 1px;
   }
 }

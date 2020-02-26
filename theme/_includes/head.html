@@ -3,6 +3,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  {% comment %}
+    AMP
+    We need to inline the CSS so we use a little trick with capture
+  {% endcomment %}
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  {% include head-amp-boilerplate.html %}
+  {% capture styles %}{% include main.scss %}{% endcapture %}
+  <style amp-custom>
+    {{ styles | scssify }}
+  </style>
+
+
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
       Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
@@ -14,14 +26,6 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
 
-  <script>
-    /* Cut the mustard */
-    if ( 'querySelector' in document && 'addEventListener' in window ) {
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
-    }
-  </script>
-
-  <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">
   {% if site.data.theme.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
   {% endif %}
