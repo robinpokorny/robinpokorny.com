@@ -3,7 +3,7 @@
   <!--
     Based on: Basically Basic Jekyll Theme by Michael Rose @mmistakes
     https://github.com/mmistakes/jekyll-theme-basically-basic/
--->
+  -->
   {% include head.html %}
 
   <body
@@ -30,7 +30,7 @@
       </button>
       {% endif %}
 
-      <button class="toggle navicon-button larr" type="button">
+      <button class="toggle navicon-button" type="button" on="tap:sidebar.toggle">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label screen-reader-text"
             >{{ site.data.theme.t.menu | default: 'Menu' }}</span
@@ -40,12 +40,12 @@
       </button>
     </div>
 
-    <div id="sidebar" class="sidebar">
+    <amp-sidebar id="sidebar" layout="nodisplay" side="left" class="sidebar">
       <div class="inner">
         {% include navigation.html %}
         {% include contact-list.html %}
       </div>
-    </div>
+    </amp-sidebar>
 
     <div class="canvas">
       <div class="wrapper">
@@ -53,16 +53,16 @@
         <div class="initial-content">
           {{ content }}
         </div>
-
+        
         <div class="search-content">
           {% include search-form.html %}
         </div>
       </div>
     </div>
-
+    
     {% include footer.html %}
     {% include scripts.html %}
 
   </body>
-  
+
 </html>
