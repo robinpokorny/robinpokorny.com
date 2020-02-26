@@ -1,3 +1,12 @@
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
   {% include entry.html %}
 {% endfor %}
+
+<!-- Pagination links -->
+<nav class="pager">
+  <ul>
+    {% if site.posts.size > 5 %}
+      <li><a href="{% link {{ page.older_link }} %}" class="next">Older <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></li>
+    {% endif %}
+  </ul>
+</nav>
