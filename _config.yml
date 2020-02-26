@@ -41,6 +41,8 @@ plugins:
   - jekyll-paginate
 feed:
   path: atom.xml
+sass:
+  style: compressed
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
