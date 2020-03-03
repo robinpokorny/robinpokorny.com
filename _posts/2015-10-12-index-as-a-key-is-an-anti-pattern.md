@@ -4,12 +4,14 @@ date:   2015-10-12T00:00:00Z
 ---
 So many times I have seen developers use the index of an item as its key when they render a list.
 
-    {todos.map((todo, index) =>
-      <Todo
-        {...todo}
-        key={index}
-      />
-    )}
+```tsx
+{todos.map((todo, index) =>
+  <Todo
+    {...todo}
+    key={index}
+  />
+)}
+```
 
 It looks elegant and it does get rid of the warning (which was the ‘real’ issue, right?). What is the danger here?
 > It may break your application and display wrong data!
