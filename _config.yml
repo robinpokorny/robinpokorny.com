@@ -25,9 +25,10 @@ url: https://robinpokorny.com
 author:
   name: Robin Pokorny
   twitter: robinpokorny
-  picture: robinpokorny
+  picture: assets/profile.jpg
 twitter_username: robinpokorny
 github_username: robinpokorny
+youtube_channel: robinpokorny
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: false # true, false (default)
 
@@ -38,6 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-image-size
 feed:
   path: atom.xml
 sass:

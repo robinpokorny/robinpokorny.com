@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name                    = "jekyll-theme-basically-basic"
   spec.version                 = "1.4.4"
-  spec.authors                 = ["Michael Rose"]
+  spec.authors                 = ["Michael Rose", "Robin Pokorny"]
 
   spec.summary                 = %q{Your new Jekyll default theme.}
   spec.homepage                = "https://github.com/mmistakes/jekyll-theme-basically-basic"
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
+  spec.add_runtime_dependency "jekyll-image-size", "~> 1.2"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", "~> 10.0"

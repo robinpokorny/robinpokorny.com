@@ -10,8 +10,8 @@
 
 .intro-image {
   position: relative;
-  margin-top: -3rem; /* compensate for intro top margin */
-  margin-bottom: 3rem;
+  margin-top: 3rem; /* compensate for intro top margin */
+  margin-bottom: 2rem;
 
   &::before {
     position: absolute;

@@ -4,7 +4,7 @@ older_link: blog.md
 layout: home
 alt_title: "Ahoy"
 sub_title: "I am **Robin Pokorny**, a zealous Software Developer based in Berlin."
-# image: https://res.cloudinary.com/dljslvfla/image/upload/w_1920,f_auto,q_auto/v1536922536/robin_pokorny_tempelhof.jpg
+image: assets/image/profile.jpg
 introduction: |
   Lead Engineer at [Klarna](https://klarna.com). I’m really passionate about engineering best practices. I think the biggest problem for developers is lack of focus. 
   As a developer who specialises in *JavaScript*, I’m helping to find solutions through applying functional programming principles. I organise meetups, record coding videos, and speak about my findings.

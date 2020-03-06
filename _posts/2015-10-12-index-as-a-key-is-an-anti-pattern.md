@@ -1,6 +1,7 @@
 ---
 title:  "Index as a key is an anti-pattern"
 date:   2015-10-12T00:00:00Z
+image: https://cdn-images-1.medium.com/max/4716/1*9N62zUlyJcQet8kr7e_FVg.png
 ---
 So many times I have seen developers use the index of an item as its key when they render a list.
 
