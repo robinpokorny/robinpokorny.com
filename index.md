@@ -7,12 +7,11 @@ introduction: |
   Lead Engineer at [Klarna](https://klarna.com). I’m really passionate about engineering best practices. I think the biggest problem for developers is lack of focus. 
   As a developer who specialises in *JavaScript*, I’m helping to find solutions through applying functional programming principles. I organise meetups, record coding videos, and speak about my findings.
 actions:
-  - label: "Get Started"
-    icon: github
-    url: "https://github.com/mmistakes/jekyll-theme-basically-basic"
-  - label: "Download"
-    icon: download
-    url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
+  - label: "Twitter"
+    icon: twitter
+    url: "https://twitter.com/robinpokorny"
+  - label: "More contact"
+    onAttr: "tap:sidebar.toggle"
 ---
 
 {% include page-intro.html %}
