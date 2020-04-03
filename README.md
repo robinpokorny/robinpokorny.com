@@ -11,4 +11,4 @@ bundle exec jekyll serve
 npx netlify-cms-proxy-server
 ```
 
-Open http://127.0.0.1:4000/admin
+Open http://127.0.0.1:4000/admin in the browser.
