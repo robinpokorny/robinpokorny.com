@@ -1,12 +1,61 @@
-- title: "Typed Functional Programming in TypeScript with fp-ts"
-  date: 2019-12-06
-  event: "React Day Berlin"
-  eventUrl: "https://reactday.berlin/"
-  slides: https://noti.st/robinpokorny/eayxlR
-  video: "https://youtu.be/UwCLmHQOWoY"
-  image: "https://on.notist.cloud/slides/deck4404/large-0.jpg"
-- title: "Practising the Decision-Making Diet in a JavaScript Developer’s Life"
-  date: 2019-11-14
-  event: "React Berlin November"
-  eventUrl: "https://www.meetup.com/React-Berlin-Meetup/events/266203395/"
-  slides: "https://decision-diet-js.now.sh/"
+talks:
+  - title: Typed Functional Programming in TypeScript with fp-ts
+    date: 2019-12-06T00:00:00.000Z
+    event: React Day Berlin
+    eventUrl: 'https://reactday.berlin/'
+    slides: 'https://noti.st/robinpokorny/eayxlR'
+    video: 'https://youtu.be/UwCLmHQOWoY'
+    image: ''
+  - title: Practising the Decision-Making Diet in a JavaScript Developer’s Life
+    date: 2019-11-14T00:00:00.000Z
+    event: React Berlin Meetup
+    eventUrl: 'https://www.meetup.com/React-Berlin-Meetup/events/266203395/'
+    slides: 'https://decision-diet-js.now.sh/'
+  - date: 2019-09-20T22:00:00.000Z
+    title: Practising the Decision-Making Diet in a JavaScript Developer’s Life
+    event: WebExpo 2019
+    eventUrl: >-
+      https://www.webexpo.net/prague2019/talk/practising-the-decision-making-diet-in-a-javascript-developer-s-life
+    video: >-
+      https://slideslive.com/38919140/practising-the-decisionmaking-diet-in-a-javascript-developers-life
+    slides: 'https://decision-diet-js.now.sh/'
+  - date: 2019-05-06T22:00:00.000Z
+    title: Symbols complicated it all
+    event: Node.js Berlin Meetup
+    eventUrl: 'https://www.meetup.com/Node-js-Meetup-Berlin/events/260172791/'
+    slides: 'http://symbols-complicated-it-all.netlify.com/'
+    video: 'https://youtu.be/YrQ_ecirpDA'
+  - date: 2017-10-31T23:00:00.000Z
+    title: Jest Can Do Whaaat?
+    event: React Open Source
+    eventUrl: 'https://www.meetup.com/preview/React-Open-Source/events/244027983'
+    slides: 'https://speakerdeck.com/robinpokorny/jest-can-do-whaaat'
+    video: 'https://youtu.be/wrJq0boagko?t=45m'
+  - date: 2017-10-16T22:00:00.000Z
+    title: Async testing Koa with Jest
+    event: Node.js Berlin Meetup
+    eventUrl: 'https://www.meetup.com/preview/Node-js-Meetup-Berlin/events/241810015'
+    slides: 'https://speakerdeck.com/robinpokorny/async-testing-koa-with-jest'
+    article: 'https://medium.com/@robinpokorny/async-testing-koa-with-jest-1b6e84521b71'
+    video: ''
+  - date: 2017-10-16T22:00:00.000Z
+    title: 'Jest, Snapshot testing, and Vue.js'
+    event: Vue.js // Berlin
+    eventUrl: 'https://www.meetup.com/Vue-js-Berlin/events/pndghnywkbpb/'
+  - date: 2017-06-27T22:00:00.000Z
+    title: Async testing in Jest
+    event: React & React Native Berlin Meetup June 2017
+    eventUrl: 'https://www.meetup.com/ReactJS-and-React-Native-Berlin/events/236081065/'
+    video: 'https://www.youtube.com/watch?v=bw10S2BK-5w'
+  - date: 2017-05-09T22:00:00.000Z
+    title: 15 months of Accelerated Mobile Pages
+    event: '{Frontendisti.cz} May 2017'
+    eventUrl: 'http://frontendisti.cz/archiv-akci#english-meetup-in-msd'
+    video: 'https://www.youtube.com/watch?v=74eg0wgSIuQ'
+    slides: 'https://www.slideshare.net/robinpokorny/15-months-of-amp'
+  - date: 2020-02-18T23:00:00.000Z
+    title: Yarn 2
+    event: React Berlin Meetup
+    eventUrl: 'https://www.meetup.com/React-Berlin-Meetup/events/268061783/'
+    slides: 'https://yarn-2-talk.now.sh/'
+    video: 'https://youtu.be/s-KD3isJSII'
