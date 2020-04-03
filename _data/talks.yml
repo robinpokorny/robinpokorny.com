@@ -1,4 +1,10 @@
 talks:
+  - date: 2020-02-18T23:00:00.000Z
+    title: Yarn 2
+    event: React Berlin Meetup
+    eventUrl: 'https://www.meetup.com/React-Berlin-Meetup/events/268061783/'
+    slides: 'https://yarn-2-talk.now.sh/'
+    video: 'https://youtu.be/s-KD3isJSII'
   - title: Typed Functional Programming in TypeScript with fp-ts
     date: 2019-12-06T00:00:00.000Z
     event: React Day Berlin
@@ -53,9 +59,3 @@ talks:
     eventUrl: 'http://frontendisti.cz/archiv-akci#english-meetup-in-msd'
     video: 'https://www.youtube.com/watch?v=74eg0wgSIuQ'
     slides: 'https://www.slideshare.net/robinpokorny/15-months-of-amp'
-  - date: 2020-02-18T23:00:00.000Z
-    title: Yarn 2
-    event: React Berlin Meetup
-    eventUrl: 'https://www.meetup.com/React-Berlin-Meetup/events/268061783/'
-    slides: 'https://yarn-2-talk.now.sh/'
-    video: 'https://youtu.be/s-KD3isJSII'
