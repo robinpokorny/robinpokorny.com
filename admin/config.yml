@@ -1,0 +1,66 @@
+backend:
+  name: github
+  repo: robinpokorny/robinpokorny.com
+  branch: master
+  base_url: https://robinpokorny.com # CHANGE ME
+  auth_endpoint: api/auth
+
+local_backend: true
+
+media_folder: /assets/image
+public_folder: /assets/
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Data"
+    name: "data"
+    editor:
+      preview: false
+    files:
+      - label: "Talks"
+        name: "talks"
+        file: "_data/talks.yml"
+        fields:
+          - label: "Talks"
+            name: "talks"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Date",
+                  name: "date",
+                  widget: "date",
+                  dateFormat: "YYYY-MM-DD",
+                  default: "",
+                }
+              - { label: "Event", name: "event", widget: "string" }
+              - { label: "Event URL", name: "eventUrl", widget: "string" }
+              - {
+                  label: "Video URL",
+                  name: "video",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Slides URL",
+                  name: "slides",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
