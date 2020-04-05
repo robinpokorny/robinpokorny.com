@@ -2,7 +2,7 @@ backend:
   name: github
   repo: robinpokorny/robinpokorny.com
   branch: master
-  base_url: https://robinpokorny.com # CHANGE ME
+  base_url: https://robinpokorny.com
   auth_endpoint: api/auth
 
 local_backend: true

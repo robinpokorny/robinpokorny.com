@@ -1,0 +1,6 @@
+{
+  "env": {
+    "OAUTH_CLIENT_ID": "@rp-oauth-client-id",
+    "OAUTH_CLIENT_SECRET": "@rp-oauth-client-secret"
+  }
+}
