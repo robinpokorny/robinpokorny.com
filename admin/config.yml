@@ -16,8 +16,6 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -33,15 +31,17 @@ collections:
         file: "_data/talks.yml"
         fields:
           - label: "Talks"
-            name: "talks"
+            name: "items"
             widget: "list"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - {
                   label: "Date",
                   name: "date",
-                  widget: "date",
+                  widget: "datetime",
+                  format: "YYYY-MM-DD",
                   dateFormat: "YYYY-MM-DD",
+                  timeFormat: false,
                   default: "",
                 }
               - { label: "Event", name: "event", widget: "string" }
