@@ -1,10 +1,11 @@
 items:
-  - date: 2020-02-19
+  - date: 2020-02-19T00:00:00.000Z
     title: Yarn 2
     event: React Berlin Meetup
     eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/268061783/
     slides: https://yarn-2-talk.now.sh/
     video: https://youtu.be/s-KD3isJSII
+    image: /assets/image/yarn2talk.jpg
   - title: Typed Functional Programming in TypeScript with fp-ts
     date: 2019-12-06T00:00:00.000Z
     event: React Day Berlin
@@ -56,22 +57,23 @@ items:
     eventUrl: http://frontendisti.cz/archiv-akci#english-meetup-in-msd
     video: https://www.youtube.com/watch?v=74eg0wgSIuQ
     slides: https://www.slideshare.net/robinpokorny/15-months-of-amp
-  - date: 2016-04-01
-    title: Two years of Elm (🇨🇿 Dva roky Elmu)
+  - date: 2016-04-01T00:00:00.000Z
+    title: Two years of Elm 🇨🇿
     event: Devel 2017
     eventUrl: https://devel.cz/konference/2017
     video: https://slideslive.com/38900449/dva-roky-elmu
     slides: https://slideslive.com/38900449/dva-roky-elmu
-  - date: 2017-02-23
+    description: "*In Czech:* Dva roky Elmu"
+  - date: 2017-02-23T00:00:00.000Z
     title: Snapshot testing in Jest
     event: HannoverJS Feb 2017
     video: https://www.youtube.com/watch?v=yUlfFMhVfZo
     eventUrl: https://hannoverjs.de/
-  - date: 2016-10-17
+  - date: 2016-10-17T00:00:00.000Z
     title: Snapshot testing in Jest
     event: BerlinJS Nov 2016
     eventUrl: http://berlinjs.org
-  - date: 2016-05-30
+  - date: 2016-05-30T00:00:00.000Z
     title: Purifying React
     event: "React Berlin #9"
     eventUrl: https://www.meetup.com/React-Berlin/events/231265387

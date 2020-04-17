@@ -15,7 +15,7 @@ permalink: /talks/
             <h3 class="entry-title">
               {{ talk.title }}
             </h3>
-            {% if talk.image %}
+            {% if talk.image and talk.image != '' %}
               {% assign entry_image = talk.image %}
               {% unless entry_image contains '://' %}
                 {% assign entry_image = entry_image | relative_url %}

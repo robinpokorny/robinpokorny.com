@@ -8,7 +8,6 @@ backend:
 local_backend: true
 
 media_folder: /assets/image
-public_folder: /assets/
 
 collections:
   - name: "blog"
@@ -64,3 +63,10 @@ collections:
                   widget: "image",
                   required: false,
                 }
+              - {
+                label: "Description",
+                name: "description",
+                widget: "markdown",
+                minimal: true,
+                required: false,
+              }
