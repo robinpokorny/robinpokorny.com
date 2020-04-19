@@ -7,7 +7,15 @@ backend:
 
 local_backend: true
 
+display_url: https://robinpokorny.com
+
 media_folder: /assets/image
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dljslvfla
+    api_key: 834622169335558
 
 collections:
   - name: "blog"

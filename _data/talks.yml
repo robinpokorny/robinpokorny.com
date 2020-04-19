@@ -5,7 +5,7 @@ items:
     eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/268061783/
     slides: https://yarn-2-talk.now.sh/
     video: https://youtu.be/s-KD3isJSII
-    image: /assets/image/yarn2talk.jpg
+    image: https://res.cloudinary.com/dljslvfla/image/upload/v1587298629/yarn2talk_aqvlbg.jpg
   - title: Typed Functional Programming in TypeScript with fp-ts
     date: 2019-12-06T00:00:00.000Z
     event: React Day Berlin
