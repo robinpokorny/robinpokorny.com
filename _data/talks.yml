@@ -79,3 +79,11 @@ items:
     eventUrl: https://www.meetup.com/React-Berlin/events/231265387
     video: ""
     slides: https://www.slideshare.net/robinpokorny/purifying-react
+  - date: 2020-04-01
+    video: https://youtu.be/f6VGkwBbOGk
+    eventUrl: https://www.meetup.com/frontendisti/events/wcmpmrybcgblb/
+    event: Frontendisti.cz LIVE
+    description: "*In Czech:* Symboly to celé zkomplikovaly"
+    slides: https://symboly-vse-zkomplikovaly.now.sh/
+    title: Symbols complicated it all 🇨🇿
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fit,h_720,w_1280/v1587633475/4eab658d-f8d8-46de-8117-9c7b7d8cb45b_cdoeru.png
