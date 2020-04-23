@@ -1,5 +1,5 @@
 items:
-  - date: 2020-04-01
+  - date: 2020-04-01T00:00:00.000Z
     video: https://youtu.be/f6VGkwBbOGk
     eventUrl: https://www.meetup.com/frontendisti/events/wcmpmrybcgblb/
     event: Frontendisti.cz LIVE
@@ -81,6 +81,7 @@ items:
     video: https://slideslive.com/38900449/dva-roky-elmu
     slides: https://slideslive.com/38900449/dva-roky-elmu
     description: "*In Czech:* Dva roky Elmu"
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587643909/large-0_1_u25kre.jpg
   - date: 2017-02-23T00:00:00.000Z
     title: Snapshot testing in Jest
     event: HannoverJS Feb 2017
@@ -98,3 +99,4 @@ items:
     eventUrl: https://www.meetup.com/React-Berlin/events/231265387
     video: ""
     slides: https://www.slideshare.net/robinpokorny/purifying-react
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587643805/large-0_cfx7yi.jpg
