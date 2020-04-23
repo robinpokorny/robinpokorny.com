@@ -12,6 +12,7 @@ items:
     eventUrl: https://reactday.berlin/
     slides: https://noti.st/robinpokorny/eayxlR
     video: https://youtu.be/UwCLmHQOWoY
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,w_1280/v1587633968/large-0_huned2.jpg
   - title: Practising the Decision-Making Diet in a JavaScript Developer’s Life
     date: 2019-11-14T00:00:00.000Z
     event: React Berlin Meetup
@@ -88,4 +89,4 @@ items:
     description: "*In Czech:* Symboly to celé zkomplikovaly"
     slides: https://symboly-vse-zkomplikovaly.now.sh/
     title: Symbols complicated it all 🇨🇿
-    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fit,h_720,w_1280/v1587633475/4eab658d-f8d8-46de-8117-9c7b7d8cb45b_cdoeru.png
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,g_south,h_720,w_1280/v1587633475/4eab658d-f8d8-46de-8117-9c7b7d8cb45b_cdoeru.png
