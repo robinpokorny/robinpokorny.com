@@ -17,12 +17,14 @@ items:
     event: React Berlin Meetup
     eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/266203395/
     slides: https://decision-diet-js.now.sh/
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,g_south,h_720,w_1280/v1587633604/1bdb9213-19aa-4071-a9c1-e26aa0f0d7f3_yopiwz.png
   - date: 2019-09-20T00:00:00.000Z
     title: Practising the Decision-Making Diet in a JavaScript Developer’s Life
     event: WebExpo 2019
     eventUrl: https://www.webexpo.net/prague2019/talk/practising-the-decision-making-diet-in-a-javascript-developer-s-life
     video: https://slideslive.com/38919140/practising-the-decisionmaking-diet-in-a-javascript-developers-life
     slides: https://decision-diet-js.now.sh/
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,g_south,h_720,w_1280/v1587633604/1bdb9213-19aa-4071-a9c1-e26aa0f0d7f3_yopiwz.png
   - date: 2019-05-06T00:00:00.000Z
     title: Symbols complicated it all
     event: Node.js Berlin Meetup
