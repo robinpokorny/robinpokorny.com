@@ -1,5 +1,5 @@
 items:
-  - date: 2020-04-27
+  - date: 2020-04-27T00:00:00.000Z
     event: JAMstack Berlin
     eventUrl: https://www.meetup.com/JAMStack_berlin/events/270057505/
     title: Netlify CMS outside Netlify
@@ -48,7 +48,7 @@ items:
   - date: 2017-10-31T00:00:00.000Z
     title: Jest Can Do Whaaat?
     event: React Open Source
-    eventUrl: https://www.meetup.com/preview/React-Open-Source/events/244027983
+    eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/244027983/
     slides: https://speakerdeck.com/robinpokorny/jest-can-do-whaaat
     video: https://youtu.be/wrJq0boagko?t=45m
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587634580/slide_0_avanit.jpg
