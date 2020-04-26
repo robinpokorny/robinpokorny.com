@@ -1,6 +1,11 @@
 {
+  "version": 2,
   "env": {
     "OAUTH_CLIENT_ID": "@rp-oauth-client-id",
     "OAUTH_CLIENT_SECRET": "@rp-oauth-client-secret"
-  }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+  ]
 }
