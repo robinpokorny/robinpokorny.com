@@ -14,10 +14,4 @@
       "dest": "/404.html"
     }
   ],
-  "redirects": [
-    {
-      "source": "/twitter",
-      "destination": "https://twitter.com/robinpokorny"
-    }
-  ]
 }
