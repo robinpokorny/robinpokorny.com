@@ -5,7 +5,19 @@
     "OAUTH_CLIENT_SECRET": "@rp-oauth-client-secret"
   },
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/twitter",
+      "destination": "https://twitter.com/robinpokorny"
+    }
   ]
 }

@@ -78,3 +78,13 @@ collections:
                 minimal: true,
                 required: false,
               }
+      - label: "Redirects"
+        name: "redirects"
+        file: "now.json"
+        fields:
+          - label: "Redirects"
+            name: "redirects"
+            widget: "list"
+            fields:
+              - { label: "Source", name: "source", widget: "string", required: false }
+              - { label: "Destination", name: "destination", widget: "string", required: false }
