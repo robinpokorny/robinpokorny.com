@@ -3,6 +3,7 @@ items:
     event: JAMstack Berlin
     eventUrl: https://www.meetup.com/JAMStack_berlin/events/270057505/
     title: Netlify CMS outside Netlify
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587992180/Netlify_CMS_outside_Netlify.001_dzoqmk.jpg
   - date: 2020-04-01T00:00:00.000Z
     video: https://youtu.be/f6VGkwBbOGk
     eventUrl: https://www.meetup.com/frontendisti/events/wcmpmrybcgblb/
