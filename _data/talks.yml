@@ -106,3 +106,11 @@ items:
     video: ""
     slides: https://www.slideshare.net/robinpokorny/purifying-react
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587643805/large-0_cfx7yi.jpg
+  - date: 2015-11-19
+    title: React – When Honeymoon Period Passes 🇨🇿
+    description: "*In Czech:* React – když odezní zamilovanost"
+    eventUrl: https://frontendisti.cz/archive/#reactjs
+    video: https://www.youtube.com/watch?v=G8fft3H6bG4
+    event: "{ Frontendisti.cz }"
+    slides: https://www.slideshare.net/robinpokorny/react-kdyz-odezni-zamilovanost
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,g_north,h_576,w_1024/v1588845719/react-kdyz-odezni-zamilovanost-1-1024_f9ncui.jpg
