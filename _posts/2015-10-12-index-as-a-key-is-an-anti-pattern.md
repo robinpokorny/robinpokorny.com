@@ -1,7 +1,10 @@
 ---
-title:  "Index as a key is an anti-pattern"
-date:   2015-10-12T00:00:00Z
+title: Index as a key is an anti-pattern
+date: 2015-10-11T22:00:00.000Z
 image: https://cdn-images-1.medium.com/max/4716/1*9N62zUlyJcQet8kr7e_FVg.png
+description: It looks elegant and it does get rid of the warning (which was the
+  ‘real’ issue, right?). What is the danger here? Let me explain, a key is the
+  only thing React uses to identify DOM elements. What…
 ---
 So many times I have seen developers use the index of an item as its key when they render a list.
 
@@ -31,37 +34,45 @@ It turns out, when nothing is passed React uses the *index *as *key* because it 
 
 Each such item should have a *permanent* and *unique* property. Ideally, it should be assigned when the item is created. Of course, I am speaking about an *id*. Then we can use it the following way:
 
-    {todos.map((todo) =>
-      <Todo {...todo}
-        key={todo.id} />
-    )}
+```tsx
+{todos.map((todo) =>
+  <Todo {...todo}
+    key={todo.id} />
+)}
+```
+
 > **Note:** First look at the existing properties of the items. It is possible they already have something that can be used as an *id*.
 
 One way to do so it to just move the numbering one step up in the abstraction. Using a global index makes sure any two items would have different *id*s.
 
-    todoCounter = 1;
+```tsx
+todoCounter = 1;
 
-    function createNewTodo(text) {
-      return {
-        completed: false,
-        id: todoCounter++,
-        text
-      }
-    }
+function createNewTodo(text) {
+  return {
+    completed: false,
+    id: todoCounter++,
+    text
+   }
+ }
+```
 
 ### Much better
 
 A production solution should use a more robust approach that would handle distributed creation of items. For such, I recommend [shortid](https://www.npmjs.com/package/shortid). It quickly generates ‘short non-sequential url-friendly unique’ ids. The code could look like the following:
 
-    var shortid **=** require('shortid');
+```tsx
+var shortid = require('shortid');
 
-    function createNewTodo(text) {
-      return {
-        completed: false,
-        id: shortid.generate(),
-        text
-      }
-    }
+function createNewTodo(text) {
+  return {
+    completed: false,
+    id: shortid.generate(),
+    text
+  }
+}
+```
+
 > # **TL;DR: **Generate a unique *id* for every item and use it as *key* when rendering the list.
 
 ### Update: Exception from the rule
@@ -101,9 +112,3 @@ See the following StackOverflow question, where the last element disappears. Als
 * [React animations for a single component](http://unitstep.net/blog/2015/03/03/using-react-animations-to-transition-between-ui-states/), section *The key is using key*
 
 * [Why you need keys for collections in React](https://paulgray.net/keys-in-react/) by [Paul Gray](undefined)
-
-*If you like this post, please don’t forget to give a *👏* below*.* Every clap notification is a motivational boost for me.*
-
-*If you would like to learn more, I recently (August 2018) started a YouTube channel about JavaScript. I post new video every week, so consider subscribing. Be there from the beginning and help me get better.*
-[**Robin Pokorny on YouTube**
-*JavaScript is my passion: I like to write JavaScript, I like to read JavaScript, and I like to talk JavaScript.*www.youtube.com/c/robinpokorny](https://www.youtube.com/c/robinpokorny?sub_confirmation=1)
