@@ -78,7 +78,7 @@ function createNewTodo(text) {
 
 - - -
 
-# **TL;DR:** Generate a unique *id* for every item and use it as *key* when rendering the list.
+# *TL;DR:* Generate a unique *id* for every item and use it as *key* when rendering the list.
 
 - - -
 
