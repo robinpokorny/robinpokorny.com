@@ -26,7 +26,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Data"
     name: "data"
@@ -72,10 +72,9 @@ collections:
                   required: false,
                 }
               - {
-                label: "Description",
-                name: "description",
-                widget: "markdown",
-                minimal: true,
-                required: false,
-              }
- 
+                  label: "Description",
+                  name: "description",
+                  widget: "markdown",
+                  minimal: true,
+                  required: false,
+                }
