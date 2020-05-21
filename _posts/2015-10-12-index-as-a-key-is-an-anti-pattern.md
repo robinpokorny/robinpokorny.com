@@ -24,6 +24,8 @@ Let me explain, a *key* is the only thing React uses to identify DOM elements. W
 
 ![Stephen describes the problem he run into on [egghead.io](https://egghead.io/forums/lesson-discussion/topics/break-up-components-into-smaller-pieces-using-functional-components#post-6310)](https://cdn-images-1.medium.com/max/4716/1*9N62zUlyJcQet8kr7e_FVg.png)*Stephen describes the problem he run into on [egghead.io](https://egghead.io/forums/lesson-discussion/topics/break-up-components-into-smaller-pieces-using-functional-components#post-6310)*
 
+---
+
 To demonstrate the potential danger I created [a simple example](https://jsbin.com/wohima/edit?output) ([with source](http://jsbin.com/wohima/edit?js,output)).
 
 ![Screenshot of the example showing the danger of using the index as key.](https://cdn-images-1.medium.com/max/3840/1*GFYGPdDFLYcLFzx-E-GEcw.jpeg)*Screenshot of the example showing the danger of using the index as key.*
@@ -73,7 +75,11 @@ function createNewTodo(text) {
 }
 ```
 
-> # **TL;DR: **Generate a unique *id* for every item and use it as *key* when rendering the list.
+---
+
+# **TL;DR: **Generate a unique *id* for every item and use it as *key* when rendering the list.
+
+---
 
 ### Update: Exception from the rule
 
@@ -95,9 +101,9 @@ When *all* of them are met, you **may safely use the index as a key**.
 
 Although in this article I write about React, the problem is not exclusive to it. In similar libraries, like Preact, the danger is present, too. However, the effects can be different.
 
-See the following StackOverflow question, where the last element disappears. Also please note the explanation in the answers provided by the creator of Preact, [Jason Miller](undefined).
-[**Wrong components rendered by Preact**
-*This is a classic issue that is totally underserved by Preact's documentation, so I'd like to personally apologize for…*stackoverflow.com](http://stackoverflow.com/questions/42773892/wrong-components-rendered-by-preact)
+See the following StackOverflow question, where the last element disappears. Also please note the explanation in the answers provided by the creator of Preact, Jason Miller: [Wrong components rendered by Preact](http://stackoverflow.com/questions/42773892/wrong-components-rendered-by-preact).
+
+---
 
 ### References and related articles
 
@@ -112,3 +118,5 @@ See the following StackOverflow question, where the last element disappears. Als
 * [React animations for a single component](http://unitstep.net/blog/2015/03/03/using-react-animations-to-transition-between-ui-states/), section *The key is using key*
 
 * [Why you need keys for collections in React](https://paulgray.net/keys-in-react/) by [Paul Gray](undefined)
+
+> **This article was [cross-posted to Medium](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318), please use discussion there.**
