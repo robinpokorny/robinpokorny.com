@@ -33,6 +33,33 @@ collections:
     editor:
       preview: false
     files:
+      - label: "Home"
+        name: "home"
+        file: "index.md"
+        fields:
+          - {
+              label: "Subtitle",
+              name: "sub_title",
+              widget: "markdown",
+              minimal: true,
+            }
+          - { label: "Image", name: "image", widget: "image" }
+          - {
+              label: "Introduction",
+              name: "introduction",
+              widget: "markdown",
+              minimal: true,
+            }
+          - {
+              label: "Featured talk",
+              name: "featured_talk",
+              widget: "relation",
+              collection: "data",
+              file: "talks",
+              valueField: "items.*.eventUrl",
+              searchFields: ["items.*.title"],
+              displayFields: ["items.*.title"],
+            }
       - label: "Talks"
         name: "talks"
         file: "_data/talks.yml"

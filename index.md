@@ -1,24 +1,43 @@
 ---
 layout: default
-alt_title: "Ahoy"
-sub_title: "I am **Robin Pokorny**, a zealous Software Developer based in Berlin."
+alt_title: Ahoy
+sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
 image: assets/image/profile.jpg
-introduction: |
-  Lead Engineer at [Klarna](https://klarna.com). I’m really passionate about engineering best practices. I think the biggest problem for developers is lack of focus. 
+introduction: >
+  Lead Engineer at [Klarna](https://klarna.com). I’m really passionate about
+  engineering best practices. I think the biggest problem for developers is lack
+  of focus. 
+
   As a developer who specialises in *JavaScript*, I’m helping to find solutions through applying functional programming principles. I organise meetups, record coding videos, and speak about my findings.
 actions:
-  - label: "Twitter"
+  - label: Twitter
     icon: twitter
-    url: "https://twitter.com/robinpokorny"
-  - label: "Talks"
+    url: https://twitter.com/robinpokorny
+  - label: Talks
     icon: youtube
-    url: "/talks"
+    url: /talks
+featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
 ---
 
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
+    {% comment %}
+    <div>
+      <header class="section-title">
+        <h2>Talks</h2>
+      </header>
+      <div class="entries-list">
+        {% assign featured = site.data.talks.items | find:"eventUrl", "page.featured_talk" %}
+        {{ site.data.talks.items | where: "eventUrl", page.featured_talk }}
+        {{ page.featured_talk }}
+      </div>
+      <div>
+        <a href="{% link talks.md %}" class="btn">All talks <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
+      </div>
+    </div>
+    {% endcomment %}
     <div>
       <h2>Contact</h2>
       <ul class="taxonomy-index">
@@ -37,7 +56,8 @@ actions:
         <li><a href="mailto:me@robinpokorny.com">E-mail</a></li>
       </ul>
     </div>
-    <!--div>
+    {% comment %}
+    <div>
       <header class="section-title">
         <h2>Posts</h2>
       </header>
@@ -49,6 +69,7 @@ actions:
       <div>
         <a href="{% link blog.md %}" class="btn">All posts <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
       </div>
-    </div-->
+    </div>
+    {% endcomment %}
   </div>
 </main>
