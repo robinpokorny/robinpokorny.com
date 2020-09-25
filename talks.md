@@ -6,6 +6,7 @@ permalink: /talks/
 
 {% assign talksByYear = site.data.talks.items | sort: 'date' | reverse | group_by_exp: 'talk', 'talk.date | date: "%Y"' %}
 {% for year in talksByYear %}
+
   <section id="{{ year.name }}" class="taxonomy-section">
     <h2 class="taxonomy-title">{{ year.name }}</h2>
     <div class="entries-grid">

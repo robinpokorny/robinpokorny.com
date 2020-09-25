@@ -76,7 +76,7 @@ items:
   - date: 2017-05-09T00:00:00.000Z
     title: 15 months of Accelerated Mobile Pages
     event: "{Frontendisti.cz} May 2017"
-    eventUrl: http://frontendisti.cz/archiv-akci#english-meetup-in-msd
+    eventUrl: https://frontendisti.cz/archive/
     video: https://www.youtube.com/watch?v=74eg0wgSIuQ
     slides: https://www.slideshare.net/robinpokorny/15-months-of-amp
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587634839/15-months-of-amp-1-1024_jfzdmc.jpg
@@ -150,3 +150,42 @@ items:
     video: https://www.youtube.com/watch?v=5yeoo6YFuNE
     slides: https://www.slideshare.net/robinpokorny/react-a-css
     image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_720,w_1280/v1601024912/react-a-css-1-1024_nkkkyi.jpg
+  - date: 2014-11-22
+    title: Advanced Responsive Images 🇨🇿
+    description: \*In Czech:\* Pokročilé responzivní obrázky
+    event: DevFest Prague 2014
+    eventUrl: https://2014.devfest.cz/
+    slides: https://www.slideshare.net/robinpokorny/pokroil-responzivn-obrzky
+    video: https://www.youtube.com/watch?v=vmj7tCBVJ6w
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_479,w_852/v1601025254/pokroil-responzivn-obrzky-1-638_yzlwuv.jpg
+  - date: 2014-10-04
+    title: What a modern ‘HTML Coder’ needs to know 🇨🇿
+    description: \*In Czech:\* Co musí umět moderní „HTML kodér“
+    event: Barcamp HK 2014
+    eventUrl: https://barcamphradec.cz/predchozi-rocniky
+    slides: https://www.slideshare.net/robinpokorny/co-musi-umet-moderni-html-kodr
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_479,w_852/v1601025499/co-musi-umet-moderni-html-kodr-1-638_yr1j7v.jpg
+  - date: 2014-09-26
+    title: About the Picture Element in Ostrava 🇨🇿
+    description: \*In Czech:\* O elementu picture v Ostravě
+    event: "{Frontendisti.cz} September 2014"
+    eventUrl: https://frontendisti.cz/archive/
+    video: https://www.youtube.com/watch?v=3yzl4XG1524&index=3&list=PLnXfazh66kVd_AuG1fVQYWoya4b1NyNeR
+    slides: https://www.slideshare.net/robinpokorny/picture-element-v-ostrav
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_479,w_852/v1601026236/o-elementu-picture-v-ostrav-1-638_crlat3.jpg
+  - date: 2014-06-21
+    title: How Has the Responsive Web Broken Images to Us 🇨🇿
+    description: \*In Czech:\* Jak nám responzivní web rozbil obrázky
+    event: Devel 2014
+    eventUrl: https://devel.cz/konference/2014#ignite
+    video: https://www.youtube.com/watch?v=PG2SZQjqKtw
+    slides: https://www.slideshare.net/robinpokorny/rozbil
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_479,w_852/v1601026389/jak-nm-responzivn-web-rozbil-obrzky-1-638_p5qaus.jpg
+  - date: 2014-04-21
+    title: Code Organization in a Team 🇨🇿
+    description: \*In Czech:\* Organizace kódu v týmu
+    event: "{Frontendisti.cz} April 2014"
+    eventUrl: https://frontendisti.cz/archive/
+    video: https://www.youtube.com/watch?v=Eda7dYUJXd0
+    slides: https://www.slideshare.net/robinpokorny/robinova-organizace-kodu
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_479,w_852/v1601026522/organizace-kodu-v-tmu-1-638_lbjf3v.jpg
