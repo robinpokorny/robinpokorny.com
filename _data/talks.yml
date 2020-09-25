@@ -80,7 +80,7 @@ items:
     video: https://www.youtube.com/watch?v=74eg0wgSIuQ
     slides: https://www.slideshare.net/robinpokorny/15-months-of-amp
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587634839/15-months-of-amp-1-1024_jfzdmc.jpg
-  - date: 2016-04-01T00:00:00.000Z
+  - date: 2017-04-01
     title: Two years of Elm 🇨🇿
     event: Devel 2017
     eventUrl: https://devel.cz/konference/2017
