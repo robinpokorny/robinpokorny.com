@@ -119,3 +119,9 @@ items:
     event: Frontendisti.cz
     eventUrl: https://www.meetup.com/frontendisti/events/270805541/
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1590602899/Netlify_CMS_na_vlastni%CC%81m_hostingu.001_hbhx5y.jpg
+  - date: 2013-09-20
+    title: How to Turn Your Ugly Old CSS into a Clean Future-Ready Beauty
+    event: WebExpo 2013
+    eventUrl: https://www.webexpo.net/prague2013
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_rgb:000000,c_pad,f_auto,g_center,h_479,w_852/v1601023431/how-to-turn-your-ugly-old-css-into-a-clean-futureready-beauty-1-638_uvj4lu.jpg
+    slides: https://www.slideshare.net/robinpokorny/how-to-turn-your-ugly-old-css-into-a-clean-future-ready-beauty
