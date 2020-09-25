@@ -115,13 +115,38 @@ items:
     slides: https://www.slideshare.net/robinpokorny/react-kdyz-odezni-zamilovanost
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,g_north,h_576,w_1024/v1588845719/react-kdyz-odezni-zamilovanost-1-1024_f9ncui.jpg
   - date: 2020-05-27
-    title: Netlify CMS na vlastní doméně
+    title: Netlify CMS outside Netlify 🇨🇿
     event: Frontendisti.cz
     eventUrl: https://www.meetup.com/frontendisti/events/270805541/
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1590602899/Netlify_CMS_na_vlastni%CC%81m_hostingu.001_hbhx5y.jpg
+    description: "*In Czech:* Netlify CMS na vlastní doméně"
   - date: 2013-09-20
     title: How to Turn Your Ugly Old CSS into a Clean Future-Ready Beauty
     event: WebExpo 2013
     eventUrl: https://www.webexpo.net/prague2013
     image: https://res.cloudinary.com/dljslvfla/image/upload/b_rgb:000000,c_pad,f_auto,g_center,h_479,w_852/v1601023431/how-to-turn-your-ugly-old-css-into-a-clean-futureready-beauty-1-638_uvj4lu.jpg
     slides: https://www.slideshare.net/robinpokorny/how-to-turn-your-ugly-old-css-into-a-clean-future-ready-beauty
+  - date: 2015-09-19
+    title: CSS Code Quality with Automatic Tools 🇨🇿
+    event: WebExpo 2015
+    eventUrl: https://webexpo.net/prague2015/talk/css-code-quality-with-automatic-tools/
+    video: https://slideslive.com/38894491/automaticke-nastroje-pro-kvalitni-css
+    slides: https://slideslive.com/38894491/automaticke-nastroje-pro-kvalitni-css
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1601024414/0001_ovoztw.jpg
+    description: "*In Czech:* Automatické nástroje pro kvalitní CSS"
+  - date: 2015-04-11
+    title: React and Mistakes of CSS 🇨🇿
+    event: https://devel.cz/konference/2015
+    eventUrl: Devel 2015
+    description: "*In Czech:* React a omyly jazyka CSS"
+    video: ""
+    slides: https://www.slideshare.net/robinpokorny/react-a-omyly-css
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,g_south,h_576,w_1024/v1601024628/react-a-omyly-jazyka-css-1-1024_xuyjtn.jpg
+  - date: 2015-02-26
+    title: React and CSS 🇨🇿
+    description: "*In Czech:* React a CSS"
+    event: Prague JS February 2015
+    eventUrl: http://www.praguejs.cz/talks/#february-2015
+    video: https://www.youtube.com/watch?v=5yeoo6YFuNE
+    slides: https://www.slideshare.net/robinpokorny/react-a-css
+    image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_720,w_1280/v1601024912/react-a-css-1-1024_nkkkyi.jpg
