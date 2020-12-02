@@ -1,4 +1,12 @@
 items:
+  - date: 2020-12-01
+    description: \*In Czech:\* Weby budoucnosti s AMP
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1606908719/TopMonksCafe_2020.001_pnacjl.png
+    title: Web of the Future with AMP
+    event: TopMonks Caffè
+    eventUrl: https://www.meetup.com/TopMonks-Caffe/events/274802377/
+    slides: https://noti.st/robinpokorny/Hfn9bW
+    video: https://youtu.be/UFopT4oc8eE?t=5369
   - date: 2020-04-27T00:00:00.000Z
     event: JAMstack Berlin
     eventUrl: https://www.meetup.com/JAMStack_berlin/events/270057505/
