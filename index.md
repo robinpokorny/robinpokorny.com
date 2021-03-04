@@ -52,6 +52,7 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
         <li><a href="https://www.meetup.com/members/43669902/" rel="me">Meetup</a></li>
         <li><a href="https://www.twitch.tv/robinpokorny" rel="me">Twitch</a></li>
         <li><a href="https://www.facebook.com/robin.pokorny" rel="me">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/robinpokorny/" rel="me">LinkedIn</a></li>
         <li><a href="http://stackoverflow.com/story/robinpokorny" rel="me">Résumé</a></li>
         <li><a href="mailto:me@robinpokorny.com">E-mail</a></li>
       </ul>
