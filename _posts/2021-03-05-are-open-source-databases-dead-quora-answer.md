@@ -32,8 +32,8 @@ So __I think that open-source databases are dying__ because we might see less 
 
 ### Related articles
 
-* [And just like that, Amazon Web Services forked Elasticsearch, Kibana. Was that part of the plan, Elastic?](https://www.theregister.com/AMP/2021/01/22/aws_elastic_fork/ "www.theregister.com") on The Register
-* [Elasticsearch does not belong to Elastic ](https://drewdevault.com/2021/01/19/Elasticsearch-does-not-belong-to-Elastic.html "drewdevault.com")on Drew DeVault's blog
-* [Doubling down on open, Part II](https://www.elastic.co/blog/licensing-change "www.elastic.co") on Elastic blog
-* [Why We're Relicensing CockroachDB](https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/ "www.cockroachlabs.com") on Cockroachlabs blog
-* [How we are building a self-sustaining open-source business in the cloud era (version 2)](https://blog.timescale.com/blog/building-open-source-business-in-cloud-era-v2/ "blog.timescale.com") on Timescale blog
+* [And just like that, Amazon Web Services forked Elasticsearch, Kibana. Was that part of the plan, Elastic?](https://www.theregister.com/AMP/2021/01/22/aws_elastic_fork/) on The Register
+* [Elasticsearch does not belong to Elastic ](https://drewdevault.com/2021/01/19/Elasticsearch-does-not-belong-to-Elastic.html)on Drew DeVault's blog
+* [Doubling down on open, Part II](https://www.elastic.co/blog/licensing-change) on Elastic blog
+* [Why We're Relicensing CockroachDB](https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/) on Cockroachlabs blog
+* [How we are building a self-sustaining open-source business in the cloud era (version 2)](https://blog.timescale.com/blog/building-open-source-business-in-cloud-era-v2/) on Timescale blog
