@@ -11,7 +11,7 @@ Recently I was re-reading one of my favorite engineering articles [The Trident M
 
 > They should have good but not necessarily the best \[tech] skills in the team they are leading.
 
-_‘How does this apply to an Engineering Manager?’_ came to my mind instantly. And my initial response was that it's the same. Yet, after some more thought and thinking about the Engineering Managers I've met, I was not sure. Then I made my mind: no, it's not the same. Now, I think that **it is actually dangerous when an Engineering Manager has the best tech skills in the team**.
+*‘How does this apply to an Engineering Manager?’* came to my mind instantly. And my initial response was that it's the same. Yet, after some more thought and thinking about the Engineering Managers I've met, I was not sure. Then I made my mind: no, it's not the same. Now, I think that **it is actually dangerous when an Engineering Manager has the best tech skills in the team**.
 
 Let me show you why.
 
@@ -37,7 +37,7 @@ Speaking of decisions, there is a significant risk that the team will make some 
 
 Why? In simple words, it's difficult to disagree with the person who evaluates your performance and decides on your salary, bonuses, and promotions. This whole desire to please one's superior might very well be subconscious. Yet, it creates a disbalance that might result in worse tech decisions made.
 
-_There are some great stories about preconceptions the managers had to fight in Kim Scott's [Radical Candor](https://www.radicalcandor.com/the-book/)._
+*There are some great stories about preconceptions the managers had to fight in Kim Scott's [Radical Candor](https://www.radicalcandor.com/the-book/).*
 
 I'm not saying that it is not possible to avoid it, but it requires that the manager is aware and puts some compensation processes in place. They also have to work on increasing the level of psychological safety among the team members.
 
@@ -47,8 +47,8 @@ Are you a manager that has the best tech skills in the team? Do you wonder what 
 
 First, this is a fairly common scenario and I know many teams like that that work just fine. The key is to acknowledge that there are some potential risks and be vigilant about their signs.
 
-The best, however, is to stop being the tech go-to expert in the team. Of course, that doesn't mean you should become worse or leave your manager post. It means activelly working on growing your report's skills. It means extensive knowledge sharing. It means grooming your successor (or successors).
+The best, however, is to stop being the tech go-to expert in the team. Of course, that doesn't mean you should become worse or leave your manager post. It means actively working on growing your report's skills. It means extensive knowledge sharing. It means grooming your successor (or successors).
 
-Lasty, you should become comfortable in your possition. Accepting and embracing that there will be people better than you in technology, in skills you've been so proud to possess. Knowing that the value you bring has shifted from individual strengths to multiplying strengths of others.
+Lastly, you should become comfortable in your position. Accepting and embracing that there will be people better than you in technology, in skills you've been so proud to possess. Knowing that the value you bring has shifted from individual strengths to multiplying strengths of others.
 
 > *Are you an engineering manager that balances tech and people skills? Who do you think should be best at tech in a team? Tweet a reply*
