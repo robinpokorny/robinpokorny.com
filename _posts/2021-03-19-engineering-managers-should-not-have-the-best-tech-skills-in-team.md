@@ -1,6 +1,7 @@
 ---
 title: Engineering Managers Should Not Have the Best Tech Skills in Team
 date: 2021-03-19T21:35:45.667Z
+image: https://res.cloudinary.com/dljslvfla/image/upload/c_crop,f_auto,g_center,h_1080,w_1920/v1616191174/marvin-meyer-SYTO3xs06fU-unsplash_a6c8oa.jpg
 excerpt: "Recently I was re-reading one of my favorite engineering articles The
   Trident Model of Career Development. The sentence that caught my eye this time
   was a note about the role of a Tech Lead: ‘They should have good but not
