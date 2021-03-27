@@ -1,0 +1,33 @@
+/* ==========================================================================
+   NEWSLETTER
+   ========================================================================== */
+
+.newsletter {
+  background-color: #fefefe;
+  padding: 60px 30px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 0.5em;
+  }
+
+  &__subtitle {
+    margin-bottom: 1.5em;
+  }
+
+  &__field {
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.25em;
+  }
+
+  &__terms {
+    color: #83888d;
+    font-size: 80%;
+    margin-bottom: 0em;
+  }
+}

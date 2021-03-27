@@ -1,13 +1,4 @@
-<div
-  id="revue-embed"
-  style="
-    padding: 60px 30px;
-    margin-bottom: 50px;
-    text-align: center;
-    background-color: #fefefe;
-    margin-top: 100px;
-  "
->
+<div class="newsletter">
   <form
     action="https://www.getrevue.co/profile/robinpokorny/add_subscriber"
     method="post"
@@ -15,26 +6,19 @@
     name="revue-form"
     target="_blank"
   >
-    <h4 style="margin-bottom: 0.5em">
+    <h4 class="newsletter__title">
       ✉️ TypeScript &amp; Tech Leadership Newsletter
     </h4>
-    <p style="margin-bottom: 1.5em">
+    <p class="newsletter__subtitle">
       Subscribe to my infrequent newsletter and receive articles I've enjoyed.
     </p>
-    <p style="/* margin-bottom: 0.5em; */">
+    <p>
       <input
-        class="revue-form-field"
+        class="newsletter__field"
         placeholder="Your email address..."
         type="email"
         name="member[email]"
         id="member_email"
-        style="
-          display: inline-block;
-          padding: 0.5em 1em;
-          border: 0;
-          border-radius: 0.25em;
-          background-color: rgb(238, 238, 238);
-        "
       />
 
       <input
@@ -45,7 +29,7 @@
         id="member_submit"
       />
     </p>
-    <p class="" style="color: #83888d; font-size: 80%; margin-bottom: 0em">
+    <p class="newsletter__terms">
       By subscribing, you agree with Revue’s
       <a target="_blank" href="https://www.getrevue.co/terms">Terms</a> and
       <a target="_blank" href="https://www.getrevue.co/privacy"
