@@ -10,12 +10,26 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
   {% include head-amp-boilerplate.html %}
   {% capture styles %}{% include main.scss %}{% endcapture %}
   <style amp-custom>
     {{ styles | scssify }}
   </style>
+
+  <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+      {
+        "vars" : {
+          "gtag_id": "UA-639471-27",
+          "config" : {
+            "UA-639471-27": { "groups": "default" }
+          }
+        }
+      }
+    </script>
+  </amp-analytics>
 
 
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}

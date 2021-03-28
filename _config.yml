@@ -27,7 +27,10 @@ author:
 twitter_username: robinpokorny
 github_username: robinpokorny
 youtube_channel: robinpokorny
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+twitter:
+  username: robinpokorny
+  card: summary
+# logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: false # true, false (default)
 
 # Build settings
@@ -62,7 +65,7 @@ exclude:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: '_posts'
       type: posts
     values:
       layout: post
