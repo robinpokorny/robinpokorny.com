@@ -23,7 +23,34 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
-    {% comment %}
+    <div style="margin-top: 4rem;">
+      <header class="section-title">
+        <h2>Latest posts</h2>
+      </header>
+      <div class="entries-headlines">
+        {% for post in site.posts limit:3 %}
+          <div class="entry">
+            <h3 class="entry-title">
+              <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a>
+            </h3>
+            <footer class="entry-meta">
+              <ul>
+              {% if post.date %}
+                <li><span class="icon">{% include icon-calendar.svg %}</span><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time></li>
+              {% endif %}
+              {% if post.read_time %}
+                <li><span class="icon">{% include icon-stopwatch.svg %}</span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
+              {% endif %}
+              </ul>
+            </footer>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="pager">
+        <a href="{% link blog.md %}" class="btn">All posts <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
+      </div>
+    </div>
+    {%comment%}
     <div>
       <header class="section-title">
         <h2>Talks</h2>
@@ -37,8 +64,8 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
         <a href="{% link talks.md %}" class="btn">All talks <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
       </div>
     </div>
-    {% endcomment %}
-    <div>
+    {%endcomment%}
+    <div style="margin-top: 7rem;">
       <h2>Contact</h2>
       <ul class="taxonomy-index">
         <li><a href="https://twitter.com/robinpokorny" rel="me"><strong>Twitter</strong></a></li>
@@ -57,20 +84,8 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
         <li><a href="mailto:me@robinpokorny.com">E-mail</a></li>
       </ul>
     </div>
-    {% comment %}
-    <div>
-      <header class="section-title">
-        <h2>Posts</h2>
-      </header>
-      <div class="entries-list">
-        {% for post in site.posts limit:5 %}
-          {% include entry.html %}
-        {% endfor %}
-      </div>
-      <div>
-        <a href="{% link blog.md %}" class="btn">All posts <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
-      </div>
+    <div style="margin-top: 7rem;">
+      {% include newsletter.html %}
     </div>
-    {% endcomment %}
   </div>
 </main>

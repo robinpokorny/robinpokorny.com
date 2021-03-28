@@ -18,20 +18,6 @@
     {{ styles | scssify }}
   </style>
 
-  <amp-analytics type="gtag" data-credentials="include">
-    <script type="application/json">
-      {
-        "vars" : {
-          "gtag_id": "UA-639471-27",
-          "config" : {
-            "UA-639471-27": { "groups": "default" }
-          }
-        }
-      }
-    </script>
-  </amp-analytics>
-
-
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
       Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled

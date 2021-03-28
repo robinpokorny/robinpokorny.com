@@ -35,6 +35,8 @@ module Jekyll
             image['width']  = size[0]
             image['height'] = size[1]
           rescue Exception => e
+            image['width']  = 1280
+            image['height'] = 720
             puts 'Unable to get image dimensions for "' + src + '". For local files, build the site with \'--skip-initial-build\' for better results. [Error: ' + e.to_s + ']'
           end
         end
