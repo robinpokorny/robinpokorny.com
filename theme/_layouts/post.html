@@ -9,6 +9,16 @@ layout: default
     <article class="entry-wrap">
       <div class="entry-content">{{ content }}</div>
       {% include newsletter.html %}
+      <div style="margin-top: 7rem">
+        <header class="section-title">
+          <h2>Latest posts</h2>
+        </header>
+        <div class="entries-grid">
+          {% assign posts = site.posts | where_exp:"post","post.url != page.url" %} {% for post in posts limit:2 %}
+            {% include entry.html show_image=true %}
+          {% endfor %}
+        </div>
+      </div>
       {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
     </article>
   </div>

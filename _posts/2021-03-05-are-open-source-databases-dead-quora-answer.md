@@ -1,6 +1,7 @@
 ---
 title: Are open-source databases dead? [Quora answer]
 date: 2021-03-05T16:08:51.181Z
+image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,g_north,h_1080,w_1920/v1617482051/qinghill-GMU6ldtMxGQ-unsplash_sf7dbu.jpg
 excerpt: Yes, they are dying (this is no joke answer). Sure, many open-source
   databases are being used and maintained every day. And, of course, any
   open-source software will exist and can be forked by anybody. So on the

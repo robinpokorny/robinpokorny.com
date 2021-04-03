@@ -18,90 +18,91 @@ media_library:
     api_key: 834622169335558
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "_posts"
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Excerpt", name: "excerpt", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Data"
-    name: "data"
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Data'
+    name: 'data'
     editor:
       preview: false
     files:
-      - label: "Home"
-        name: "home"
-        file: "index.md"
+      - label: 'Home'
+        name: 'home'
+        file: 'index.md'
         fields:
           - {
-              label: "Subtitle",
-              name: "sub_title",
-              widget: "markdown",
+              label: 'Subtitle',
+              name: 'sub_title',
+              widget: 'markdown',
               minimal: true,
             }
-          - { label: "Image", name: "image", widget: "image" }
+          - { label: 'Image', name: 'image', widget: 'image' }
           - {
-              label: "Introduction",
-              name: "introduction",
-              widget: "markdown",
+              label: 'Introduction',
+              name: 'introduction',
+              widget: 'markdown',
               minimal: true,
             }
           - {
-              label: "Featured talk",
-              name: "featured_talk",
-              widget: "relation",
-              collection: "data",
-              file: "talks",
-              valueField: "items.*.eventUrl",
-              searchFields: ["items.*.title"],
-              displayFields: ["items.*.title"],
+              label: 'Featured talk',
+              name: 'featured_talk',
+              widget: 'relation',
+              collection: 'data',
+              file: 'talks',
+              valueField: 'items.*.eventUrl',
+              searchFields: ['items.*.title'],
+              displayFields: ['items.*.title'],
             }
-      - label: "Talks"
-        name: "talks"
-        file: "_data/talks.yml"
+      - label: 'Talks'
+        name: 'talks'
+        file: '_data/talks.yml'
         fields:
-          - label: "Talks"
-            name: "items"
-            widget: "list"
+          - label: 'Talks'
+            name: 'items'
+            widget: 'list'
             fields:
-              - { label: "Title", name: "title", widget: "string" }
+              - { label: 'Title', name: 'title', widget: 'string' }
               - {
-                  label: "Date",
-                  name: "date",
-                  widget: "datetime",
-                  format: "YYYY-MM-DD",
-                  dateFormat: "YYYY-MM-DD",
+                  label: 'Date',
+                  name: 'date',
+                  widget: 'datetime',
+                  format: 'YYYY-MM-DD',
+                  dateFormat: 'YYYY-MM-DD',
                   timeFormat: false,
-                  default: "",
+                  default: '',
                 }
-              - { label: "Event", name: "event", widget: "string" }
-              - { label: "Event URL", name: "eventUrl", widget: "string" }
+              - { label: 'Event', name: 'event', widget: 'string' }
+              - { label: 'Event URL', name: 'eventUrl', widget: 'string' }
               - {
-                  label: "Video URL",
-                  name: "video",
-                  widget: "string",
+                  label: 'Video URL',
+                  name: 'video',
+                  widget: 'string',
                   required: false,
                 }
               - {
-                  label: "Slides URL",
-                  name: "slides",
-                  widget: "string",
+                  label: 'Slides URL',
+                  name: 'slides',
+                  widget: 'string',
                   required: false,
                 }
               - {
-                  label: "Image",
-                  name: "image",
-                  widget: "image",
+                  label: 'Image',
+                  name: 'image',
+                  widget: 'image',
                   required: false,
                 }
               - {
-                  label: "Description",
-                  name: "description",
-                  widget: "markdown",
+                  label: 'Description',
+                  name: 'description',
+                  widget: 'markdown',
                   minimal: true,
                   required: false,
                 }
