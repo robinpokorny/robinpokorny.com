@@ -29,7 +29,7 @@ github_username: robinpokorny
 youtube_channel: robinpokorny
 twitter:
   username: robinpokorny
-  card: summary
+  card: summary_large_image
 # logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: false # true, false (default)
 
