@@ -9,13 +9,6 @@ introduction: >
   of focus. 
 
   As a developer who specialises in *JavaScript*, I’m helping to find solutions through applying functional programming principles. I organise meetups, record coding videos, and speak about my findings.
-actions:
-  - label: Twitter
-    icon: twitter
-    url: https://twitter.com/robinpokorny
-  - label: Talks
-    icon: youtube
-    url: /talks
 featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
 ---
 
@@ -24,6 +17,9 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div style="margin-top: 4rem;">
+      {% include newsletter.html %}
+    </div>
+    <div style="margin-top: 7rem;">
       <header class="section-title">
         <h2>Latest posts</h2>
       </header>
@@ -83,9 +79,6 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
         <li><a href="http://stackoverflow.com/story/robinpokorny" rel="me">Résumé</a></li>
         <li><a href="mailto:me@robinpokorny.com">E-mail</a></li>
       </ul>
-    </div>
-    <div style="margin-top: 7rem;">
-      {% include newsletter.html %}
     </div>
   </div>
 </main>
