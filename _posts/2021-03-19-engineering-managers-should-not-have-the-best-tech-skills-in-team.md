@@ -53,3 +53,11 @@ The best, however, is to stop being the tech go-to expert in the team. Of course
 Lastly, you should become comfortable in your position. Accepting and embracing that there will be people better than you in technology, in skills you've been so proud to possess. Knowing that the value you bring has shifted from individual strengths to multiplying strengths of others.
 
 > *Are you an engineering manager that balances tech and people skills? Who do you think should be best at tech in a team? Tweet a reply*
+
+---
+
+### Related articles
+
+* [People, Product, and Technology: A Beginner’s Guide to Engineering Management](https://www.toptal.com/engineering-team-manager/engineering-manager-role-explained) at Toptal blog
+* [The Trident Model of Career Development](https://www.thekua.com/atwork/2019/02/the-trident-model-of-career-development/) by Patrick Kua
+* [5 Engineering Manager Archetypes](https://www.patkua.com/blog/5-engineering-manager-archetypes/) by Patrick Kua
