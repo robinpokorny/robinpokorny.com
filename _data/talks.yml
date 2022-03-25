@@ -203,3 +203,16 @@ items:
     event: Klarna Konnect
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,h_720,w_1280/v1620723356/Robin_nafcxv.png
     eventUrl: https://www.klarna.com/careers/life-at-klarna/
+  - date: 2021-10-20
+    video: https://www.youtube.com/watch?v=KkzAMW_onjo
+    eventUrl: https://thekonferen.se/
+    event: KonferenSE:21
+    title: "Robin Pokorny: T for TypeScript, T for Train, robust code you will
+      maintain"
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203141/KkzAMW_onjo-HD_s1kecc.jpg
+  - date: 2020-09-10
+    title: The Habits of Highly Effective Engineers
+    event: KonferenSE:20
+    eventUrl: https://thekonferen.se/
+    video: https://www.youtube.com/watch?v=KUO-yMA15XY
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203340/KUO-yMA15XY-HD_vuwdq8.jpg
