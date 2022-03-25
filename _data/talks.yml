@@ -207,8 +207,7 @@ items:
     video: https://www.youtube.com/watch?v=KkzAMW_onjo
     eventUrl: https://thekonferen.se/
     event: KonferenSE:21
-    title: "Robin Pokorny: T for TypeScript, T for Train, robust code you will
-      maintain"
+    title: T for TypeScript, T for Train, robust code you will maintain
     image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203141/KkzAMW_onjo-HD_s1kecc.jpg
   - date: 2020-09-10
     title: The Habits of Highly Effective Engineers
