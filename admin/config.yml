@@ -7,8 +7,6 @@ backend:
 
 local_backend: true
 
-publish_mode: editorial_workflow
-
 display_url: https://robinpokorny.com
 
 media_folder: /assets/image
