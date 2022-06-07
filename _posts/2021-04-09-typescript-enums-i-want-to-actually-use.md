@@ -272,7 +272,7 @@ Again, let's discuss some more or less obvious observations:
 
 1. It uses equal signs, not colons. Do not ask me why. Still, it's very close to object literal.
 2. The values must be all strings. Other values are not supported. (Technically, numbers can be used, but they bring no advantage. Stick to strings.)
-3. You have to use the Enum values anywhere (for example `Country.Sweden`) where an Enum value is expected. Passing the same string doesn't work (for example `'SE'`). This makes refactoring a headache-free process. And your codebase stays consistent.
+3. You have to use the Enum values everywhere (for example `Country.Sweden`) where an Enum value is expected. Passing the same string doesn't work (for example `'SE'`). This makes refactoring a headache-free process. And your codebase stays consistent.
 4. However, it's not all unicorns and rainbow. The generated code is a) still there and b) still (kind of) ugly.
 
 ‘How on earth you want to improve that, Robin?’ you might ask
