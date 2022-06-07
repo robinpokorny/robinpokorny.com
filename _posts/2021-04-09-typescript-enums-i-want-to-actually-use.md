@@ -14,6 +14,7 @@ Well, I was wrong. I use Enums now. At least some of them.
 Let me show you.
 
 ## What is an Enum in TypeScript
+
 First, let's quickly talk about what are Enumerators, or Enums for short.
 
 An Enum in TypeScript is **a well-defined collection of a limited number of cases**. That is, we write down all possibilities and do not allow anything else.
@@ -71,6 +72,7 @@ Right, that sounds kind of nice, what is the problem?
 There are three main points, I've held against Enums since day one.
 
 ### 1. Enums introduce (ugly) runtime code
+
 If you want to have a value available, it means that the value has to be there during runtime. That means Enums are one of the very few (and probably the only regularly used) TypeScript constructs that generate some code in the resulting JavaScript.
 
 Usually, when the target is the current ECMAScript, all type definitions and annotations are just removed. That is because all other constructs like object literals, functions, or classes are the same in JavaScript as in TypeScript.
@@ -84,9 +86,10 @@ var Country;
     Country[Country["Sweden"] = 1] = "Sweden";
     Country[Country["USA"] = 2] = "USA";
 })(Country || (Country = {}));
-``` 
+```
 
 ### 2. Enums are number-based by default
+
 Do you see that code? Do you see those numbers 0, 1, and 2?
 
 That is the actual value assigned to the country. So while you work with nice names, they are translated to numbers.
@@ -127,6 +130,7 @@ Before I show you how I'm using Enums now so that I'm comfortable with them, let
 ## Alternatives to Enums
 
 ### Disjoint union of literal types
+
 A rather straightforward option is to define a type that consists of all the actual strings (or other values) that are permitted. This is called disjoint or discriminated union; see [Discriminated Unions](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html#discriminated-unions) in TypeScript docs.
 
 ```ts
@@ -141,6 +145,7 @@ setActiveCountry('SE')
 // @ts-expect-error
 setActiveCountry('CZ')
 ```
+
 [Playground Link](https://www.typescriptlang.org/play?#code/C4TwDgpgBAwg9gVwHbAE4igXigcgCICiOUAPrgMpGm4Cq5OAUFMy6ywwMZxIDOwUPCMACCHYAEsAbhHjI0GbAAouc9AC5YiFOgCUWAHxQA3kygB6M1AAmcAXAC2QgBbikAcwYBfBg0EixUjJa8oo4lDg6PhZQAALAPAC0EAAekGJJqKhwqL5CohLSstogoTAAWhFAA)
 
 As you can see this approach correctly types the function. The problem is that there are ‘magic’ strings all over the place. Sure, for my example the strings are actually somewhat self-explanatory. But let's imagine that instead of [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) two-letter country codes we would be using [ISO 3166-1 numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric) country codes:
@@ -160,10 +165,9 @@ setActiveCountry('203')
 
 [Playground Link](https://www.typescriptlang.org/play?#code/C4TwDgpgBAwg9gVwHbAE4igXigcgEwDsAbDlAD64ECsepFOAHACwAMOAUFF9z9+wMZwkAZ2BRhEYAEF+wAJYA3CPGRoM2ABSDV6AFyxEKdAEosAPigBvTlAD0tqABM44uAFtJACzlIA5uwBfdnYJaVlFZUM1DRxqWmNg+ygAAWBhAFoIAA9IWUzUVDhUEMkZeSUVIxAYvBYAZhxjIA)
 
-
 While technically equivalent to the previous, this is now utterly unreadable and error-prone.
 
-### Disjoint union of iteral types with constants
+### Disjoint union of literal types with constants
 
 What can we do to remove those ‘magic’ strings? Let's save the values to constants:
 
@@ -194,6 +198,7 @@ This is, in fact, a way that is popular in the Redux community for Redux actions
 Still, we can identify problems. First, nothing forces you to use these constants. So if it slips the usually meticulous reviewer's eye, you can end up with a mixed approach: constants and magic strings. Second, the code is not very elegant, we either have to repeat the value in the type definition or use a strange-looking `typeof` operators. In either way, adding or removing means a change in two places.
 
 ### Constant dictionary
+
 Hmm, maybe there is a way to combine them all in one. When we look at the code generated for an Enum, we might think: can we just use that dictionary in the first place?
 
 This works. And it is really close to Enum:
@@ -216,6 +221,7 @@ setActiveCountry(Country.Sweden)
 // @ts-expect-error
 setActiveCountry('CZ')
 ```
+
 [Playground Link](https://www.typescriptlang.org/play?ssl=16&ssc=23&pln=1&pc=1#code/MYewdgzgLgBAwiArmKAnAnjAvDA3gKBhgHEBTVAWwEMx0AuGAcgBEBRRgGkJgGUB3UgBNSYBox7suRAKo8AgmNmd8AXxhUIMUJCj58UdAAdS8JCgzYYB4yABmp5GnQBtANal0dq0dJeEjjABdAG5uInCIonxtaBgIUig5YCgASwA3Un9zTBwAClAA+gdsgEpsAD48bgB6aphBEDiQCgSACxSwAHNVPXjE5PTMsydcrKcAOn4hERK9WpgAASgIAFpSAA9jZLXUVBBUfD6k1IyxjFzGOAAtRhKgA)
 
 Weel, it's not terrible. But it's not great either.
@@ -223,12 +229,11 @@ Weel, it's not terrible. But it's not great either.
 Let me go through some points to keep in mind.
 
 1. The dictionary has to be declared [`as const`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). This prevents the type engine to infer the type as general dictionary `Record<string, string>`. This is OK.
-
 2. The `Country` dictionary is a value and not a type. We need to define the type separately. It's a cryptic command, one I always have to google – not so OK. Fortunately, the type can be named the same as the dictionary, so from now on it's the same as Enum, right? Well, no.
-
 3. As in the previous case, nothing truly ties the dictionary to the function arguments. Calling `setActiveCountry('SE')` raises no error. The `Country` type is, in the end, just another disjoint union of iteral types again. The benefit is that changes are made only in one place. This is Boo (or at least Meh).
 
 ## Enums ~~the right way~~ my way
+
 For years, I'd been using the previous techniques to avoid Enums.
 
 And then one day on one PR someone asked: ‘Why?’.
@@ -236,6 +241,7 @@ And then one day on one PR someone asked: ‘Why?’.
 I was in the middle of my reply when I decided to fact-check some points and, …, and I discovered how wrong I'd been. There were two important properties of Enums that made them *superior* to anything else. Even for people that worry about moving back to vanilla JavaScript one day.
 
 ### String Enums
+
 Instead of depending on the source code order to define the value of an option in an Enum, you can define it yourself.
 
 The following code is so close to the dictionary example above, just much cleaner.
@@ -265,11 +271,8 @@ setActiveCountry('SE')
 Again, let's discuss some more or less obvious observations:
 
 1. It uses equal sigs, not colons. Do not ask me why. Still, it's very close to object literal.
-
 2. The values must be all strings. Other values are not supported. (Technically, numbers can be used, but they bring no advantage. Stick to strings.)
-
 3. You have to use the Enum values anywhere (for example `Country.Sweden`) where an Enum value is expected. Passing the same string doesn't work (for example `'SE'`). This makes refactoring a headache-free process. And your codebase stays consistent.
-
 4. However, it's not all unicorns and rainbow. The generated code is a) still there and b) still (kind of) ugly.
 
 ‘How on earth you want to improve that, Robin?’ you might ask
@@ -382,6 +385,5 @@ Before commit, I make sure each Enum fulfills the following two conditions:
 2. The Enum is declared as `const`.
 
 I think this combines the benefits of TypeScript with the eloquence of pure JavaScript. A superb developer experience with close to zero impact on the result. 
-
 
 > Do you use Enums in your code? Do you avoid language features that are not considered for ECMAScript? Tweet a reply
