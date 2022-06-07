@@ -341,7 +341,7 @@ Also, if you need to access the labels for something else than logging, it might
 
 ## Constant Enums can be huge
 
-One great use case I found of constant Enums, is that you do not care about the number of items in an Enum. There could be a const string Enum of all the countries in the world and if you only use there, just these three will make it to the production code. The rest would just disappear. And code autocomplete still works with no issue.
+One great use case I found of constant Enums, is that you do not care about the number of items in an Enum. There could be a const string Enum of all the countries in the world and if you only use three, just these three will make it to the production code. The rest would just disappear. And code autocomplete still works with no issue.
 
 In our service code, we now have a share const string Enum with all existing HTTP response codes (excerpt):
 
