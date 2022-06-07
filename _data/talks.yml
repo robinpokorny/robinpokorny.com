@@ -215,3 +215,8 @@ items:
     eventUrl: https://thekonferen.se/
     video: https://www.youtube.com/watch?v=KUO-yMA15XY
     image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203340/KUO-yMA15XY-HD_vuwdq8.jpg
+  - date: 2022-06-11
+    title: Railway Oriented TypeScript
+    event: WebExpo 2022
+    eventUrl: https://www.webexpo.net/prague2022/talk/railway-oriented-typescript
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,h_720/v1654593907/Railway_Oriented_TypeScript.001_sqfoqq.jpg
