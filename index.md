@@ -4,11 +4,11 @@ alt_title: Ahoy
 sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
 image: assets/image/profile.jpg
 introduction: >
-  Software architect at [Klarna](https://klarna.com). I’m really passionate about
+  Lead Software Engineer at [Klarna](https://klarna.com). I’m really passionate about
   engineering best practices. I think the biggest problem for developers is lack
-  of focus. 
-
-  As a developer who specialises in *JavaScript*, I’m helping to find solutions through applying functional programming principles. I organise meetups, record coding videos, and speak about my findings.
+  of focus.
+  
+  I started with CSS during the Responsive revolution, moved to JavaScript just when React dropped, and now design full-stack systems for 1M cardholders. As a developer who specialises in *TypeScript*, I help to find solutions by applying functional programming principles. I also organise several meetups: I co-founded [Frontendisti.cz](https://frontendisti.cz/) and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
 featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
 ---
 
