@@ -222,3 +222,11 @@ items:
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1655206090/FVHuo4gXEAAdPPx_n5kh7n.jpg
     video: https://slideslive.com/38984459
     slides: https://noti.st/robinpokorny/e2ekrT/railway-oriented-typescript
+  - date: 2021-02-10
+    title: "Promised Blue Moon: Why I chose TypeScript"
+    description: "*In Czech:* Modré z nebe: proč používám TypeScript"
+    video: https://www.youtube.com/watch?v=oSFlFK1rEC4
+    slides: https://modre-z-nebe.vercel.app/
+    eventUrl: https://www.meetup.com/frontendisti/events/276147903/
+    event: Frontendisti.cz LIVE
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1658859650/Screenshot_2022-07-26_at_20.19.35_mpjrfn.png
