@@ -21,5 +21,13 @@
         </li>
       {% endif %}
     {% endfor %}
+
+    {% for page in site.data.theme.external_pages %}
+      <li class="menu-item">
+        <a class="external" href="{{ page.url }}" itemprop="url">
+          <span itemprop="name">{{ page.title | escape }}</span>
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>

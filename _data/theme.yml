@@ -36,3 +36,7 @@ google_fonts:
 navigation_pages:
   - blog.md
   - talks.md
+
+external_pages:
+  - title: "TIL"
+    url: "https://github.com/robinpokorny/til/discussions/categories/til"

@@ -7,6 +7,14 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## Codespaces development
+
+```bash
+gem install bundler jekyll
+bundle update
+bundle exec jekyll serve
+```
+
 ## Local CMS
 
 ```bash
