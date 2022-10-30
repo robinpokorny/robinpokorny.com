@@ -230,3 +230,8 @@ items:
     eventUrl: https://www.meetup.com/frontendisti/events/276147903/
     event: Frontendisti.cz LIVE
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1658859650/Screenshot_2022-07-26_at_20.19.35_mpjrfn.png
+  - date: 2022-11-03
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1667130884/Railway_Oriented_TypeScript.001_tdebo0.png
+    title: Railway Oriented TypeScript
+    event: Heapcon 2022
+    eventUrl: https://heapcon.io/railway-oriented-typescript/
