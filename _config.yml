@@ -43,6 +43,7 @@ plugins:
   - jekyll-image-size
 feed:
   path: atom.xml
+  disable_in_development: true
 sass:
   style: compressed
 

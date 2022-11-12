@@ -5,9 +5,8 @@ sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
 image: assets/image/profile.jpg
 introduction: >
   Lead Software Engineer at [Klarna](https://klarna.com). I’m really passionate about
-  engineering best practices. I think the biggest problem for developers is lack
-  of focus.
-  
+  engineering best practices. I think the biggest problem for developers is the lack of focus.
+
   I started with CSS during the Responsive revolution, moved to JavaScript just when React dropped, and now design full-stack systems for 1M cardholders. As a developer who specialises in *TypeScript*, I help to find solutions by applying functional programming principles. I also organise several meetups: I co-founded [Frontendisti.cz](https://frontendisti.cz/) and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
 featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
 ---
@@ -23,44 +22,27 @@ featured_talk: https://www.meetup.com/JAMStack_berlin/events/270057505/
       <header class="section-title">
         <h2>Latest posts</h2>
       </header>
-      <div class="entries-headlines">
+      <div class="entries-list">
         {% for post in site.posts limit:3 %}
-          <div class="entry">
-            <h3 class="entry-title">
-              <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a>
-            </h3>
-            <footer class="entry-meta">
-              <ul>
-              {% if post.date %}
-                <li><span class="icon">{% include icon-calendar.svg %}</span><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time></li>
-              {% endif %}
-              {% if post.read_time %}
-                <li><span class="icon">{% include icon-stopwatch.svg %}</span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
-              {% endif %}
-              </ul>
-            </footer>
-          </div>
+          {% include entry.html show_image=true hide_excerpt=false %}
         {% endfor %}
       </div>
       <div class="pager">
         <a href="{% link blog.md %}" class="btn">All posts <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
       </div>
     </div>
-    {%comment%}
     <div>
       <header class="section-title">
         <h2>Talks</h2>
       </header>
-      <div class="entries-list">
-        {% assign featured = site.data.talks.items | find:"eventUrl", "page.featured_talk" %}
-        {{ site.data.talks.items | where: "eventUrl", page.featured_talk }}
-        {{ page.featured_talk }}
+      <div class="entries-grid">
+        {% assign talk = site.data.talks.items | where: "eventUrl", page.featured_talk %}
+        {% include talk.html talk=talk %}
       </div>
       <div>
         <a href="{% link talks.md %}" class="btn">All talks <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a>
       </div>
     </div>
-    {%endcomment%}
     <div style="margin-top: 7rem;">
       <h2>Contact</h2>
       <ul class="taxonomy-index">
