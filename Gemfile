@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0.0"
+gem "jekyll", "~> 4.3.0"
 
 # Use local copy of the theme
 gem "jekyll-theme-basically-basic", path: "./theme"
