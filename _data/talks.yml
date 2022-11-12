@@ -1,4 +1,37 @@
 items:
+  - date: 2022-11-03
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1667481758/Railway_Oriented_TypeScript.001_owgy71.png
+    title: Railway Oriented TypeScript
+    event: Heapcon 2022
+    eventUrl: https://heapcon.io/railway-oriented-typescript/
+    slides: https://noti.st/robinpokorny/m3Eqob/railway-oriented-typescript
+  - date: 2022-06-11
+    title: Railway Oriented TypeScript
+    event: WebExpo 2022
+    eventUrl: https://www.webexpo.net/prague2022/talk/railway-oriented-typescript
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1655206090/FVHuo4gXEAAdPPx_n5kh7n.jpg
+    video: https://slideslive.com/38984459
+    slides: https://noti.st/robinpokorny/e2ekrT/railway-oriented-typescript
+  - date: 2021-10-20
+    video: https://www.youtube.com/watch?v=KkzAMW_onjo
+    eventUrl: https://thekonferen.se/
+    event: KonferenSE:21
+    title: T for TypeScript, T for Train, robust code you will maintain
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203141/KkzAMW_onjo-HD_s1kecc.jpg
+  - date: 2021-03-28
+    title: Your biggest opportunity to learn is out there
+    video: https://youtu.be/BAiJW8fTXDM
+    event: Klarna Konnect
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,h_720,w_1280/v1620723356/Robin_nafcxv.png
+    eventUrl: https://www.klarna.com/careers/life-at-klarna/
+  - date: 2021-02-10
+    title: "Promised Blue Moon: Why I chose TypeScript"
+    description: "*In Czech:* Modré z nebe: proč používám TypeScript"
+    video: https://www.youtube.com/watch?v=oSFlFK1rEC4
+    slides: https://modre-z-nebe.vercel.app/
+    eventUrl: https://www.meetup.com/frontendisti/events/276147903/
+    event: Frontendisti.cz LIVE
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1658859650/Screenshot_2022-07-26_at_20.19.35_mpjrfn.png
   - date: 2020-12-01
     description: \*In Czech:\* Weby budoucnosti s AMP
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1606908719/TopMonksCafe_2020.001_pnacjl.png
@@ -7,13 +40,25 @@ items:
     eventUrl: https://www.meetup.com/TopMonks-Caffe/events/274802377/
     slides: https://noti.st/robinpokorny/Hfn9bW
     video: https://youtu.be/UFopT4oc8eE?t=5369
-  - date: 2020-04-27T00:00:00.000Z
+  - date: 2020-09-10
+    title: The Habits of Highly Effective Engineers
+    event: KonferenSE:20
+    eventUrl: https://thekonferen.se/
+    video: https://www.youtube.com/watch?v=KUO-yMA15XY
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203340/KUO-yMA15XY-HD_vuwdq8.jpg
+  - date: 2020-05-27
+    title: Netlify CMS outside Netlify 🇨🇿
+    event: Frontendisti.cz
+    eventUrl: https://www.meetup.com/frontendisti/events/270805541/
+    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1590602899/Netlify_CMS_na_vlastni%CC%81m_hostingu.001_hbhx5y.jpg
+    description: "*In Czech:* Netlify CMS na vlastní doméně"
+  - date: 2020-04-27
     event: JAMstack Berlin
     eventUrl: https://www.meetup.com/JAMStack_berlin/events/270057505/
     title: Netlify CMS outside Netlify
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587992180/Netlify_CMS_outside_Netlify.001_dzoqmk.jpg
     video: https://www.youtube.com/watch?v=pPzZrWwvDNg
-  - date: 2020-04-01T00:00:00.000Z
+  - date: 2020-04-01
     video: https://youtu.be/f6VGkwBbOGk
     eventUrl: https://www.meetup.com/frontendisti/events/wcmpmrybcgblb/
     event: Frontendisti.cz LIVE
@@ -21,7 +66,7 @@ items:
     slides: https://symboly-vse-zkomplikovaly.now.sh/
     title: Symbols complicated it all 🇨🇿
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,g_south,h_720,w_1280/v1587633475/4eab658d-f8d8-46de-8117-9c7b7d8cb45b_cdoeru.png
-  - date: 2020-02-19T00:00:00.000Z
+  - date: 2020-02-19
     title: Yarn 2
     event: React Berlin Meetup
     eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/268061783/
@@ -29,40 +74,40 @@ items:
     video: https://youtu.be/s-KD3isJSII
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587298629/yarn2talk_aqvlbg.jpg
   - title: Typed Functional Programming in TypeScript with fp-ts
-    date: 2019-12-06T00:00:00.000Z
+    date: 2019-12-06
     event: React Day Berlin
     eventUrl: https://reactday.berlin/
     slides: https://noti.st/robinpokorny/eayxlR
     video: https://youtu.be/UwCLmHQOWoY
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,w_1280/v1587633968/large-0_huned2.jpg
   - title: Practising the Decision-Making Diet in a JavaScript Developer’s Life
-    date: 2019-11-14T00:00:00.000Z
+    date: 2019-11-14
     event: React Berlin Meetup
     eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/266203395/
     slides: https://decision-diet-js.now.sh/
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,g_south,h_720,w_1280/v1587633604/1bdb9213-19aa-4071-a9c1-e26aa0f0d7f3_yopiwz.png
-  - date: 2019-09-20T00:00:00.000Z
+  - date: 2019-09-20
     title: Practising the Decision-Making Diet in a JavaScript Developer’s Life
     event: WebExpo 2019
     eventUrl: https://www.webexpo.net/prague2019/talk/practising-the-decision-making-diet-in-a-javascript-developer-s-life
     video: https://slideslive.com/38919140/practising-the-decisionmaking-diet-in-a-javascript-developers-life
     slides: https://decision-diet-js.now.sh/
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,g_south,h_720,w_1280/v1587633604/1bdb9213-19aa-4071-a9c1-e26aa0f0d7f3_yopiwz.png
-  - date: 2019-05-06T00:00:00.000Z
+  - date: 2019-05-06
     title: Symbols complicated it all
     event: Node.js Berlin Meetup
     eventUrl: https://www.meetup.com/Node-js-Meetup-Berlin/events/260172791/
     slides: http://symbols-complicated-it-all.netlify.com/
     video: https://youtu.be/YrQ_ecirpDA
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,h_720,w_1280/v1587634412/symbols-complicated-it-all.netlify.app__kcsgac.png
-  - date: 2017-10-31T00:00:00.000Z
+  - date: 2017-10-31
     title: Jest Can Do Whaaat?
     event: React Open Source
     eventUrl: https://www.meetup.com/React-Berlin-Meetup/events/244027983/
     slides: https://speakerdeck.com/robinpokorny/jest-can-do-whaaat
     video: https://youtu.be/wrJq0boagko?t=45m
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587634580/slide_0_avanit.jpg
-  - date: 2017-10-16T00:00:00.000Z
+  - date: 2017-10-16
     title: Async testing Koa with Jest
     event: Node.js Berlin Meetup
     eventUrl: https://www.meetup.com/preview/Node-js-Meetup-Berlin/events/241810015
@@ -70,18 +115,18 @@ items:
     article: https://medium.com/@robinpokorny/async-testing-koa-with-jest-1b6e84521b71
     video: ""
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587634577/slide_0_1_r8e94t.jpg
-  - date: 2017-10-16T00:00:00.000Z
+  - date: 2017-10-16
     title: Jest, Snapshot testing, and Vue.js
     event: Vue.js // Berlin
     eventUrl: https://www.meetup.com/Vue-js-Berlin/events/pndghnywkbpb/
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587635096/Jest_VueJS_v8tqrg.jpg
-  - date: 2017-06-27T00:00:00.000Z
+  - date: 2017-06-27
     title: Async testing in Jest
     event: React & React Native Berlin Meetup June 2017
     eventUrl: https://www.meetup.com/ReactJS-and-React-Native-Berlin/events/236081065/
     video: https://www.youtube.com/watch?v=bw10S2BK-5w
     image: https://res.cloudinary.com/dljslvfla/image/upload/v1587634809/bw10S2BK-5whd_z5x71z.jpg
-  - date: 2017-05-09T00:00:00.000Z
+  - date: 2017-05-09
     title: 15 months of Accelerated Mobile Pages
     event: "{Frontendisti.cz} May 2017"
     eventUrl: https://frontendisti.cz/archive/
@@ -96,25 +141,25 @@ items:
     slides: https://slideslive.com/38900449/dva-roky-elmu
     description: "*In Czech:* Dva roky Elmu"
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587643909/large-0_1_u25kre.jpg
-  - date: 2017-02-23T00:00:00.000Z
+  - date: 2017-02-23
     title: Snapshot testing in Jest
     event: HannoverJS Feb 2017
     video: https://www.youtube.com/watch?v=yUlfFMhVfZo
     eventUrl: https://hannoverjs.de/
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587635096/Jest_HannoverJS_vnivwb.jpg
-  - date: 2016-10-17T00:00:00.000Z
+  - date: 2016-10-17
     title: Snapshot testing in Jest
     event: BerlinJS Nov 2016
     eventUrl: http://berlinjs.org
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587635096/Jest_HannoverJS_vnivwb.jpg
-  - date: 2016-05-30T00:00:00.000Z
+  - date: 2016-05-30
     title: Purifying React
     event: "React Berlin #9"
     eventUrl: https://www.meetup.com/React-Berlin/events/231265387
     video: ""
     slides: https://www.slideshare.net/robinpokorny/purifying-react
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1587643805/large-0_cfx7yi.jpg
-  - date: 2015-11-19T00:00:00.000Z
+  - date: 2015-11-19
     title: React – When Honeymoon Period Passes 🇨🇿
     description: "*In Czech:* React – když odezní zamilovanost"
     eventUrl: https://frontendisti.cz/archive/#reactjs
@@ -122,12 +167,6 @@ items:
     event: "{ Frontendisti.cz }"
     slides: https://www.slideshare.net/robinpokorny/react-kdyz-odezni-zamilovanost
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,g_north,h_576,w_1024/v1588845719/react-kdyz-odezni-zamilovanost-1-1024_f9ncui.jpg
-  - date: 2020-05-27
-    title: Netlify CMS outside Netlify 🇨🇿
-    event: Frontendisti.cz
-    eventUrl: https://www.meetup.com/frontendisti/events/270805541/
-    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1590602899/Netlify_CMS_na_vlastni%CC%81m_hostingu.001_hbhx5y.jpg
-    description: "*In Czech:* Netlify CMS na vlastní doméně"
   - date: 2013-09-20
     title: How to Turn Your Ugly Old CSS into a Clean Future-Ready Beauty
     event: WebExpo 2013
@@ -197,42 +236,3 @@ items:
     video: https://www.youtube.com/watch?v=Eda7dYUJXd0
     slides: https://www.slideshare.net/robinpokorny/robinova-organizace-kodu
     image: https://res.cloudinary.com/dljslvfla/image/upload/b_auto,c_pad,f_auto,g_center,h_479,w_852/v1601026522/organizace-kodu-v-tmu-1-638_lbjf3v.jpg
-  - date: 2021-03-28
-    title: Your biggest opportunity to learn is out there
-    video: https://youtu.be/BAiJW8fTXDM
-    event: Klarna Konnect
-    image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,f_auto,h_720,w_1280/v1620723356/Robin_nafcxv.png
-    eventUrl: https://www.klarna.com/careers/life-at-klarna/
-  - date: 2021-10-20
-    video: https://www.youtube.com/watch?v=KkzAMW_onjo
-    eventUrl: https://thekonferen.se/
-    event: KonferenSE:21
-    title: T for TypeScript, T for Train, robust code you will maintain
-    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203141/KkzAMW_onjo-HD_s1kecc.jpg
-  - date: 2020-09-10
-    title: The Habits of Highly Effective Engineers
-    event: KonferenSE:20
-    eventUrl: https://thekonferen.se/
-    video: https://www.youtube.com/watch?v=KUO-yMA15XY
-    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1648203340/KUO-yMA15XY-HD_vuwdq8.jpg
-  - date: 2022-06-11
-    title: Railway Oriented TypeScript
-    event: WebExpo 2022
-    eventUrl: https://www.webexpo.net/prague2022/talk/railway-oriented-typescript
-    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1655206090/FVHuo4gXEAAdPPx_n5kh7n.jpg
-    video: https://slideslive.com/38984459
-    slides: https://noti.st/robinpokorny/e2ekrT/railway-oriented-typescript
-  - date: 2021-02-10
-    title: "Promised Blue Moon: Why I chose TypeScript"
-    description: "*In Czech:* Modré z nebe: proč používám TypeScript"
-    video: https://www.youtube.com/watch?v=oSFlFK1rEC4
-    slides: https://modre-z-nebe.vercel.app/
-    eventUrl: https://www.meetup.com/frontendisti/events/276147903/
-    event: Frontendisti.cz LIVE
-    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1658859650/Screenshot_2022-07-26_at_20.19.35_mpjrfn.png
-  - date: 2022-11-03
-    image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1667481758/Railway_Oriented_TypeScript.001_owgy71.png
-    title: Railway Oriented TypeScript
-    event: Heapcon 2022
-    eventUrl: https://heapcon.io/railway-oriented-typescript/
-    slides: https://noti.st/robinpokorny/m3Eqob/railway-oriented-typescript

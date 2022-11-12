@@ -59,7 +59,8 @@ collections:
               file: 'talks',
               valueField: 'items.*.eventUrl',
               searchFields: ['items.*.title'],
-              displayFields: ['items.*.title'],
+              displayFields: ['items.*.title', 'items.*.event'],
+              options_length: 100
             }
       - label: 'Talks'
         name: 'talks'
@@ -68,6 +69,9 @@ collections:
           - label: 'Talks'
             name: 'items'
             widget: 'list'
+            add_to_top: true
+            summary: '{{fields.title}} - {{fields.event}} ({{fields.date}})'
+            label_singular: 'talk'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
               - {
