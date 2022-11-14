@@ -22,6 +22,7 @@ featured_talk: https://heapcon.io/railway-oriented-typescript/
         <li><a href="https://twitter.com/robinpokorny" rel="me"><strong>Twitter</strong></a></li>
         <li><a href="https://www.youtube.com/c/robinpokorny" rel="me"><strong>YouTube</strong></a></li>
         <li><a href="https://www.linkedin.com/in/robinpokorny/" rel="me">LinkedIn</a></li>
+        <li><a href="https://mastodon.social/@robinpokorny" rel="me">Mastodon</a></li>
         <li><a href="https://github.com/robinpokorny" rel="me">GitHub</a></li>
         <li><a href="https://instagram.com/robinpokorny" rel="me">Instagram</a></li>
         <li><a href="https://www.goodreads.com/robinpokorny" rel="me">Goodreads</a></li>
