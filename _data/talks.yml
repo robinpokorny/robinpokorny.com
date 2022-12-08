@@ -1,4 +1,10 @@
 items:
+  - date: 2022-09-22
+    video: https://www.youtube.com/watch?v=J6qS9KY7UVU
+    title: What no one tells you about the architect role
+    eventUrl: https://thekonferen.se/
+    event: KonferenSE:22
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1670507911/Robin_Pokorny__What_No_One_Tells_You_About_the_Architect_Role_zeo3yf.png
   - date: 2022-11-03
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1667481758/Railway_Oriented_TypeScript.001_owgy71.png
     title: Railway Oriented TypeScript
