@@ -4,7 +4,7 @@ alt_title: Ahoy
 sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
 image: assets/image/profile.jpg
 introduction: >
-  Senior Staff Engineer at [Productboard](https://productboard.com). I’m really passionate
+  Sr Staff Engineer at [Productboard](https://productboard.com). I’m really passionate
   about engineering best practices. I think the biggest problem for developers
   is the lack of focus.
 
