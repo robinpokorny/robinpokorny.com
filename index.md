@@ -4,12 +4,7 @@ alt_title: Ahoy
 sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
 image: assets/image/profile.jpg
 introduction: >
-  Sr Staff Engineer at [Productboard](https://productboard.com). I’m really passionate
-  about engineering best practices. I think the biggest problem for developers
-  is the lack of focus.
-
-  I started with CSS during the Responsive revolution, moved to JavaScript just when React dropped, and now design full-stack systems for 1M cardholders. As a developer who specialises in *TypeScript*, I help to find solutions by applying functional programming principles. I also organise several meetups: I co-founded [Frontendisti.cz](https://frontendisti.cz/) and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
-featured_talk: https://heapcon.io/railway-oriented-typescript/
+  Sr Staff Engineer at [Productboard](https://productboard.com). I started with CSS during the Responsive revolution, moved to React just when it dropped, and now design evolvable domain-driven systems. As a Tech Lead, I specialise in education, coördination, and assuring system coherence through communication. I also organises several meetups: I co-founded [Frontendisti.cz](https://frontendisti.cz/) and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
 ---
 
 {% include page-intro.html %}
