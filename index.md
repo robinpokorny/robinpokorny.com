@@ -4,7 +4,14 @@ alt_title: Ahoy
 sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
 image: assets/image/profile.jpg
 introduction: >
-  Sr Staff Engineer at [Productboard](https://productboard.com). I started with CSS during the Responsive revolution, moved to React just when it dropped, and now design evolvable domain-driven systems. As a Tech Lead, I specialise in education, coördination, and assuring system coherence through communication. I also organises several meetups: I co-founded [Frontendisti.cz](https://frontendisti.cz/) and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
+  Sr Staff Engineer at [Productboard](https://productboard.com). I started with
+  CSS during the Responsive revolution, moved to React just when it dropped, and
+  now design evolvable domain-driven systems. As a Tech Lead, I specialise in
+  education, coördination, and assuring system coherence through communication.
+  I also organises several meetups: I co-founded
+  [Frontendisti.cz](https://frontendisti.cz/) and run [React
+  Berlin](https://www.meetup.com/react-berlin-meetup/).
+featured_talk: https://heapcon.io/railway-oriented-typescript/
 ---
 
 {% include page-intro.html %}
