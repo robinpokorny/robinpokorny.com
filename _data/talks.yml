@@ -9,7 +9,7 @@ items:
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,w_1280/v1667481758/Railway_Oriented_TypeScript.001_owgy71.png
     title: Railway Oriented TypeScript
     event: Heapcon 2022
-    eventUrl: https://heapcon.io/railway-oriented-typescript/
+    eventUrl: https://heapcon.io/2022/railway-oriented-typescript/
     slides: https://noti.st/robinpokorny/m3Eqob/railway-oriented-typescript
   - date: 2022-06-11
     title: Railway Oriented TypeScript
