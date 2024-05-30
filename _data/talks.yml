@@ -4,6 +4,7 @@ items:
     event: WebExpo 2024
     title: "Evolutionary architecture: Agile meets software design"
     image: https://res.cloudinary.com/dljslvfla/image/upload/c_scale,f_auto,h_720/v1717044192/Evolutionary_Architecture_WebExpo_2024.001_tfxhbj.png
+    slides: https://noti.st/robinpokorny/CdPP10/evolutionary-architecture-agile-meets-software-design
   - date: 2022-09-22
     video: https://www.youtube.com/watch?v=J6qS9KY7UVU
     title: What no one tells you about the architect role
