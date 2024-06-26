@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@now/node": "^1.4.1",
     "@types/simple-oauth2": "^2.5.2",
+    "@vercel/node": "^3.2.0",
     "simple-oauth2": "^2.5.2"
   },
   "engines": {
