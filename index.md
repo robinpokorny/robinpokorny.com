@@ -10,7 +10,7 @@ introduction: "Sr Staff Engineer at [Productboard](https://productboard.com). I
   communication. I also organise several meetups: I co-founded
   [Frontendisti.cz](https://frontendisti.cz/) and run [React
   Berlin](https://www.meetup.com/react-berlin-meetup/)."
-featured_talk: https://heapcon.io/2022/railway-oriented-typescript/
+featured_talk: https://webexpo.net/sessions/evolutionary-architecture-agile-meets-software-design
 ---
 
 {% include page-intro.html %}
