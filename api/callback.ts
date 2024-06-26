@@ -1,22 +1,19 @@
-import { NowRequest, NowResponse } from "@now/node";
-import { create, renderBody } from "./_lib/oauth2";
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { client, renderBody } from "./_lib/oauth2";
 
-export default async (req: NowRequest, res: NowResponse) => {
+export default async (req: VercelRequest, res: VercelResponse) => {
   const code = req.query.code as string;
   const { host } = req.headers;
 
-  const oauth2 = create();
-
   try {
-    const accessToken = await oauth2.authorizationCode.getToken({
+    const { token } = await client.getToken({
       code,
       redirect_uri: `https://${host}/api/callback`
     });
-    const { token } = oauth2.accessToken.create(accessToken);
 
     res.status(200).send(
       renderBody("success", {
-        token: token.access_token,
+        token: token.access_token as string,
         provider: "github"
       })
     );

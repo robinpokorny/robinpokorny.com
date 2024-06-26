@@ -1,13 +1,13 @@
 {
   "name": "robinpokorny.com",
   "author": "Robin Pokorny <me@robinpokorny.com>",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@types/simple-oauth2": "^2.5.2",
+    "@types/simple-oauth2": "5.0.1",
     "@vercel/node": "^3.2.0",
-    "simple-oauth2": "^2.5.2"
+    "simple-oauth2": "5.0.1"
   },
   "engines": {
     "node": "^20"
