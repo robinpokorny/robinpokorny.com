@@ -7,8 +7,8 @@
   position: relative;
   padding: 0.90625rem 0;
   min-height: $site-image-height;
-  -webkit-transition: $navicon-duration / 2;
-  transition: $navicon-duration / 2;
+  -webkit-transition: $navicon-duration * 0.5;
+  transition: $navicon-duration * 0.5;
   border: 0;
   outline: none;
   background-color: $navicon-nav-bg-close;
@@ -25,8 +25,8 @@
 
   .navicon::before,
   .navicon::after {
-    -webkit-transition-duration: $navicon-duration / 2;
-    transition-duration: $navicon-duration / 2;
+    -webkit-transition-duration: $navicon-duration * 0.5;
+    transition-duration: $navicon-duration * 0.5;
   }
 
   &:hover {
@@ -35,8 +35,8 @@
 
     .navicon::before,
     .navicon::after {
-      -webkit-transition-duration: $navicon-duration / 2;
-      transition-duration: $navicon-duration / 2;
+      -webkit-transition-duration: $navicon-duration * 0.5;
+      transition-duration: $navicon-duration * 0.5;
     }
 
     .navicon::before {
@@ -63,8 +63,8 @@
     position: absolute;
     width: $navicon-width;
     height: $navicon-height;
-    -webkit-transition-duration: $navicon-duration $navicon-duration / 2;
-    transition-duration: $navicon-duration $navicon-duration / 2;
+    -webkit-transition-duration: $navicon-duration $navicon-duration * 0.5;
+    transition-duration: $navicon-duration $navicon-duration * 0.5;
     border-radius: $navicon-width;
     background: $navicon-content-bg;
     content: "";
