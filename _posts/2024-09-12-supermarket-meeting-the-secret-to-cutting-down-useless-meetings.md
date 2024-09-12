@@ -1,6 +1,6 @@
 ---
 title: "Supermarket Meeting: The Secret to Cutting Down Useless Meetings"
-date: 2024-09-12T11:34:00.000Z
+date: 2024-09-12T10:34:00.000Z
 image: https://res.cloudinary.com/dljslvfla/image/upload/c_fill,w_1280,h_720/v1726133085/Motivational_Quotes_Blog_Banner_bgzrm5.png
 excerpt: A Supermarket Meeting is a consolidated approach to recurring meetings,
   where diverse topics are discussed in one weekly session, similar to how you’d
