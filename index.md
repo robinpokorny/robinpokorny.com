@@ -1,15 +1,19 @@
 ---
 layout: default
 alt_title: Ahoy
-sub_title: I am **Robin Pokorny**, a zealous Software Developer based in Berlin.
+sub_title: I am **Robin Pokorny**, a zealous Software Architect based in Berlin.
 image: assets/image/profile.jpg
-introduction: "Sr Staff Engineer at [Productboard](https://productboard.com). I
-  started with CSS during the Responsive revolution, moved to React just when it
-  dropped, and now design evolvable domain-driven systems. As a Tech Lead, I
-  specialise in education, coördination, and assuring system coherence through
-  communication. I also organise several meetups: I co-founded
-  [Frontendisti.cz](https://frontendisti.cz/) and run [React
-  Berlin](https://www.meetup.com/react-berlin-meetup/)."
+introduction: >-
+  _Sr Staff Engineer_ at [Productboard](https://productboard.com), with focus on
+  _Domain Driven Design_ and socio-technical change facilitation. I have
+  extensive experience with full-stack of technologies such as <kbd>React</kbd>,
+  <kbd>federated GraphQL</kbd>, and <kbd>Kotlin</kbd>.
+
+
+  Over the 10+ years in the industry, I've worked in fintech and large-scale SaaS companies, leading cross-functional teams and fostering alignment between engineering, product, and business.
+
+
+  As a tech lead, I specialise in education, coördination, and ensuring system coherence through communication. I also organise several meetups — I co-founded [Frontendisti.cz](https://frontendisti.cz/), and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
 featured_talk: https://webexpo.net/sessions/evolutionary-architecture-agile-meets-software-design
 ---
 
