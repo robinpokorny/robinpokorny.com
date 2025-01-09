@@ -6,8 +6,8 @@ image: assets/image/profile.jpg
 introduction: >-
   _Sr Staff Engineer_ at [Productboard](https://productboard.com), with focus on
   _Domain Driven Design_ and socio-technical change facilitation. I have
-  extensive experience with full-stack of technologies such as <kbd>React</kbd>,
-  <kbd>federated GraphQL</kbd>, and <kbd>Kotlin</kbd>.
+  extensive experience with full-stack of technologies such as _React_,
+  _federated GraphQL_, and _Kotlin_.
 
 
   Over the 10+ years in the industry, I've worked in fintech and large-scale SaaS companies, leading cross-functional teams and fostering alignment between engineering, product, and business.
