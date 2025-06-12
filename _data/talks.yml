@@ -1,4 +1,11 @@
 items:
+  - date: 2025-05-28
+    eventUrl: https://webexpo.net/prague2025/sessions/dating-is-hard-complexity-of-clocks-calendars-and-computers/
+    event: WebExpo 2025
+    slides: https://docs.google.com/presentation/d/1soE-ANmuKL28PNQCRNgaFkg7NOcNkW3sy3we5-HDse4/edit?usp=sharing
+    title: "Dating is Hard: Complexity of Clocks, Calendars, and Computers"
+    video: https://slideslive.com/39043211
+    image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1749716781/Dating_is_Hard_Complexity_of_Clocks_Calendars_and_Computers_arqquz.png
   - date: 2024-05-30
     eventUrl: https://webexpo.net/sessions/evolutionary-architecture-agile-meets-software-design
     event: WebExpo 2024
