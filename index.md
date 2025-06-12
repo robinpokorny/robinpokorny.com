@@ -1,7 +1,7 @@
 ---
 layout: default
 alt_title: Ahoy
-sub_title: I am **Robin Pokorny**, a zealous Software Architect based in Berlin.
+sub_title: I am **Robin Pokorny**, a socio-technical software architect based in Berlin.
 image: assets/image/profile.jpg
 introduction: >-
   _Sr Staff Engineer_ at [Productboard](https://productboard.com), with focus on
