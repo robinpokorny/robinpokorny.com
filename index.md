@@ -24,19 +24,19 @@ featured_talk: https://webexpo.net/sessions/evolutionary-architecture-agile-meet
     <div style="margin-top: 4rem;">
       <h2>Contact</h2>
       <ul class="taxonomy-index">
-        <li><a href="https://twitter.com/robinpokorny" rel="me"><strong>Twitter</strong></a></li>
+        <li><a href="https://www.linkedin.com/in/robinpokorny/" rel="me"><strong>LinkedIn</strong></a></li>
         <li><a href="https://www.youtube.com/c/robinpokorny" rel="me"><strong>YouTube</strong></a></li>
-        <li><a href="https://www.linkedin.com/in/robinpokorny/" rel="me">LinkedIn</a></li>
-        <li><a href="https://mastodon.social/@robinpokorny" rel="me">Mastodon</a></li>
         <li><a href="https://github.com/robinpokorny" rel="me">GitHub</a></li>
-        <li><a href="https://instagram.com/robinpokorny" rel="me">Instagram</a></li>
         <li><a href="https://www.goodreads.com/robinpokorny" rel="me">Goodreads</a></li>
+        <li><a href="https://instagram.com/robinpokorny" rel="me">Instagram</a></li>
         <li><a href="https://dev.to/robinpokorny" rel="me">DEV</a></li>
         <li><a href="https://medium.com/@robinpokorny" rel="me">Medium</a></li>
         <li><a href="https://noti.st/robinpokorny" rel="me">Notist</a></li>
         <li><a href="https://stackoverflow.com/users/1517783/robin-pokorny" rel="me">StackOverflow</a></li>
         <li><a href="https://www.meetup.com/members/43669902/" rel="me">Meetup</a></li>
         <li><a href="https://www.twitch.tv/robinpokorny" rel="me">Twitch</a></li>
+        <li><a href="https://mastodon.social/@robinpokorny" rel="me">Mastodon</a></li>
+        <li><a href="https://twitter.com/robinpokorny" rel="me">Twitter<</a></li>
         <li><a href="https://www.facebook.com/robin.pokorny" rel="me">Facebook</a></li>
         <li><a href="mailto:me@robinpokorny.com">E-mail</a></li>
       </ul>
