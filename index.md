@@ -4,17 +4,17 @@ alt_title: Ahoy
 sub_title: I am **Robin Pokorny**, a socio-technical software architect based in Berlin.
 image: assets/image/profile.jpg
 introduction: >-
-  _Sr Staff Engineer_ at [Productboard](https://productboard.com), with focus on
-  _Domain Driven Design_ and socio-technical change facilitation. I have
-  extensive experience with full-stack of technologies such as _React_,
-  _federated GraphQL_, and _Kotlin_.
+  _Sr Staff Engineer_ at [Ataccama](https://ataccama.com), with focus on _Domain
+  Driven Design_ and socio-technical change facilitation. I have extensive
+  experience with full-stack of technologies such as _React_, _federated
+  GraphQL_, and _Kotlin_.
 
 
   Over the 10+ years in the industry, I've worked in fintech and large-scale SaaS companies, leading cross-functional teams and fostering alignment between engineering, product, and business.
 
 
   As a tech lead, I specialise in education, coördination, and ensuring system coherence through communication. I also organise several meetups — I co-founded [Frontendisti.cz](https://frontendisti.cz/), and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
-featured_talk: https://webexpo.net/sessions/evolutionary-architecture-agile-meets-software-design
+featured_talk: https://webexpo.net/prague2025/sessions/dating-is-hard-complexity-of-clocks-calendars-and-computers/
 ---
 
 {% include page-intro.html %}
