@@ -14,7 +14,7 @@ introduction: >-
 
 
   As a tech lead, I specialise in education, coördination, and ensuring system coherence through communication. I also organise several meetups — I co-founded [Frontendisti.cz](https://frontendisti.cz/), and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
-featured_talk: https://webexpo.net/prague2025/sessions/dating-is-hard-complexity-of-clocks-calendars-and-computers/
+featured_talk: https://www.meetup.com/praguejs/events/311565747/
 ---
 
 {% include page-intro.html %}
