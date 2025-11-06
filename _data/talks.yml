@@ -1,4 +1,16 @@
 items:
+  - date: 2025-10-30
+    title: I Loved Snapshots in 2016. A Decade Later, Let's Revisit
+    eventUrl: https://www.meetup.com/praguejs/events/311565747/
+    event: PragueJS
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1762425512/I_Loved_Snapshots_in_2016._A_Decade_Later_Let_s_Revisit_h2eivb.png
+    slides: https://docs.google.com/presentation/d/1sJZX5p79lQnxHZXVFPWyyqqzuLBmpj4uzNbSc0xpStE/edit?usp=sharing
+  - date: 2025-10-29
+    image: https://res.cloudinary.com/dljslvfla/image/upload/f_auto/v1762425306/Relay_at_unicorn_scale__lessons_from_Productboard_mvpvbu.png
+    eventUrl: https://www.meetup.com/prague-frontend-community/events/311519454/?eventOrigin=home_next_event_past
+    event: Ataccama FrontEnd Meetup
+    title: "Relay at unicorn scale:"
+    slides: https://docs.google.com/presentation/d/1haHvbkvMPij_74WOg6JD3Zunm7Di4q5HHv4FeIkGKxA/edit?usp=sharing
   - date: 2025-05-28
     eventUrl: https://webexpo.net/prague2025/sessions/dating-is-hard-complexity-of-clocks-calendars-and-computers/
     event: WebExpo 2025
