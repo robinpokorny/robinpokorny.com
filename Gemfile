@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.3"
+gem "jekyll", "~> 4.4"
 
 # Use local copy of the theme
 gem "jekyll-theme-basically-basic", path: "./theme"
@@ -30,5 +30,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
-gem "nokogiri"
-gem "webrick", "~> 1.7"
+# Security: require minimum versions to address CVEs
+gem "nokogiri", ">= 1.18.8"    # CVE-2025-32414, CVE-2025-32415, CVE-2024-55549
+gem "rexml", ">= 3.4.2"        # CVE-2025-58767, CVE-2024-49761, CVE-2024-43398
+gem "webrick", "~> 1.9"
