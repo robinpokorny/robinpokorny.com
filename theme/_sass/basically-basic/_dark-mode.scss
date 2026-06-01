@@ -113,6 +113,10 @@ $dark-code-bg: #0f0f23;
     background-color: $dark-bg;
   }
 
+  .site-title a {
+    color: $dark-text;
+  }
+
   .entry-title,
   .entry-content h1,
   .entry-content h2,
@@ -210,6 +214,10 @@ $dark-code-bg: #0f0f23;
 
 #dark-mode-checkbox:checked ~ .canvas .intro {
   background-color: $dark-bg;
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .site-title a {
   color: $dark-text;
 }
 
