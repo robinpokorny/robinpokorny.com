@@ -10,7 +10,7 @@
 @import 'basically-basic/mixins';
 @import 'basically-basic/vendor/breakpoint/breakpoint';
 @include breakpoint-set('to ems', true);
-@import 'basically-basic/vendor/susy/susy';
+// Susy grid removed - using plain CSS percentages instead
 
 /* Core CSS */
 @import 'basically-basic/reset';
@@ -36,6 +36,9 @@
 
 /* Utility classes */
 @import 'basically-basic/utilities';
+
+/* Dark mode */
+@import 'basically-basic/dark-mode';
 
 /* Print */
 @import 'basically-basic/print';

@@ -36,6 +36,7 @@ google_fonts:
 navigation_pages:
   - blog.md
   - talks.md
+  - now.md
 
 external_pages:
   - title: "TIL"

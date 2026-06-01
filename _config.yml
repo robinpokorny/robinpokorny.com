@@ -17,7 +17,7 @@ lang: en
 title: Robin Pokorny
 email: me@robinpokorny.com
 description: >- # this means to ignore newlines until "baseurl:"
-   Sr Staff Engineer at Productboard, meet-up organiser, podcaster
+   Sr Staff Engineer at Ataccama, meet-up organiser, podcaster
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://robinpokorny.com
 author:
