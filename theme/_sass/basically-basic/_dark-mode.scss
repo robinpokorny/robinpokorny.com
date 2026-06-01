@@ -1,0 +1,312 @@
+/* ==========================================================================
+   Dark Mode Support
+   ========================================================================== */
+
+/* Dark mode color scheme */
+$dark-bg: #1a1a2e;
+$dark-text: #eaeaea;
+$dark-accent: #e94560;
+$dark-sidebar-bg: #16213e;
+$dark-border: rgba(255, 255, 255, 0.15);
+$dark-code-bg: #0f0f23;
+
+/* Dark mode toggle */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.dark-mode-toggle .toggle-track {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  background-color: $base-color;
+  border-radius: 12px;
+  margin-right: 0.75rem;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.dark-mode-toggle .toggle-track::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.dark-mode-toggle .toggle-label {
+  color: $text-color;
+}
+
+/* Hide toggle for users who have system dark mode (auto-applied) */
+@media (prefers-color-scheme: dark) {
+  .dark-mode-toggle {
+    display: none;
+  }
+}
+
+/* Apply dark mode based on system preference */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  .wrapper {
+    background-color: $dark-bg;
+  }
+
+  .sidebar > .inner {
+    background-color: $dark-sidebar-bg;
+  }
+
+  .sidebar li a {
+    color: $dark-text;
+
+    &::before {
+      background-color: $dark-text;
+    }
+
+    &:hover {
+      color: $dark-accent;
+    }
+  }
+
+  .sidebar .menu::after {
+    background-color: $dark-text;
+  }
+
+  .sidebar .contact-list a {
+    color: $dark-text;
+  }
+
+  .sidebar-toggle-wrapper {
+    background-color: $dark-bg;
+  }
+
+  .sidebar-toggle-label {
+    color: $dark-text;
+  }
+
+  .navicon,
+  .navicon::before,
+  .navicon::after {
+    background-color: $dark-text;
+  }
+
+  .intro {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  .page-content {
+    background-color: $dark-bg;
+  }
+
+  .site-title a {
+    color: $dark-text;
+  }
+
+  .entry-title,
+  .entry-content h1,
+  .entry-content h2,
+  .entry-content h3,
+  .entry-content h4,
+  .entry-content h5,
+  .entry-content h6 {
+    color: $dark-text;
+  }
+
+  .entry a {
+    color: $dark-accent;
+  }
+
+  .entry-meta .icon {
+    fill: $dark-accent;
+  }
+
+  .entry:not(:last-child) {
+    border-bottom-color: $dark-border;
+  }
+
+  .btn {
+    background-color: transparent;
+    border-color: $dark-text;
+    color: $dark-text;
+
+    &:hover {
+      background-color: $dark-text;
+      color: $dark-bg;
+    }
+  }
+
+  pre,
+  code {
+    background-color: $dark-code-bg;
+  }
+
+  .footer {
+    background-color: $dark-sidebar-bg;
+    color: $dark-text;
+
+    a {
+      color: $dark-text;
+    }
+  }
+
+  .footnotes {
+    border-top-color: $dark-border;
+  }
+
+  /* Newsletter */
+  .newsletter input[type="email"] {
+    background-color: $dark-code-bg;
+    border-color: $dark-border;
+    color: $dark-text;
+  }
+
+  /* Tables */
+  table {
+    border-color: $dark-border;
+  }
+
+  th,
+  td {
+    border-color: $dark-border;
+  }
+
+  th {
+    background-color: $dark-sidebar-bg;
+  }
+}
+
+/* Manual dark mode toggle - applied when checkbox is checked */
+/* This uses a sibling selector approach for AMP compatibility */
+#dark-mode-checkbox:checked ~ .canvas,
+#dark-mode-checkbox:checked ~ .canvas .wrapper {
+  background-color: $dark-bg;
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .sidebar-toggle-wrapper {
+  background-color: $dark-bg;
+}
+
+#dark-mode-checkbox:checked ~ .sidebar-toggle-wrapper .sidebar-toggle-label {
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .sidebar-toggle-wrapper .navicon,
+#dark-mode-checkbox:checked ~ .sidebar-toggle-wrapper .navicon::before,
+#dark-mode-checkbox:checked ~ .sidebar-toggle-wrapper .navicon::after {
+  background-color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .intro {
+  background-color: $dark-bg;
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .site-title a {
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .entry-title,
+#dark-mode-checkbox:checked ~ .canvas .entry-content h1,
+#dark-mode-checkbox:checked ~ .canvas .entry-content h2,
+#dark-mode-checkbox:checked ~ .canvas .entry-content h3,
+#dark-mode-checkbox:checked ~ .canvas .entry-content h4,
+#dark-mode-checkbox:checked ~ .canvas .entry-content h5,
+#dark-mode-checkbox:checked ~ .canvas .entry-content h6 {
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .entry a {
+  color: $dark-accent;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .entry-meta .icon {
+  fill: $dark-accent;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .entry:not(:last-child) {
+  border-bottom-color: $dark-border;
+}
+
+#dark-mode-checkbox:checked ~ .canvas .btn {
+  border-color: $dark-text;
+  color: $dark-text;
+
+  &:hover {
+    background-color: $dark-text;
+    color: $dark-bg;
+  }
+}
+
+#dark-mode-checkbox:checked ~ .canvas pre,
+#dark-mode-checkbox:checked ~ .canvas code {
+  background-color: $dark-code-bg;
+}
+
+#dark-mode-checkbox:checked ~ footer.footer {
+  background-color: $dark-sidebar-bg;
+  color: $dark-text;
+
+  a {
+    color: $dark-text;
+  }
+}
+
+/* Hidden checkbox for toggle functionality */
+#dark-mode-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Sidebar dark mode when checked */
+#dark-mode-checkbox:checked ~ amp-sidebar > .inner {
+  background-color: $dark-sidebar-bg;
+}
+
+#dark-mode-checkbox:checked ~ amp-sidebar li a {
+  color: $dark-text;
+
+  &::before {
+    background-color: $dark-text;
+  }
+
+  &:hover {
+    color: $dark-accent;
+  }
+}
+
+#dark-mode-checkbox:checked ~ amp-sidebar .menu::after {
+  background-color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ amp-sidebar .contact-list a {
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ amp-sidebar .dark-mode-toggle .toggle-label {
+  color: $dark-text;
+}
+
+#dark-mode-checkbox:checked ~ amp-sidebar .dark-mode-toggle .toggle-track {
+  background-color: $dark-accent;
+}
+
+#dark-mode-checkbox:checked ~ amp-sidebar .dark-mode-toggle .toggle-track::after {
+  transform: translateX(20px);
+}

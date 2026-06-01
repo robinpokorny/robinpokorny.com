@@ -112,7 +112,7 @@
 
   .entry-excerpt {
     @include breakpoint($medium) {
-      width: span(11 of 16);
+      width: 68.75%; // 11/16
     }
 
     /* normalize font sizes */
@@ -128,7 +128,7 @@
 
   .entry-content {
     @include breakpoint($medium) {
-      width: span(11 of 16);
+      width: 68.75%; // 11/16
     }
 
     /* remove space after last child element */
@@ -140,8 +140,8 @@
   .entry-meta {
     @include breakpoint($medium) {
       float: right;
-      width: span(5 of 16 last);
-      padding-left: gutter(1 of 16);
+      width: 31.25%; // 5/16
+      padding-left: 6.25%; // 1/16 gutter
     }
   }
 

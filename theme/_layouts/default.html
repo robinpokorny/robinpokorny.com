@@ -11,6 +11,9 @@
   >
     {% include skip-links.html %}
 
+    <!-- Dark mode checkbox (must be early in DOM for sibling selectors) -->
+    <input type="checkbox" id="dark-mode-checkbox" aria-label="Toggle dark mode">
+
     <div class="sidebar-toggle-wrapper">
       {% if site.search %}
       <button class="search-toggle" type="button">
@@ -44,6 +47,7 @@
       <div class="inner">
         {% include navigation.html %}
         {% include contact-list.html %}
+        {% include dark-mode-toggle.html %}
       </div>
     </amp-sidebar>
 

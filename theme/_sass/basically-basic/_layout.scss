@@ -69,7 +69,7 @@ main {
 .layout--page {
   .entry-content {
     @include breakpoint($large) {
-      width: span(14 of 16);
+      width: 87.5%; // 14/16
     }
   }
 }
@@ -118,8 +118,8 @@ main {
   .entries {
     .entry-header {
       @include breakpoint($medium) {
-        width: span(5 of 16);
-        padding-right: gutter(1 of 16);
+        width: 31.25%; // 5/16
+        padding-right: 6.25%; // 1/16 gutter
 
         /* remove space after last child element */
         > *:last-child {
@@ -131,7 +131,7 @@ main {
     .entry-content {
       @include breakpoint($medium) {
         float: right;
-        width: span(11 of 16);
+        width: 68.75%; // 11/16
       }
     }
   }
