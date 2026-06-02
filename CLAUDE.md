@@ -34,11 +34,25 @@ git checkout -b feature/your-feature-name
 
 # Make changes, then commit and push
 git add -A
-git commit -m "Description of changes"
+git commit -m ":zap: Description of changes"
 git push -u origin feature/your-feature-name
 
 # Create PR on GitHub
 ```
+
+## Commit Messages
+
+Use the [git3moji](https://robinpokorny.github.io/git3moji/) standard for commit prefixes:
+
+| Emoji | Code | Purpose |
+|-------|------|---------|
+| ⚡️ | `:zap:` | Features and primary concerns |
+| 🐛 | `:bug:` | Bugs and fixes |
+| 📺 | `:tv:` | CI, tooling, and configuration |
+| 👮 | `:cop:` | Tests and linting |
+| 🔤 | `:abc:` | Documentation |
+
+Example: `:zap: Add dark mode toggle`
 
 ## Project Structure
 
