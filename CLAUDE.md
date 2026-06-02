@@ -54,4 +54,3 @@ git push -u origin feature/your-feature-name
 - `/blog/` - Blog listing
 - `/talks/` - Conference talks
 - `/now/` - Current focus
-- `/links/` - Link tree style page
