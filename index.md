@@ -2,7 +2,7 @@
 layout: default
 alt_title: Ahoy
 sub_title: I am **Robin Pokorny**, a socio-technical software architect based in Berlin.
-image: assets/image/profile.jpg
+image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/20260528_WEB-EXPO-2026_2.Photo_PetrLebeda_normal-size-62_copy_mabja4.jpg
 introduction: >-
   _Sr Staff Engineer_ at [Ataccama](https://ataccama.com), with focus on _Domain
   Driven Design_ and socio-technical change facilitation. I have extensive
