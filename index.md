@@ -36,7 +36,7 @@ featured_talk: https://www.meetup.com/praguejs/events/311565747/
         <li><a href="https://www.meetup.com/members/43669902/" rel="me">Meetup</a></li>
         <li><a href="https://www.twitch.tv/robinpokorny" rel="me">Twitch</a></li>
         <li><a href="https://mastodon.social/@robinpokorny" rel="me">Mastodon</a></li>
-        <li><a href="https://twitter.com/robinpokorny" rel="me">Twitter<</a></li>
+        <li><a href="https://twitter.com/robinpokorny" rel="me">Twitter</a></li>
         <li><a href="https://www.facebook.com/robin.pokorny" rel="me">Facebook</a></li>
         <li><a href="mailto:me@robinpokorny.com">E-mail</a></li>
       </ul>
