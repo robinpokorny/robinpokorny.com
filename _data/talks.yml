@@ -1,4 +1,10 @@
 items:
+  - date: 2026-05-28
+    eventUrl: https://webexpo.net/prague2026/sessions/robin-pokorny-coming-in-2026/
+    video: https://webexpo.net/prague2026/sessions/robin-pokorny-coming-in-2026/
+    title: Contract testing for teams that want to move fast
+    event: WebExpo Prague 2026
+    slides: https://noti.st/robinpokorny/vLo8Im/contract-testing-for-teams-that-want-to-move-fast
   - date: 2025-10-30
     title: I Loved Snapshots in 2016. A Decade Later, Let's Revisit
     eventUrl: https://www.meetup.com/praguejs/events/311565747/
