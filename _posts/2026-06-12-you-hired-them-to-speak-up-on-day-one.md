@@ -53,6 +53,7 @@ Say it. Strong opinions, stated plainly, team success first. You can be wrong. Y
 
 Make it genuinely safe to raise uncomfortable things. When a newcomer names something that feels off, your first job is to listen. Be prepared to radically reëvaluate. They are not making waves. They are doing exactly what you needed when you hired them.
 
+
 ---
 
 *Title photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a>.*      
