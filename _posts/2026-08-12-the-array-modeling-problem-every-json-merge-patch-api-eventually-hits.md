@@ -174,4 +174,4 @@ If you're stuck on the same problem, don't look for the one correct answer. Look
 
 ---
 
-*Title photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a>.*    
+*Title photo by [Leo_Visions](https://unsplash.com/@leo_visions_).*    
