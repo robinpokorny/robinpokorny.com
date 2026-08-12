@@ -171,3 +171,7 @@ Our default is Option 1 when nothing has independent identity, and Option 4 the 
 The mistake we were making before this discussion wasn't picking the wrong option. It was never asking the question, and letting every array stay an array because that's the shape it happened to arrive in.
 
 If you're stuck on the same problem, don't look for the one correct answer. Look at what your collection actually is, then pick from here. And if you've found a sixth option, or a use case where one of ours falls apart, I'd very much like to hear about it.  
+
+---
+
+*Title photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a>.*    
