@@ -244,8 +244,8 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
   <header class="sb-hero">
     <div class="sb-hero-content">
-      <h1>Stuck on a decision?<br/>Talk it through with a specialist.</h1>
-      <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No procurement. No multi-day commitment. Book today, think clearly tomorrow.</p>
+      <h1>Stuck on a decision?<br/>Talk it through with a specialist — within 48 hours.</h1>
+      <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Simple and straightforward. Book today, think clearly tomorrow.</p>
       <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
     </div>
     <div class="sb-hero-image">
@@ -280,7 +280,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <div class="sb-step-card">
         <span class="sb-step-num">Step 1</span>
         <h4 class="sb-step-title">Book & pay</h4>
-        <p class="sb-step-desc">Pick a slot (sessions available within 2 business days), pay by card. Done in one sitting, fits a standard executive card limit. No vendor onboarding, no procurement.</p>
+        <p class="sb-step-desc">Pick a slot (sessions available within 2 business days), pay by card. Done in one sitting. Simple and straightforward booking without lengthy onboarding.</p>
       </div>
       <div class="sb-step-card">
         <span class="sb-step-num">Step 2</span>
@@ -311,7 +311,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </ul>
 
     <h2 style="margin-top: 4rem;">Confidentiality</h2>
-    <p>Everything you share is treated as confidential, stored in EU-hosted systems, and never used to train third-party models. If you need an NDA signed first, send it with your booking — reviewed within one business day.</p>
+    <p>Everything you share is treated as confidential and never used to train third-party models. If you need an NDA signed first, send it with your booking — reviewed within one business day.</p>
   </section>
 
   <section class="sb-price-block">
