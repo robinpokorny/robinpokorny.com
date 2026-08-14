@@ -286,6 +286,144 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     margin-bottom: 2rem;
     border-left: 3px solid #111;
   }
+  /* Infographic Styles */
+  .sb-toggle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .sb-toggle-label {
+    color: #888;
+    transition: color 0.3s;
+  }
+  .sb-toggle-label.sb-toggle-active {
+    color: #111;
+  }
+  .sb-toggle-btn {
+    width: 50px;
+    height: 26px;
+    background: #e0e0e0;
+    border-radius: 13px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.3s;
+  }
+  .sb-toggle-knob {
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  .state-sb-active .sb-toggle-btn {
+    background: #111;
+  }
+  .state-sb-active .sb-toggle-knob {
+    transform: translateX(24px);
+  }
+
+  .sb-infographic-container {
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 12px 12px 0 0;
+    padding: 2rem 1rem 1rem;
+    overflow-x: auto;
+  }
+  .sb-svg {
+    width: 100%;
+    min-width: 600px;
+    height: auto;
+    display: block;
+  }
+  
+  .sb-svg text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    fill: #111;
+    pointer-events: none;
+    transition: opacity 0.4s;
+  }
+
+  /* Transition Defaults */
+  .ig-bg-line { stroke: #ddd; stroke-width: 2; stroke-dasharray: 4 4; }
+  .ig-fg-line { stroke: #111; stroke-width: 2; transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
+  
+  .ig-node {
+    cursor: pointer;
+  }
+  .ig-node rect, .ig-node circle, .ig-decision text {
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .ig-node:hover rect, .ig-node:hover circle.outer-circle {
+    stroke-width: 3 !important;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+  }
+
+  /* SVG State: DEFAULT */
+  .state-default .ig-fg-line { x2: 750px; }
+  .state-default .ig-problem circle { fill: #111; }
+  
+  .state-default .ig-middle1 rect { x: 150px; width: 200px; fill: #fff; stroke: #ccc; stroke-width: 2; }
+  .state-default .ig-text-sb { opacity: 0; }
+  .state-default .ig-text-default { opacity: 1; }
+  
+  .state-default .ig-middle2 { opacity: 1; pointer-events: auto; }
+  .state-default .ig-middle2 rect { fill: #fff; stroke: #ccc; stroke-width: 2; }
+  
+  .state-default .ig-decision circle.outer-circle { cx: 750px; fill: #111; }
+  .state-default .ig-decision circle.inner-circle { cx: 750px; fill: #fff; }
+  .state-default .ig-decision text { transform: translateX(0); }
+
+  .state-default .ig-bypassed-group { opacity: 0; pointer-events: none; }
+
+  /* SVG State: SOUNDING BOARD (SB) */
+  .state-sb .ig-fg-line { x2: 320px; }
+  .state-sb .ig-problem circle { fill: #111; }
+  
+  .state-sb .ig-middle1 rect { x: 150px; width: 160px; fill: #111; stroke: #111; stroke-width: 2; }
+  .state-sb .ig-middle1 text { fill: #fff; }
+  .state-sb .ig-text-sb { opacity: 1; }
+  .state-sb .ig-text-default { opacity: 0; }
+  
+  .state-sb .ig-middle2 { opacity: 0; pointer-events: none; }
+  .state-sb .ig-middle2 rect { transform: scale(0.9); transform-origin: 495px 100px; }
+  
+  .state-sb .ig-decision circle.outer-circle { cx: 320px; fill: #111; }
+  .state-sb .ig-decision circle.inner-circle { cx: 320px; fill: #fff; }
+  .state-sb .ig-decision text { transform: translateX(-430px); }
+
+  .state-sb .ig-bypassed-group { opacity: 1; pointer-events: auto; transition: opacity 0.4s 0.3s; }
+  .ig-bypassed-text { fill: #666 !important; font-style: italic; font-size: 13px !important; }
+
+  /* Readout Panel */
+  .sb-readout-panel {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem 2rem;
+    min-height: 120px;
+  }
+  .sb-readout-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+    color: #111;
+  }
+  .sb-readout-text {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+  }
 
 </style>
 
@@ -325,6 +463,70 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <p class="sb-text-content" style="color: #666; font-size: 1rem; margin-top: 2rem;">
       Your options today are all slow or compromised: consultancies need weeks of lead time and multi-day minimums, your team is a stakeholder in the outcome, and peers at other companies can't see your context. Meanwhile the decision quietly degrades into the default one.
     </p>
+  </section>
+
+  <!-- INFOGRAPHIC SECTION -->
+  <section class="sb-section" style="margin-top: 6rem; margin-bottom: 6rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+      <h2 style="margin: 0;">The Decision Timeline</h2>
+      
+      <div class="sb-toggle-wrapper">
+        <span class="sb-toggle-label sb-toggle-active" id="lbl-default">Default Path</span>
+        <button class="sb-toggle-btn" id="infographic-toggle" aria-label="Toggle process state">
+          <div class="sb-toggle-knob"></div>
+        </button>
+        <span class="sb-toggle-label" id="lbl-sb">Sounding Board</span>
+      </div>
+    </div>
+
+    <div class="sb-infographic-container state-default" id="infographic-container">
+      <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" class="sb-svg">
+        
+        <!-- Background timeline (dashed) -->
+        <line x1="50" y1="100" x2="750" y2="100" class="ig-bg-line"/>
+        
+        <!-- Foreground timeline (solid) -->
+        <line x1="50" y1="100" x2="750" y2="100" class="ig-fg-line"/>
+
+        <!-- Bypassed Space Label (Visible in SB state) -->
+        <g class="ig-bypassed-group" data-id="bypassed" cursor="pointer">
+          <rect x="330" y="80" width="370" height="40" fill="transparent" />
+          <text x="515" y="60" text-anchor="middle" class="ig-bypassed-text">Weeks bypassed</text>
+          <path d="M 330 70 Q 515 40 700 70" fill="none" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 4" />
+        </g>
+
+        <!-- Node 1: Problem -->
+        <g class="ig-node ig-problem" data-id="problem">
+          <circle cx="50" cy="100" r="10" />
+          <text x="50" y="70" text-anchor="middle">The Problem</text>
+        </g>
+
+        <!-- Node 2: Internal Debates / Sounding Board -->
+        <g class="ig-node ig-middle1" data-id="middle1">
+          <rect x="150" y="70" width="200" height="60" rx="8" />
+          <text x="250" y="105" text-anchor="middle" class="ig-text-default">Internal Debates</text>
+          <text x="230" y="105" text-anchor="middle" class="ig-text-sb">60-Min Session</text>
+        </g>
+
+        <!-- Node 3: Consultancy Discovery (Fades out) -->
+        <g class="ig-node ig-middle2" data-id="middle2">
+          <rect x="380" y="70" width="230" height="60" rx="8" />
+          <text x="495" y="105" text-anchor="middle">Consultancy Discovery</text>
+        </g>
+
+        <!-- Node 4: Decision -->
+        <g class="ig-node ig-decision" data-id="decision">
+          <circle cx="750" cy="100" r="14" class="outer-circle"/>
+          <circle cx="750" cy="100" r="6" class="inner-circle"/>
+          <text x="750" y="70" text-anchor="middle">The Decision</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="sb-readout-panel">
+      <div class="sb-readout-title" id="readout-title">Click a phase to inspect</div>
+      <div class="sb-readout-text" id="readout-text">Select any block on the timeline above to see what typically happens at that stage.</div>
+    </div>
   </section>
 
   <section class="sb-section sb-text-content">
@@ -443,3 +645,70 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   </section>
 
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('infographic-toggle');
+    const container = document.getElementById('infographic-container');
+    const toggleWrapper = toggleBtn.parentElement;
+    const lblDefault = document.getElementById('lbl-default');
+    const lblSb = document.getElementById('lbl-sb');
+    const readoutTitle = document.getElementById('readout-title');
+    const readoutText = document.getElementById('readout-text');
+    
+    let currentState = 'default';
+    
+    const readouts = {
+      default: {
+        problem: { title: "The Problem", text: "A strategic decision hits your desk. It feels complex, and the stakes are high." },
+        middle1: { title: "Internal Debates & Endless RFCs", text: "Teams have a stake in the outcome, causing gridlock and endless back-and-forth. The RFC thread becomes a battleground for ownership rather than architecture." },
+        middle2: { title: "Consultancy Discovery", text: "Traditional agencies require multi-week discovery phases and massive statements of work before giving advice. The timeline stretches." },
+        decision: { title: "The Compromised Decision", text: "Eventually, fatigue sets in. The default, easiest path is taken, often inheriting tech debt simply because it was the path of least resistance." }
+      },
+      sb: {
+        problem: { title: "The Problem", text: "A strategic decision hits your desk. It feels complex, and the stakes are high." },
+        middle1: { title: "60-Minute Sounding Board", text: "A single 60-minute session with an impartial expert. We skip the small talk and stress-test your thinking immediately." },
+        decision: { title: "Clear, Owned Decision", text: "You leave with a clarified position that you fully own, ready to communicate to your team." },
+        bypassed: { title: "The Bypassed Space", text: "Weeks of gridlock and expensive discovery phases are completely bypassed. You're ready to act tomorrow." }
+      }
+    };
+
+    function setReadout(id) {
+      const data = readouts[currentState][id];
+      if (data) {
+        readoutTitle.textContent = data.title;
+        readoutText.textContent = data.text;
+      } else {
+        readoutTitle.textContent = "Click a phase to inspect";
+        readoutText.textContent = "Select any block on the timeline above to see what typically happens at that stage.";
+      }
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      if (currentState === 'default') {
+        currentState = 'sb';
+        container.classList.remove('state-default');
+        container.classList.add('state-sb');
+        toggleWrapper.classList.add('state-sb-active');
+        lblDefault.classList.remove('sb-toggle-active');
+        lblSb.classList.add('sb-toggle-active');
+      } else {
+        currentState = 'default';
+        container.classList.remove('state-sb');
+        container.classList.add('state-default');
+        toggleWrapper.classList.remove('state-sb-active');
+        lblDefault.classList.add('sb-toggle-active');
+        lblSb.classList.remove('sb-toggle-active');
+      }
+      setReadout(null);
+    });
+
+    const nodes = document.querySelectorAll('.ig-node, .ig-bypassed-group');
+    nodes.forEach(node => {
+      node.addEventListener('click', () => {
+        const id = node.getAttribute('data-id');
+        setReadout(id);
+      });
+    });
+  });
+</script>
