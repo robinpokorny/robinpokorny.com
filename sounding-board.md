@@ -304,7 +304,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <h2>What this is not</h2>
     <p>Fair warning, because the boundaries are the product:</p>
     <ul>
-      <li><strong>Not a team workshop.</strong> One participant (two at most). If your real problem is five architects who disagree, that's a different format — the Architecture Decision Sprint — and I'll tell you so honestly, including mid-session.</li>
+      <li><strong>Not a team workshop.</strong> One participant (two at most). If your real problem is five architects who disagree, that requires a different format, and I'll tell you so honestly, including mid-session.</li>
       <li><strong>Not implementation.</strong> No code, no PR reviews, no hands on keyboards.</li>
       <li><strong>Not a subscription.</strong> No Slack access, no "quick follow-up calls." One decision per session; a second topic is a second booking.</li>
       <li><strong>Not a report shop.</strong> You get a sharp recap email, not a 20-page deck. You're paying for judgment, not paper.</li>
@@ -336,7 +336,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">Can I bring a colleague?</div>
-      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, which is the Sprint's job, not this session's.</div>
+      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, which requires a team workshop rather than a sounding board session.</div>
     </div>
     
     <div class="sb-faq-item">
