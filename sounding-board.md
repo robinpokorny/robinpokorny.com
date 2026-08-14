@@ -49,7 +49,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     font-size: 1.2rem;
     color: #444;
     line-height: 1.6;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   
   .sb-image {
@@ -244,8 +244,10 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
   <header class="sb-hero">
     <div class="sb-hero-content">
-      <h1>Stuck on a decision?<br/>Talk it through with a specialist.</h1>
-      <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Simple and straightforward. Book today, think clearly tomorrow.</p>
+      <h1>One decision. One hour. An architect with no stake in the answer.</h1>
+      <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Book today, think clearly tomorrow.</p>
+      <p style="font-size: 1.05rem; font-weight: 500; margin-bottom: 1.5rem; color: #555;">Robin Pokorny — Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.</p>
+      <p style="font-weight: 600; margin-bottom: 1.5rem; color: #111;">For VPs, directors, and CTOs with one strategic decision on the desk. Not for teams, not for implementation.</p>
       <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
     </div>
     <div class="sb-hero-image">
@@ -271,7 +273,27 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   <section class="sb-section sb-text-content">
     <h2>What this is</h2>
     <p>One hour, one decision, one specialist across the table. I'm a socio-technical software architect focusing on strategic domain-driven design, bounded contexts, team topologies, the seams where organisation and architecture meet. You bring the decision; I bring twenty years of pattern recognition and no stake in the answer.</p>
-    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the fear you haven't named, and map how reversible each option really is. But you leave with <em>your</em> position clarified. The last ten minutes are you saying your decision back to me the way you'll say it to your team. If you can't say it convincingly to me, you're not ready to say it to them. We fix that in the room.</p>
+    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the fear you haven't named, and map how reversible each option really is. But you leave with <em>your</em> position clarified.</p>
+    
+    <blockquote style="margin: 2rem 0; padding: 1.5rem 2rem; background: #f9f9f9; border-left: 4px solid #111; font-size: 1.15rem; font-style: italic; border-radius: 0 8px 8px 0;">
+      The last ten minutes are the deliverable. You say your decision back to me the way you'll say it to your team. If you can't say it convincingly to me, you're not ready to say it to them. We fix that in the room.
+    </blockquote>
+  </section>
+
+  <section class="sb-section sb-text-content">
+    <!-- TODO(robin): confirm vignettes are real-anonymised or switch intro to 'Illustrative examples…' -->
+    <h2>Decisions that have come through this room</h2>
+    <p><em>Details changed to protect confidentiality; the shape of each decision is real.</em></p>
+    
+    <div style="margin-top: 2rem;">
+      <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Buy vs. build</h4>
+      <p>A VP of Engineering arrived with an RFC to build an internal feature-flag and rollout platform — six weeks of back-and-forth already behind it. In the session we separated the actual differentiating requirement (one unusual targeting rule) from the pride of ownership driving the rest. He left with a buy decision, a thin adapter around the one gap, and a written revisit criterion for twelve months out. The RFC thread closed that week.</p>
+    </div>
+
+    <div style="margin-top: 2rem;">
+      <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">The vendor that felt off</h4>
+      <p>A CTO couldn't articulate why a data-platform contract made her uneasy — the demos were good, the price was fine. Mapping the proposal against her team boundaries surfaced it: the contract quietly coupled two domains that needed to evolve independently, putting the vendor in the middle of every future change. She didn't walk away; she renegotiated the scope to one domain. The unease had a name, and the deal got smaller and better.</p>
+    </div>
   </section>
 
   <section class="sb-section">
@@ -280,7 +302,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <div class="sb-step-card">
         <span class="sb-step-num">Step 1</span>
         <h4 class="sb-step-title">Book & pay</h4>
-        <p class="sb-step-desc">Pick a slot that works for you and pay by card. Done in one sitting. Simple and straightforward booking without lengthy onboarding.</p>
+        <p class="sb-step-desc">Pick a slot, pay by card, done in one sitting.</p>
       </div>
       <div class="sb-step-card">
         <span class="sb-step-num">Step 2</span>
@@ -296,6 +318,12 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
         <span class="sb-step-num">Step 4</span>
         <h4 class="sb-step-title">Same-day recap</h4>
         <p class="sb-step-desc">A short bullet email: the question, the options, where you landed, and the risks you consciously chose to accept. A paper trail for yourself.</p>
+        <!-- TODO(robin): replace with a genuinely redacted recap or label as example -->
+        <pre style="margin-top: 1rem; padding: 1rem; background: #f5f5f5; font-size: 0.85rem; border-radius: 6px; overflow-x: auto; white-space: pre-wrap; color: #333; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">From a real recap (redacted):
+- Decision: migrate billing to vendor X, scoped to invoicing only
+- Deliberately rejected: full-suite adoption (lock-in on the ledger)
+- Accepted risks: 6-mo dual-running cost; renegotiation exposure in 2028
+- Revisit trigger: if reconciliation errors exceed 0.1% in Q1</pre>
       </div>
     </div>
   </section>
@@ -304,21 +332,19 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <h2>What this is not</h2>
     <p>Fair warning, because the boundaries are the product:</p>
     <ul>
-      <li><strong>Not a team workshop.</strong> One participant (two at most). If your real problem is five architects who disagree, that requires a different format, and I'll tell you so honestly, including mid-session.</li>
+      <li><strong>Not a team workshop.</strong> One participant (two at most). If your real problem is five architects who disagree, this format won't fix it, and I'll tell you so honestly — including mid-session.</li>
       <li><strong>Not implementation.</strong> No code, no PR reviews, no hands on keyboards.</li>
       <li><strong>Not a subscription.</strong> No Slack access, no "quick follow-up calls." One decision per session; a second topic is a second booking.</li>
       <li><strong>Not a report shop.</strong> You get a sharp recap email, not a 20-page deck. You're paying for judgment, not paper.</li>
     </ul>
-
-
   </section>
 
   <section class="sb-price-block">
     <h2>€650</h2>
     <p>prepaid at booking.</p>
-    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 600px; margin-bottom: 2.5rem;">For calibration: a five-engineer team costs roughly €2,500 per day in salaries. If this hour shortens your decision by even a single day (and it usually shortens it by weeks) it has paid for itself several times over before lunch.</p>
+    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 600px; margin-bottom: 2.5rem;">For calibration: a five-engineer team costs roughly €2,500 per day in salaries. If this hour shortens your decision by even a single day (and it usually shortens it by weeks) it has paid for itself several times over.</p>
     <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Secure your slot now</a>
-    <p style="margin-top: 1.5rem; font-size: 0.85rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 0.05em;">Slots are capped at 6 per month</p>
+    <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">I run these sessions alongside my full-time role, so availability is genuinely limited — book ahead rather than last-minute.</p>
   </section>
 
   <section class="sb-section sb-faq">
@@ -326,28 +352,34 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">How fast can we actually talk?</div>
-      <div class="sb-faq-a">I hold dedicated slots each week for exactly these sessions, so you can usually find time to talk very soon.</div>
+      <div class="sb-faq-a">I hold a small number of dedicated slots each week. Usually you can find time within days; in busy weeks it may be the following week.</div>
     </div>
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">What if 60 minutes isn't enough?</div>
-      <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's a team problem.</div>
+      <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's an alignment problem inside your team, and that's yours to run — you'll at least leave knowing that's what it is.</div>
     </div>
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">Can I bring a colleague?</div>
-      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, which requires a team workshop rather than a sounding board session.</div>
+      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, and a sounding board session isn't the tool for that.</div>
     </div>
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">What if I need to reschedule?</div>
-      <div class="sb-faq-a">Free up to 24 hours before the session. Inside 24 hours, the slot is burned; that's the honest cost of a speed promise.</div>
+      <div class="sb-faq-a">Free up to 24 hours before the session. Inside 24 hours the slot can't be resold, so it's charged. That's the honest cost of holding dedicated time.</div>
     </div>
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">Do you refund if it wasn't useful?</div>
-      <div class="sb-faq-a">If, at the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. After that, we're committed, and I'll make it worth committing to.</div>
+      <div class="sb-faq-a">If, at the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. After that, we're committed for the hour.</div>
     </div>
+  </section>
+
+  <section class="sb-section" style="text-align: center; margin-bottom: 6rem;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Ready?</h2>
+    <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #444;">One decision is sitting on your desk right now. Give it an hour.</p>
+    <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
   </section>
 
 </div>
