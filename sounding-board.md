@@ -244,7 +244,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
   <header class="sb-hero">
     <div class="sb-hero-content">
-      <h1>Stuck on a decision?<br/>Talk it through with a specialist — within 48 hours.</h1>
+      <h1>Stuck on a decision?<br/>Talk it through with a specialist.</h1>
       <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Simple and straightforward. Book today, think clearly tomorrow.</p>
       <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
     </div>
@@ -280,7 +280,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <div class="sb-step-card">
         <span class="sb-step-num">Step 1</span>
         <h4 class="sb-step-title">Book & pay</h4>
-        <p class="sb-step-desc">Pick a slot (sessions available within 2 business days), pay by card. Done in one sitting. Simple and straightforward booking without lengthy onboarding.</p>
+        <p class="sb-step-desc">Pick a slot that works for you and pay by card. Done in one sitting. Simple and straightforward booking without lengthy onboarding.</p>
       </div>
       <div class="sb-step-card">
         <span class="sb-step-num">Step 2</span>
@@ -327,7 +327,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">How fast can we actually talk?</div>
-      <div class="sb-faq-a">Within 2 business days, guaranteed; usually next-day. I hold dedicated slots each week for exactly these sessions.</div>
+      <div class="sb-faq-a">I hold dedicated slots each week for exactly these sessions, so you can usually find time to talk very soon.</div>
     </div>
     
     <div class="sb-faq-item">
