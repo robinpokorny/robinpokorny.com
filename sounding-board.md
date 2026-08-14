@@ -360,7 +360,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   .ig-node {
     cursor: pointer;
   }
-  .ig-node rect, .ig-node circle, .ig-decision text {
+  .ig-node rect, .ig-node circle, .ig-node text {
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .ig-node:hover rect, .ig-node:hover circle.outer-circle {
@@ -369,40 +369,51 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   }
 
   /* SVG State: DEFAULT */
-  .state-default .ig-fg-line { x2: 750px; }
+  .state-default .ig-fg-line { x2: 920px; }
   .state-default .ig-problem circle { fill: #111; }
   
-  .state-default .ig-middle1 rect { x: 150px; width: 200px; fill: #fff; stroke: #ccc; stroke-width: 2; }
+  .state-default .ig-middle1 rect { x: 120px; width: 160px; fill: #fff; stroke: #ccc; stroke-width: 2; }
   .state-default .ig-text-sb { opacity: 0; }
   .state-default .ig-text-default { opacity: 1; }
   
   .state-default .ig-middle2 { opacity: 1; pointer-events: auto; }
   .state-default .ig-middle2 rect { fill: #fff; stroke: #ccc; stroke-width: 2; }
   
-  .state-default .ig-decision circle.outer-circle { cx: 750px; fill: #111; }
-  .state-default .ig-decision circle.inner-circle { cx: 750px; fill: #fff; }
-  .state-default .ig-decision text { transform: translateX(0); }
+  .state-default .ig-middle3 { opacity: 1; pointer-events: auto; }
+  .state-default .ig-middle3 rect { fill: #fff; stroke: #ccc; stroke-width: 2; }
 
-  .state-default .ig-bypassed-group { opacity: 0; pointer-events: none; }
+  .state-default .ig-middle4 rect { x: 720px; width: 160px; fill: #fff; stroke: #ccc; stroke-width: 2; }
+  .state-default .ig-text-alignment { opacity: 0; transform: translateX(0); }
+  .state-default .ig-text-misaligned { opacity: 1; transform: translateX(0); }
+
+  .state-default .ig-decision circle.outer-circle { cx: 920px; fill: #111; }
+  .state-default .ig-decision circle.inner-circle { cx: 920px; fill: #fff; }
+  .state-default .ig-text-decision { opacity: 1; transform: translateX(0); }
+  .state-default .ig-text-decision-sb { opacity: 0; transform: translateX(0); }
 
   /* SVG State: SOUNDING BOARD (SB) */
-  .state-sb .ig-fg-line { x2: 320px; }
+  .state-sb .ig-fg-line { x2: 520px; }
   .state-sb .ig-problem circle { fill: #111; }
   
-  .state-sb .ig-middle1 rect { x: 150px; width: 160px; fill: #111; stroke: #111; stroke-width: 2; }
+  .state-sb .ig-middle1 rect { x: 120px; width: 160px; fill: #111; stroke: #111; stroke-width: 2; }
   .state-sb .ig-middle1 text { fill: #fff; }
   .state-sb .ig-text-sb { opacity: 1; }
   .state-sb .ig-text-default { opacity: 0; }
   
   .state-sb .ig-middle2 { opacity: 0; pointer-events: none; }
-  .state-sb .ig-middle2 rect { transform: scale(0.9); transform-origin: 495px 100px; }
-  
-  .state-sb .ig-decision circle.outer-circle { cx: 320px; fill: #111; }
-  .state-sb .ig-decision circle.inner-circle { cx: 320px; fill: #fff; }
-  .state-sb .ig-decision text { transform: translateX(-430px); }
+  .state-sb .ig-middle2 rect { transform: scale(0.9); transform-origin: 400px 100px; }
 
-  .state-sb .ig-bypassed-group { opacity: 1; pointer-events: auto; transition: opacity 0.4s 0.3s; }
-  .ig-bypassed-text { fill: #666 !important; font-style: italic; font-size: 13px !important; }
+  .state-sb .ig-middle3 { opacity: 0; pointer-events: none; }
+  .state-sb .ig-middle3 rect { transform: scale(0.9); transform-origin: 600px 100px; }
+  
+  .state-sb .ig-middle4 rect { x: 320px; width: 160px; fill: #fff; stroke: #111; stroke-width: 2; }
+  .state-sb .ig-text-alignment { opacity: 1; transform: translateX(-400px); }
+  .state-sb .ig-text-misaligned { opacity: 0; transform: translateX(-400px); }
+
+  .state-sb .ig-decision circle.outer-circle { cx: 520px; fill: #111; }
+  .state-sb .ig-decision circle.inner-circle { cx: 520px; fill: #fff; }
+  .state-sb .ig-text-decision { opacity: 0; transform: translateX(-400px); }
+  .state-sb .ig-text-decision-sb { opacity: 1; transform: translateX(-400px); }
 
   /* Readout Panel */
   .sb-readout-panel {
@@ -480,20 +491,13 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </div>
 
     <div class="sb-infographic-container state-default" id="infographic-container">
-      <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" class="sb-svg">
+      <svg viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" class="sb-svg">
         
         <!-- Background timeline (dashed) -->
-        <line x1="50" y1="100" x2="750" y2="100" class="ig-bg-line"/>
+        <line x1="50" y1="100" x2="920" y2="100" class="ig-bg-line"/>
         
         <!-- Foreground timeline (solid) -->
-        <line x1="50" y1="100" x2="750" y2="100" class="ig-fg-line"/>
-
-        <!-- Bypassed Space Label (Visible in SB state) -->
-        <g class="ig-bypassed-group" data-id="bypassed" cursor="pointer">
-          <rect x="330" y="80" width="370" height="40" fill="transparent" />
-          <text x="515" y="60" text-anchor="middle" class="ig-bypassed-text">Weeks bypassed</text>
-          <path d="M 330 70 Q 515 40 700 70" fill="none" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4 4" />
-        </g>
+        <line x1="50" y1="100" x2="920" y2="100" class="ig-fg-line"/>
 
         <!-- Node 1: Problem -->
         <g class="ig-node ig-problem" data-id="problem">
@@ -501,24 +505,38 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
           <text x="50" y="70" text-anchor="middle">The Problem</text>
         </g>
 
-        <!-- Node 2: Internal Debates / Sounding Board -->
+        <!-- Node 2: Internal RFCs / Sounding Board -->
         <g class="ig-node ig-middle1" data-id="middle1">
-          <rect x="150" y="70" width="200" height="60" rx="8" />
-          <text x="250" y="105" text-anchor="middle" class="ig-text-default">Internal Debates</text>
-          <text x="230" y="105" text-anchor="middle" class="ig-text-sb">60-Min Session</text>
+          <rect x="120" y="70" width="160" height="60" rx="8" />
+          <text x="200" y="105" text-anchor="middle" class="ig-text-default">Endless RFCs</text>
+          <text x="200" y="105" text-anchor="middle" class="ig-text-sb">60-Min Session</text>
         </g>
 
-        <!-- Node 3: Consultancy Discovery (Fades out) -->
+        <!-- Node 3: Vendor Demos (Fades out) -->
         <g class="ig-node ig-middle2" data-id="middle2">
-          <rect x="380" y="70" width="230" height="60" rx="8" />
-          <text x="495" y="105" text-anchor="middle">Consultancy Discovery</text>
+          <rect x="320" y="70" width="160" height="60" rx="8" />
+          <text x="400" y="105" text-anchor="middle">Vendor Demos</text>
         </g>
 
-        <!-- Node 4: Decision -->
+        <!-- Node 4: Paid Discovery (Fades out) -->
+        <g class="ig-node ig-middle3" data-id="middle3">
+          <rect x="520" y="70" width="160" height="60" rx="8" />
+          <text x="600" y="105" text-anchor="middle">Paid Discovery</text>
+        </g>
+
+        <!-- Node 5: Misaligned Execution / Targeted Alignment -->
+        <g class="ig-node ig-middle4" data-id="middle4">
+          <rect x="720" y="70" width="160" height="60" rx="8" />
+          <text x="800" y="105" text-anchor="middle" class="ig-text-misaligned">Misaligned Execution</text>
+          <text x="800" y="105" text-anchor="middle" class="ig-text-alignment">Targeted Alignment</text>
+        </g>
+
+        <!-- Node 6: Decision -->
         <g class="ig-node ig-decision" data-id="decision">
-          <circle cx="750" cy="100" r="14" class="outer-circle"/>
-          <circle cx="750" cy="100" r="6" class="inner-circle"/>
-          <text x="750" y="70" text-anchor="middle">The Decision</text>
+          <circle cx="920" cy="100" r="14" class="outer-circle"/>
+          <circle cx="920" cy="100" r="6" class="inner-circle"/>
+          <text x="920" y="70" text-anchor="middle" class="ig-text-decision">Compromised Decision</text>
+          <text x="920" y="70" text-anchor="middle" class="ig-text-decision-sb">Confident Execution</text>
         </g>
       </svg>
     </div>
@@ -661,15 +679,17 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     const readouts = {
       default: {
         problem: { title: "The Problem", text: "A strategic decision hits your desk. It feels complex, and the stakes are high." },
-        middle1: { title: "Internal Debates & Endless RFCs", text: "Teams have a stake in the outcome, causing gridlock and endless back-and-forth. The RFC thread becomes a battleground for ownership rather than architecture." },
-        middle2: { title: "Consultancy Discovery", text: "Traditional agencies require multi-week discovery phases and massive statements of work before giving advice. The timeline stretches." },
-        decision: { title: "The Compromised Decision", text: "Eventually, fatigue sets in. The default, easiest path is taken, often inheriting tech debt simply because it was the path of least resistance." }
+        middle1: { title: "Endless RFCs", text: "Internal teams debate the solution, but with a stake in the outcome. The thread becomes a battle for ownership rather than architecture." },
+        middle2: { title: "Vendor Demos", text: "Weeks lost to sales calls and proof-of-concepts that look great but hide architectural coupling." },
+        middle3: { title: "Paid Discovery", text: "Traditional agencies require multi-week discovery phases and heavy SOWs just to understand your baseline." },
+        middle4: { title: "Misaligned Execution", text: "Fatigue forces a compromised decision. The team starts building, but core assumptions remain untested until they break." },
+        decision: { title: "The Compromised Decision", text: "You inherited tech debt because it was the path of least resistance." }
       },
       sb: {
         problem: { title: "The Problem", text: "A strategic decision hits your desk. It feels complex, and the stakes are high." },
-        middle1: { title: "60-Minute Sounding Board", text: "A single 60-minute session with an impartial expert. We skip the small talk and stress-test your thinking immediately." },
-        decision: { title: "Clear, Owned Decision", text: "You leave with a clarified position that you fully own, ready to communicate to your team." },
-        bypassed: { title: "The Bypassed Space", text: "Weeks of gridlock and expensive discovery phases are completely bypassed. You're ready to act tomorrow." }
+        middle1: { title: "60-Minute Sounding Board", text: "An impartial expert stress-tests your thinking and maps the reversibility of your options. You leave with a clarified position." },
+        middle4: { title: "Targeted Alignment", text: "You still have to align your team, but now you have a coherent narrative and a clear understanding of the trade-offs you are consciously accepting." },
+        decision: { title: "Confident Execution", text: "The team builds against a solid decision. The timeline is shorter not because of magic, but because the foundational ambiguity is gone." }
       }
     };
 
