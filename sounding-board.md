@@ -238,6 +238,66 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     margin-bottom: 1.5rem;
   }
 
+  .sb-recap-sample {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #444;
+    position: relative;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+  }
+  .sb-recap-sample::before {
+    content: "From a real recap (redacted):";
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #888;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  .sb-recap-sample ul {
+    margin: 0 !important;
+    padding-left: 1.25rem !important;
+  }
+  .sb-recap-sample li {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .sb-hero-bio {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+  }
+  .sb-hero-bio-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .sb-hero-bio-text {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  .sb-hero-skimmer {
+    display: inline-block;
+    background: #f5f5f5;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 2rem;
+    border-left: 3px solid #111;
+  }
+
 </style>
 
 <div class="sb-container">
@@ -246,9 +306,21 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <div class="sb-hero-content">
       <h1>One decision. One hour. An architect with no stake in the answer.</h1>
       <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Book today, think clearly tomorrow.</p>
-      <p style="font-size: 1.05rem; font-weight: 500; margin-bottom: 1.5rem; color: #555;">Robin Pokorny — Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.</p>
-      <p style="font-weight: 600; margin-bottom: 1.5rem; color: #111;">For VPs, directors, and CTOs with one strategic decision on the desk. Not for teams, not for implementation.</p>
-      <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
+      
+      <div class="sb-hero-bio">
+        <img src="https://res.cloudinary.com/dljslvfla/image/upload/w_96,h_96,c_fill,q_auto,f_auto,r_max/v1781183584/20260528_WEB-EXPO-2026_2.Photo_PetrLebeda_normal-size-62_copy_mabja4.jpg" alt="Robin Pokorny" class="sb-hero-bio-img">
+        <div class="sb-hero-bio-text">
+          <strong>Robin Pokorny</strong> &mdash; Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
+        </div>
+      </div>
+      
+      <div class="sb-hero-skimmer">
+        For VPs, directors, and CTOs with one strategic decision on the desk.<br/>Not for teams, not for implementation.
+      </div>
+      
+      <div>
+        <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
+      </div>
     </div>
     <div class="sb-hero-image">
       <img src="{{ page.image }}" alt="Robin Pokorny" class="sb-image">
@@ -319,11 +391,14 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
         <h4 class="sb-step-title">Same-day recap</h4>
         <p class="sb-step-desc">A short bullet email: the question, the options, where you landed, and the risks you consciously chose to accept. A paper trail for yourself.</p>
         <!-- TODO(robin): replace with a genuinely redacted recap or label as example -->
-        <pre style="margin-top: 1rem; padding: 1rem; background: #f5f5f5; font-size: 0.85rem; border-radius: 6px; overflow-x: auto; white-space: pre-wrap; color: #333; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">From a real recap (redacted):
-- Decision: migrate billing to vendor X, scoped to invoicing only
-- Deliberately rejected: full-suite adoption (lock-in on the ledger)
-- Accepted risks: 6-mo dual-running cost; renegotiation exposure in 2028
-- Revisit trigger: if reconciliation errors exceed 0.1% in Q1</pre>
+        <div class="sb-recap-sample">
+          <ul>
+            <li><strong>Decision:</strong> migrate billing to vendor X, scoped to invoicing only</li>
+            <li><strong>Deliberately rejected:</strong> full-suite adoption (lock-in on the ledger)</li>
+            <li><strong>Accepted risks:</strong> 6-mo dual-running cost; renegotiation exposure in 2028</li>
+            <li><strong>Revisit trigger:</strong> if reconciliation errors exceed 0.1% in Q1</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
