@@ -310,8 +310,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <li><strong>Not a report shop.</strong> You get a sharp recap email, not a 20-page deck. You're paying for judgment, not paper.</li>
     </ul>
 
-    <h2 style="margin-top: 4rem;">Confidentiality</h2>
-    <p>Everything you share is treated as confidential and never used to train third-party models. If you need an NDA signed first, send it with your booking — reviewed within one business day.</p>
+
   </section>
 
   <section class="sb-price-block">
