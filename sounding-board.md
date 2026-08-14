@@ -257,11 +257,11 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <h2>The situation you're probably in</h2>
     <p class="sb-text-content">You're a VP, director, or CTO, and a decision is sitting on your desk:</p>
     <ul class="sb-text-content">
-      <li><strong>Buy vs. build</strong> — and your own team isn't neutral about the answer.</li>
+      <li><strong>Buy vs. build:</strong> your own team isn't neutral about the answer.</li>
       <li><strong>A vendor or platform choice</strong> that feels off in a way you can't articulate yet.</li>
       <li><strong>A team-boundary or ownership question</strong> that's still a hunch, not yet a conflict.</li>
-      <li><strong>An RFC waiting for your approval</strong> — and you want one independent read before you sign off.</li>
-      <li><strong>A consultancy proposal for a six-week engagement</strong> — and you'd like to check it's even the right problem first.</li>
+      <li><strong>An RFC waiting for your approval,</strong> and you want one independent read before you sign off.</li>
+      <li><strong>A consultancy proposal for a six-week engagement,</strong> and you'd like to check it's even the right problem first.</li>
     </ul>
     <p class="sb-text-content" style="color: #666; font-size: 1rem; margin-top: 2rem;">
       Your options today are all slow or compromised: consultancies need weeks of lead time and multi-day minimums, your team is a stakeholder in the outcome, and peers at other companies can't see your context. Meanwhile the decision quietly degrades into the default one.
@@ -270,8 +270,8 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
   <section class="sb-section sb-text-content">
     <h2>What this is</h2>
-    <p>One hour, one decision, one specialist across the table. I'm a socio-technical software architect — strategic domain-driven design, bounded contexts, team topologies, the seams where organisation and architecture meet. You bring the decision; I bring twenty years of pattern recognition and no stake in the answer.</p>
-    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the fear you haven't named, and map how reversible each option really is. But you leave with <em>your</em> position, clarified — the last ten minutes are you saying your decision back to me the way you'll say it to your team. If you can't say it convincingly to me, you're not ready to say it to them. We fix that in the room.</p>
+    <p>One hour, one decision, one specialist across the table. I'm a socio-technical software architect focusing on strategic domain-driven design, bounded contexts, team topologies, the seams where organisation and architecture meet. You bring the decision; I bring twenty years of pattern recognition and no stake in the answer.</p>
+    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the fear you haven't named, and map how reversible each option really is. But you leave with <em>your</em> position clarified. The last ten minutes are you saying your decision back to me the way you'll say it to your team. If you can't say it convincingly to me, you're not ready to say it to them. We fix that in the room.</p>
   </section>
 
   <section class="sb-section">
@@ -316,7 +316,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   <section class="sb-price-block">
     <h2>€650</h2>
     <p>prepaid at booking.</p>
-    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 600px; margin-bottom: 2.5rem;">For calibration: a five-engineer team costs roughly €2,500 per day in salaries. If this hour shortens your decision by even a single day — and it usually shortens it by weeks — it has paid for itself several times over before lunch.</p>
+    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 600px; margin-bottom: 2.5rem;">For calibration: a five-engineer team costs roughly €2,500 per day in salaries. If this hour shortens your decision by even a single day (and it usually shortens it by weeks) it has paid for itself several times over before lunch.</p>
     <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Secure your slot now</a>
     <p style="margin-top: 1.5rem; font-size: 0.85rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 0.05em;">Slots are capped at 6 per month</p>
   </section>
@@ -341,12 +341,12 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">What if I need to reschedule?</div>
-      <div class="sb-faq-a">Free up to 24 hours before the session. Inside 24 hours, the slot is burned — that's the honest cost of a speed promise.</div>
+      <div class="sb-faq-a">Free up to 24 hours before the session. Inside 24 hours, the slot is burned; that's the honest cost of a speed promise.</div>
     </div>
     
     <div class="sb-faq-item">
       <div class="sb-faq-q">Do you refund if it wasn't useful?</div>
-      <div class="sb-faq-a">If, at the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. After that, we're committed — and I'll make it worth committing to.</div>
+      <div class="sb-faq-a">If, at the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. After that, we're committed, and I'll make it worth committing to.</div>
     </div>
   </section>
 
