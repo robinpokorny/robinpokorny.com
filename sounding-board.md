@@ -267,24 +267,13 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     margin-bottom: 0.5rem !important;
   }
 
-  .sb-hero-bio {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #eee;
-  }
-  .sb-hero-bio-img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
   .sb-hero-bio-text {
     font-size: 0.95rem;
     color: #555;
     line-height: 1.5;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
   }
   .sb-hero-skimmer {
     display: inline-block;
@@ -307,13 +296,6 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <h1>One decision. One hour. An architect with no stake in the answer.</h1>
       <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Book today, think clearly tomorrow.</p>
       
-      <div class="sb-hero-bio">
-        <img src="https://res.cloudinary.com/dljslvfla/image/upload/w_96,h_96,c_fill,q_auto,f_auto,r_max/v1781183584/20260528_WEB-EXPO-2026_2.Photo_PetrLebeda_normal-size-62_copy_mabja4.jpg" alt="Robin Pokorny" class="sb-hero-bio-img">
-        <div class="sb-hero-bio-text">
-          <strong>Robin Pokorny</strong> &mdash; Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
-        </div>
-      </div>
-      
       <div class="sb-hero-skimmer">
         For VPs, directors, and CTOs with one strategic decision on the desk.<br/>Not for teams, not for implementation.
       </div>
@@ -324,6 +306,9 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </div>
     <div class="sb-hero-image">
       <img src="{{ page.image }}" alt="Robin Pokorny" class="sb-image">
+      <div class="sb-hero-bio-text">
+        <strong>Robin Pokorny</strong> &mdash; Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
+      </div>
     </div>
   </header>
 
