@@ -64,60 +64,64 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <p><em>Illustrative examples, composited from real situations; details changed.</em></p>
 
     <style>
-      .sb-vignette-card {
-        background: #fdfdfd;
-        border: 1px solid #eaeaea;
-        border-radius: 8px;
-        padding: 2rem;
-        margin-top: 2rem;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      .sb-vignette {
+        margin-top: 3.5rem;
       }
       .sb-vignette-title {
         margin-top: 0;
         margin-bottom: 1.25rem;
-        font-size: 1.25rem;
+        font-size: 1.35rem;
         color: #111;
       }
+      .sb-vignette-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
       .sb-vignette-section {
-        margin-bottom: 1rem;
         color: #444;
         line-height: 1.6;
       }
       .sb-vignette-section strong {
         color: #111;
         font-weight: 600;
+        margin-right: 0.25rem;
       }
       .sb-vignette-highlight {
-        margin-top: 1.5rem;
-        padding-top: 1.5rem;
-        border-top: 1px dashed #ddd;
-        margin-bottom: 0;
+        margin-top: 0.5rem;
+        padding-left: 1.25rem;
+        border-left: 3px solid #111;
+        color: #222;
       }
     </style>
 
-    <div class="sb-vignette-card">
+    <div class="sb-vignette">
       <h4 class="sb-vignette-title">Buy vs. build that feels off</h4>
-      <div class="sb-vignette-section">
-        <strong>The situation:</strong> An RFC to build the feature-flag system in-house has sat in a VP's inbox for two weeks. It's thorough, the team is unanimous, everyone is rooting for the build, himself included. And he can't say why he hasn't approved it.
-      </div>
-      <div class="sb-vignette-section">
-        <strong>Why it's stuck:</strong> Internal review comes from the same consensus that wrote it. Too specific for a quick peer chat and too small to justify a standard consultancy.
-      </div>
-      <div class="sb-vignette-section sb-vignette-highlight">
-        <strong>Why a sounding board:</strong> Someone with no pride of ownership plays the missing dissenter, separating what is genuinely differentiating from what is merely fun to build. The doubt gets a name before it gets a signature, and he walks back to the team with reasons they can build on, whichever way it goes.
+      <div class="sb-vignette-grid">
+        <div class="sb-vignette-section">
+          <strong>The situation:</strong> An RFC to build the feature-flag system in-house has sat in a VP's inbox for two weeks. It's thorough, the team is unanimous, everyone is rooting for the build, himself included. And he can't say why he hasn't approved it.
+        </div>
+        <div class="sb-vignette-section">
+          <strong>Why it's stuck:</strong> Internal review comes from the same consensus that wrote it. Too specific for a quick peer chat and too small to justify a standard consultancy.
+        </div>
+        <div class="sb-vignette-section sb-vignette-highlight">
+          <strong>Why a sounding board:</strong> Someone with no pride of ownership plays the missing dissenter, separating what is genuinely differentiating from what is merely fun to build. The doubt gets a name before it gets a signature, and he walks back to the team with reasons they can build on, whichever way it goes.
+        </div>
       </div>
     </div>
 
-    <div class="sb-vignette-card">
+    <div class="sb-vignette">
       <h4 class="sb-vignette-title">The announcement that won't land well</h4>
-      <div class="sb-vignette-section">
-        <strong>The situation:</strong> A restructuring is decided, and it's the right call. Now she has to tell three teams whose ownership it changes, and she knows how it will sound: chaos from above, decided over their heads.
-      </div>
-      <div class="sb-vignette-section">
-        <strong>Why it's stuck:</strong> There's nobody to work this through with. The affected teams can't help design their own announcement, and her leadership peers give a polite "sounds fine." Without a counterpart, the rollout stays improvised.
-      </div>
-      <div class="sb-vignette-section sb-vignette-highlight">
-        <strong>Why a sounding board:</strong> One hour of working the problem with someone who has staged changes like this before. Together we rebuild the announcement from the teams' perspective, sequence who hears what and when, and pick the practices that turn a top-down decree into a change people can follow.
+      <div class="sb-vignette-grid">
+        <div class="sb-vignette-section">
+          <strong>The situation:</strong> A restructuring is decided, and it's the right call. Now she has to tell three teams whose ownership it changes, and she knows how it will sound: chaos from above, decided over their heads.
+        </div>
+        <div class="sb-vignette-section">
+          <strong>Why it's stuck:</strong> There's nobody to work this through with. The affected teams can't help design their own announcement, and her leadership peers give a polite "sounds fine." Without a counterpart, the rollout stays improvised.
+        </div>
+        <div class="sb-vignette-section sb-vignette-highlight">
+          <strong>Why a sounding board:</strong> One hour of working the problem with someone who has staged changes like this before. Together we rebuild the announcement from the teams' perspective, sequence who hears what and when, and pick the practices that turn a top-down decree into a change people can follow.
+        </div>
       </div>
     </div>
   </section>
