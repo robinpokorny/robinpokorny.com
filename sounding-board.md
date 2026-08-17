@@ -161,8 +161,8 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   }
 
   .sb-faq-item {
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid #eee;
   }
 
@@ -173,8 +173,37 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   .sb-faq-q {
     font-weight: 700;
     font-size: 1.2rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
     letter-spacing: -0.01em;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    padding: 0.5rem 0;
+  }
+
+  .sb-faq-q::-webkit-details-marker {
+    display: none;
+  }
+
+  .sb-faq-q::after {
+    content: "+";
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #666;
+    transition: transform 0.2s ease;
+    margin-left: 1rem;
+    flex-shrink: 0;
+  }
+
+  details.sb-faq-item[open] .sb-faq-q::after {
+    content: "−";
+  }
+
+  details.sb-faq-item[open] .sb-faq-q {
+    margin-bottom: 0.75rem;
   }
 
   .sb-faq-a {
@@ -224,35 +253,6 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
   .sb-text-content p {
     margin-bottom: 1.5rem;
-  }
-
-  .sb-recap-sample {
-    margin-top: 1.5rem;
-    padding: 1.5rem;
-    background: #fafafa;
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    color: #444;
-    position: relative;
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
-  }
-  .sb-recap-sample::before {
-    content: "Example recap:";
-    display: block;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #888;
-    margin-bottom: 1rem;
-    font-weight: 700;
-  }
-  .sb-recap-sample ul {
-    margin: 0 !important;
-    padding-left: 1.25rem !important;
-  }
-  .sb-recap-sample li {
-    margin-bottom: 0.5rem !important;
   }
 
   .sb-hero-bio-text {
@@ -367,14 +367,6 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
         <span class="sb-step-num">Step 4</span>
         <h4 class="sb-step-title">Same-day recap</h4>
         <p class="sb-step-desc">A short bullet email: the question, the options, where you landed, and the risks you consciously chose to accept. A paper trail for yourself.</p>
-        <div class="sb-recap-sample">
-          <ul>
-            <li><strong>Decision:</strong> migrate billing to vendor X, scoped to invoicing only</li>
-            <li><strong>Deliberately rejected:</strong> full-suite adoption (lock-in on the ledger)</li>
-            <li><strong>Accepted risks:</strong> 6-mo dual-running cost; renegotiation exposure in 2028</li>
-            <li><strong>Revisit trigger:</strong> if reconciliation errors exceed 0.1% in Q1</li>
-          </ul>
-        </div>
       </div>
     </div>
   </section>
@@ -386,7 +378,6 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <li><strong>The 20-minute rule.</strong> If, by the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. Neither of us should pay for an hour that isn't working.</li>
       <li><strong>One decision per session.</strong> A second topic is a second booking. Depth over coverage.</li>
       <li><strong>One participant, two at most.</strong> If your real problem is five architects who disagree, this format won't fix it &mdash; and I'll say so, including mid-session.</li>
-      <li><strong>Rescheduling is free up to 24 hours before.</strong> Inside 24 hours the slot can't be resold, so it's charged. That's the honest cost of dedicated time.</li>
       <li><strong>No implementation, no report.</strong> No code, no PR reviews, no 20-page deck. You get the conversation and a sharp recap email. You're paying for judgment, not paper.</li>
       <li><strong>Strictly confidential.</strong> Nothing from the session is reused, referenced, or written about without your explicit agreement.</li>
     </ul>
@@ -402,30 +393,30 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   <section class="sb-section sb-faq">
     <h2 style="text-align: center; margin-bottom: 3rem;">Questions people ask</h2>
 
-    <div class="sb-faq-item">
-      <div class="sb-faq-q">How soon can we talk?</div>
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">How soon can we talk?</summary>
       <div class="sb-faq-a">Usually within days; in busy weeks, the following week. The booking calendar shows exactly what's open.</div>
-    </div>
+    </details>
 
-    <div class="sb-faq-item">
-      <div class="sb-faq-q">What if 60 minutes isn't enough?</div>
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">Where do the sessions take place?</summary>
+      <div class="sb-faq-a">The sessions are remote over video call (Google Meet), they only need a browser.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">What if 60 minutes isn't enough?</summary>
       <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's an alignment problem inside your team &mdash; and knowing that is itself worth the hour.</div>
-    </div>
+    </details>
 
-    <div class="sb-faq-item">
-      <div class="sb-faq-q">Can I bring a colleague?</div>
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">Can I bring a colleague?</summary>
       <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, and a sounding board isn't the tool for that.</div>
-    </div>
+    </details>
 
-    <div class="sb-faq-item">
-      <div class="sb-faq-q">Will you tell me what to do?</div>
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">Will you tell me what to do?</summary>
       <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours &mdash; that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
-    </div>
-
-    <div class="sb-faq-item">
-      <div class="sb-faq-q">Is this confidential?</div>
-      <div class="sb-faq-a">Fully. An NDA is fine if your legal team wants one &mdash; send it with the intake form.</div>
-    </div>
+    </details>
   </section>
 
   <section class="sb-section" style="text-align: center; margin-bottom: 6rem;">
