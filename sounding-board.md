@@ -400,7 +400,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
     <details class="sb-faq-item">
       <summary class="sb-faq-q">Where do the sessions take place?</summary>
-      <div class="sb-faq-a">The sessions are remote over video call (Google Meet), they only need a browser.</div>
+      <div class="sb-faq-a">Sessions take place remotely over video call (Google Meet) &mdash; all you need is a web browser.</div>
     </details>
 
     <details class="sb-faq-item">
