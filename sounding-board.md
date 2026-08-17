@@ -387,7 +387,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <h2>&euro;650</h2>
     <p>One session, 60 minutes, prepaid at booking. Includes intake review and the same-day recap.</p>
     <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book a session</a>
-    <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">I hold a small number of slots per week, alongside my full-time role. If none fit, write to me and we'll find one.</p>
+    <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">Prices shown excl. VAT. Fully refunded if we stop within 20 minutes.</p>
   </section>
 
   <section class="sb-section sb-faq">
@@ -399,8 +399,18 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </details>
 
     <details class="sb-faq-item">
+      <summary class="sb-faq-q">What if none of the calendar slots fit my schedule?</summary>
+      <div class="sb-faq-a">I hold a small number of slots per week alongside my full-time role. If none fit your schedule, write to me and we'll find a time that works.</div>
+    </details>
+
+    <details class="sb-faq-item">
       <summary class="sb-faq-q">Where do the sessions take place?</summary>
       <div class="sb-faq-a">Sessions take place remotely over video call via Google Meet. All you need is a web browser.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">How does payment and invoicing work?</summary>
+      <div class="sb-faq-a">The session is paid in advance at booking, and you will receive a standard invoice. The price shown is exclusive of VAT.</div>
     </details>
 
     <details class="sb-faq-item">
