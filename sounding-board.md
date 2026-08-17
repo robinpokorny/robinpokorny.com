@@ -409,8 +409,23 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </details>
 
     <details class="sb-faq-item">
+      <summary class="sb-faq-q">How should I prepare for the session?</summary>
+      <div class="sb-faq-a">Answer the short 5-question intake form at booking so we skip the intro and start at minute one. If you have an RFC or architecture diagram, you can optionally attach it.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">Is the session recorded or transcribed?</summary>
+      <div class="sb-faq-a">Automated transcription is enabled, and you will receive the transcript as part of your recap. No video or audio is recorded.</div>
+    </details>
+
+    <details class="sb-faq-item">
       <summary class="sb-faq-q">How does payment and invoicing work?</summary>
       <div class="sb-faq-a">The session is paid in advance at booking, and you will receive a standard invoice. The price shown is exclusive of VAT.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">What if I need to reschedule?</summary>
+      <div class="sb-faq-a">You can reschedule your session directly using the link in your booking confirmation email.</div>
     </details>
 
     <details class="sb-faq-item">
@@ -426,6 +441,11 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <details class="sb-faq-item">
       <summary class="sb-faq-q">Will you tell me what to do?</summary>
       <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours: that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">Can I ask follow-up questions after the session?</summary>
+      <div class="sb-faq-a">Yes. You'll receive a same-day recap email mapping the decision and trade-offs. If you need a quick clarification on the recap, just reply to the email.</div>
     </details>
   </section>
 
