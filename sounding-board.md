@@ -394,16 +394,6 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <h2 style="text-align: center; margin-bottom: 3rem;">Questions people ask</h2>
 
     <details class="sb-faq-item">
-      <summary class="sb-faq-q">How soon can we talk?</summary>
-      <div class="sb-faq-a">Usually within days; in busy weeks, the following week. The booking calendar shows exactly what's open.</div>
-    </details>
-
-    <details class="sb-faq-item">
-      <summary class="sb-faq-q">What if none of the calendar slots fit my schedule?</summary>
-      <div class="sb-faq-a">I hold a small number of slots per week alongside my full-time role. If none fit your schedule, write to me and we'll find a time that works.</div>
-    </details>
-
-    <details class="sb-faq-item">
       <summary class="sb-faq-q">Where do the sessions take place?</summary>
       <div class="sb-faq-a">Sessions take place remotely over video call via Google Meet. All you need is a web browser.</div>
     </details>
@@ -414,8 +404,18 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </details>
 
     <details class="sb-faq-item">
-      <summary class="sb-faq-q">Is the session recorded or transcribed?</summary>
-      <div class="sb-faq-a">Automated transcription is enabled, and you will receive the transcript as part of your recap. No video or audio is recorded.</div>
+      <summary class="sb-faq-q">Will you tell me what to do?</summary>
+      <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours: that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">How soon can we talk?</summary>
+      <div class="sb-faq-a">Usually within days; in busy weeks, the following week. The booking calendar shows exactly what's open.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">What if none of the calendar slots fit my schedule?</summary>
+      <div class="sb-faq-a">I hold a small number of slots per week alongside my full-time role. If none fit your schedule, write to me and we'll find a time that works.</div>
     </details>
 
     <details class="sb-faq-item">
@@ -424,8 +424,8 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </details>
 
     <details class="sb-faq-item">
-      <summary class="sb-faq-q">What if I need to reschedule?</summary>
-      <div class="sb-faq-a">You can reschedule your session directly using the link in your booking confirmation email.</div>
+      <summary class="sb-faq-q">Can I bring a colleague?</summary>
+      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, and a sounding board isn't the tool for that.</div>
     </details>
 
     <details class="sb-faq-item">
@@ -434,18 +434,18 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     </details>
 
     <details class="sb-faq-item">
-      <summary class="sb-faq-q">Can I bring a colleague?</summary>
-      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, and a sounding board isn't the tool for that.</div>
-    </details>
-
-    <details class="sb-faq-item">
-      <summary class="sb-faq-q">Will you tell me what to do?</summary>
-      <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours: that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
+      <summary class="sb-faq-q">Is the session recorded or transcribed?</summary>
+      <div class="sb-faq-a">Automated transcription is enabled, and you will receive the transcript as part of your recap. No video or audio is recorded.</div>
     </details>
 
     <details class="sb-faq-item">
       <summary class="sb-faq-q">Can I ask follow-up questions after the session?</summary>
       <div class="sb-faq-a">Yes. You'll receive a same-day recap email mapping the decision and trade-offs. If you need a quick clarification on the recap, just reply to the email.</div>
+    </details>
+
+    <details class="sb-faq-item">
+      <summary class="sb-faq-q">What if I need to reschedule?</summary>
+      <div class="sb-faq-a">You can reschedule your session directly using the link in your booking confirmation email.</div>
     </details>
   </section>
 
