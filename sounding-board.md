@@ -5,7 +5,7 @@ permalink: /sounding-board/
 image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/20260528_WEB-EXPO-2026_2.Photo_PetrLebeda_normal-size-62_copy_mabja4.jpg
 ---
 
-<div class="sb-container">">
+<div class="sb-container">
 
   <header class="sb-hero">
     <div class="sb-hero-content">
