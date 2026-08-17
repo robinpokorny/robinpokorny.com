@@ -63,14 +63,62 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <h2>The shape of these decisions</h2>
     <p><em>Illustrative examples, composited from real situations; details changed.</em></p>
 
-    <div style="margin-top: 2rem;">
-      <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Buy vs. build</h4>
-      <p>A VP of Engineering arrives with an RFC to build an internal feature-flag and rollout platform after six weeks of back-and-forth. In the session we separate the one genuinely differentiating requirement from the pride of ownership driving the rest. He leaves with a buy decision, a thin adapter around the one gap, and a written revisit criterion for twelve months out.</p>
+    <style>
+      .sb-vignette-card {
+        background: #fdfdfd;
+        border: 1px solid #eaeaea;
+        border-radius: 8px;
+        padding: 2rem;
+        margin-top: 2rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      }
+      .sb-vignette-title {
+        margin-top: 0;
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        color: #111;
+      }
+      .sb-vignette-section {
+        margin-bottom: 1rem;
+        color: #444;
+        line-height: 1.6;
+      }
+      .sb-vignette-section strong {
+        color: #111;
+        font-weight: 600;
+      }
+      .sb-vignette-highlight {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px dashed #ddd;
+        margin-bottom: 0;
+      }
+    </style>
+
+    <div class="sb-vignette-card">
+      <h4 class="sb-vignette-title">Buy vs. build that feels off</h4>
+      <div class="sb-vignette-section">
+        <strong>The situation:</strong> An RFC to build the feature-flag system in-house has sat in a VP's inbox for two weeks. It's thorough, the team is unanimous, everyone is rooting for the build, himself included. And he can't say why he hasn't approved it.
+      </div>
+      <div class="sb-vignette-section">
+        <strong>Why it's stuck:</strong> Internal review comes from the same consensus that wrote it. Too specific for a quick peer chat and too small to justify a standard consultancy.
+      </div>
+      <div class="sb-vignette-section sb-vignette-highlight">
+        <strong>Why a sounding board:</strong> Someone with no pride of ownership plays the missing dissenter, separating what is genuinely differentiating from what is merely fun to build. The doubt gets a name before it gets a signature, and he walks back to the team with reasons they can build on, whichever way it goes.
+      </div>
     </div>
 
-    <div style="margin-top: 2rem;">
-      <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">The vendor that feels off</h4>
-      <p>A CTO can't articulate why a data-platform contract makes her uneasy, even though the demos are good and the price is fine. Mapping the proposal against her team boundaries surfaces it: the contract quietly couples two domains that need to evolve independently, putting the vendor in the middle of every future change. She doesn't walk away; she renegotiates the scope to one domain. The unease gets a name, and the deal gets smaller and better.</p>
+    <div class="sb-vignette-card">
+      <h4 class="sb-vignette-title">The announcement that won't land well</h4>
+      <div class="sb-vignette-section">
+        <strong>The situation:</strong> A restructuring is decided, and it's the right call. Now she has to tell three teams whose ownership it changes, and she knows how it will sound: chaos from above, decided over their heads.
+      </div>
+      <div class="sb-vignette-section">
+        <strong>Why it's stuck:</strong> There's nobody to work this through with. The affected teams can't help design their own announcement, and her leadership peers give a polite "sounds fine." Without a counterpart, the rollout stays improvised.
+      </div>
+      <div class="sb-vignette-section sb-vignette-highlight">
+        <strong>Why a sounding board:</strong> One hour of working the problem with someone who has staged changes like this before. Together we rebuild the announcement from the teams' perspective, sequence who hears what and when, and pick the practices that turn a top-down decree into a change people can follow.
+      </div>
     </div>
   </section>
 
@@ -164,7 +212,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
     <details class="sb-faq-item">
       <summary class="sb-faq-q">Is the session recorded or transcribed?</summary>
-      <div class="sb-faq-a">Automated transcription is enabled, and you will receive the transcript as part of your recap. No video or audio is recorded.</div>
+      <div class="sb-faq-a">Automated transcription is enabled, and you will receive the transcript as part of your recap. No video or audio is recorded. If you'd rather not have one, say so at the start and we skip it.</div>
     </details>
 
     <details class="sb-faq-item">
