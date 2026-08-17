@@ -281,7 +281,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   <header class="sb-hero">
     <div class="sb-hero-content">
       <h1>An hour of thinking with someone who has seen this before.</h1>
-      <p>A confidential sounding-board session on architecture and socio&#8288;-&#8288;technical strategy &mdash; buy vs. build, vendor and platform choices, team boundaries. One decision, sixty minutes, an experienced architect with no stake in the answer.</p>
+      <p>A confidential sounding-board session on architecture and socio&#8288;-&#8288;technical strategy: buy vs. build, vendor and platform choices, team boundaries. One decision, sixty minutes, an experienced architect with no stake in the answer.</p>
 
       <div class="sb-hero-skimmer">
         For VPs of Engineering, CTOs, and heads of platform.<br/>One participant, one decision. Not a workshop, not a project.
@@ -294,7 +294,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <div class="sb-hero-image">
       <img src="{{ page.image }}" alt="Robin Pokorny" class="sb-image">
       <div class="sb-hero-bio-text">
-        <strong>Robin Pokorny</strong> &mdash; socio-technical software architect, based in Berlin. Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
+        <strong>Robin Pokorny</strong>, socio-technical software architect based in Berlin. Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
       </div>
     </div>
   </header>
@@ -310,14 +310,14 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       <li><strong>A consultancy proposal for a six-week engagement,</strong> and you'd like to confirm it's even the right problem first.</li>
     </ul>
     <p class="sb-text-content" style="color: #666; font-size: 1rem; margin-top: 2rem;">
-      These decisions rarely lack information. What they lack is a neutral, experienced counterpart: your team is a stakeholder in the outcome, peers at other companies can't see your context, and a consultancy needs weeks before it earns an opinion. This session exists to fill exactly that gap &mdash; a small investment from both sides, and often the fastest way to unblock a decision that has been circling for months.
+      These decisions rarely lack information. What they lack is a neutral, experienced counterpart: your team is a stakeholder in the outcome, peers at other companies can't see your context, and a consultancy needs weeks before it earns an opinion. This session exists to fill exactly that gap: a small investment from both sides, and often the fastest way to unblock a decision that has been circling for months.
     </p>
   </section>
 
   <section class="sb-section sb-text-content">
     <h2>What this is</h2>
     <p>One hour, one decision, one specialist across the table. My work sits at the seam where organisation and architecture meet: strategic domain-driven design, bounded contexts, team topologies, and the coördination problems that show up as "technical" debates. You bring the decision; I bring twenty years of pattern recognition and no stake in the answer.</p>
-    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the concern you haven't named, and map how reversible each option really is. You leave with <em>your</em> position clarified &mdash; one you can defend to your team, because you've already defended it once.</p>
+    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the concern you haven't named, and map how reversible each option really is. You leave with <em>your</em> position clarified: one you can defend to your team, because you've already defended it once.</p>
 
     <blockquote style="margin: 2rem 0; padding: 1.5rem 2rem; background: #f9f9f9; border-left: 4px solid #111; font-size: 1.15rem; font-style: italic; border-radius: 0 8px 8px 0;">
       The last ten minutes are the deliverable. You say your decision back to me the way you'll say it to your team. If it doesn't hold up in the room, we fix it in the room.
@@ -327,7 +327,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   <section class="sb-section sb-text-content">
     <h2>Who you'll be talking to</h2>
     <p>I'm Robin Pokorny, a socio-technical software architect based in Berlin. For twenty years I've worked where architecture and organisation intersect: currently as Sr Staff Engineer at Ataccama, previously across product engineering in startups and scale-ups. I practise strategic domain-driven design, work with team topologies daily, and speak about both at international conferences.</p>
-    <p>I run these sessions alongside my full-time role &mdash; deliberately. It keeps my judgment anchored in the day-to-day reality of shipping software with real teams, not in a slide deck from a past life. It also means I hold only a few slots per week, and I'd rather keep the offering small and sharp than scale it.</p>
+    <p>I run these sessions deliberately alongside my full-time role. It keeps my judgment anchored in the day-to-day reality of shipping software with real teams, not in a slide deck from a past life. It also means I hold only a few slots per week, and I'd rather keep the offering small and sharp than scale it.</p>
   </section>
 
   <section class="sb-section sb-text-content">
@@ -336,12 +336,12 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
     <div style="margin-top: 2rem;">
       <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Buy vs. build</h4>
-      <p>A VP of Engineering arrives with an RFC to build an internal feature-flag and rollout platform &mdash; six weeks of back-and-forth already behind it. In the session we separate the one genuinely differentiating requirement from the pride of ownership driving the rest. He leaves with a buy decision, a thin adapter around the one gap, and a written revisit criterion for twelve months out.</p>
+      <p>A VP of Engineering arrives with an RFC to build an internal feature-flag and rollout platform after six weeks of back-and-forth. In the session we separate the one genuinely differentiating requirement from the pride of ownership driving the rest. He leaves with a buy decision, a thin adapter around the one gap, and a written revisit criterion for twelve months out.</p>
     </div>
 
     <div style="margin-top: 2rem;">
       <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">The vendor that feels off</h4>
-      <p>A CTO can't articulate why a data-platform contract makes her uneasy &mdash; the demos are good, the price is fine. Mapping the proposal against her team boundaries surfaces it: the contract quietly couples two domains that need to evolve independently, putting the vendor in the middle of every future change. She doesn't walk away; she renegotiates the scope to one domain. The unease gets a name, and the deal gets smaller and better.</p>
+      <p>A CTO can't articulate why a data-platform contract makes her uneasy, even though the demos are good and the price is fine. Mapping the proposal against her team boundaries surfaces it: the contract quietly couples two domains that need to evolve independently, putting the vendor in the middle of every future change. She doesn't walk away; she renegotiates the scope to one domain. The unease gets a name, and the deal gets smaller and better.</p>
     </div>
   </section>
 
@@ -377,7 +377,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <ul>
       <li><strong>The 20-minute rule.</strong> If, by the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. Neither of us should pay for an hour that isn't working.</li>
       <li><strong>One decision per session.</strong> A second topic is a second booking. Depth over coverage.</li>
-      <li><strong>One participant, two at most.</strong> If your real problem is five architects who disagree, this format won't fix it &mdash; and I'll say so, including mid-session.</li>
+      <li><strong>One participant, two at most.</strong> If your real problem is five architects who disagree, this format won't fix it, and I'll say so, including mid-session.</li>
       <li><strong>No implementation, no report.</strong> No code, no PR reviews, no 20-page deck. You get the conversation and a sharp recap email. You're paying for judgment, not paper.</li>
       <li><strong>Strictly confidential.</strong> Nothing from the session is reused, referenced, or written about without your explicit agreement.</li>
     </ul>
@@ -400,12 +400,12 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
     <details class="sb-faq-item">
       <summary class="sb-faq-q">Where do the sessions take place?</summary>
-      <div class="sb-faq-a">Sessions take place remotely over video call (Google Meet) &mdash; all you need is a web browser.</div>
+      <div class="sb-faq-a">Sessions take place remotely over video call via Google Meet. All you need is a web browser.</div>
     </details>
 
     <details class="sb-faq-item">
       <summary class="sb-faq-q">What if 60 minutes isn't enough?</summary>
-      <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's an alignment problem inside your team &mdash; and knowing that is itself worth the hour.</div>
+      <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's an alignment problem inside your team, and knowing that is itself worth the hour.</div>
     </details>
 
     <details class="sb-faq-item">
@@ -415,7 +415,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
 
     <details class="sb-faq-item">
       <summary class="sb-faq-q">Will you tell me what to do?</summary>
-      <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours &mdash; that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
+      <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours: that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
     </details>
   </section>
 
