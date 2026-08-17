@@ -13,7 +13,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     color: #111;
   }
-  
+
   .sb-hero {
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     align-items: center;
     margin: 4rem 0;
   }
-  
+
   @media (min-width: 768px) {
     .sb-hero {
       flex-direction: row;
@@ -36,7 +36,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
       flex: 0.8;
     }
   }
-  
+
   .sb-hero h1 {
     font-size: 2.5rem;
     line-height: 1.15;
@@ -44,26 +44,21 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     letter-spacing: -0.03em;
     font-weight: 800;
   }
-  
+
   .sb-hero p {
     font-size: 1.2rem;
     color: #444;
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }
-  
+
   .sb-image {
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.08);
-    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     max-width: 100%;
     display: block;
   }
-  
-  .sb-image:hover {
-    transform: translateY(-8px);
-  }
-  
+
   .sb-btn {
     display: inline-flex;
     align-items: center;
@@ -78,7 +73,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     transition: all 0.2s ease;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
-  
+
   .sb-btn:hover {
     background: #000;
     transform: translateY(-2px);
@@ -88,14 +83,14 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   .sb-section {
     margin: 5rem 0;
   }
-  
+
   .sb-section h2 {
     font-size: 1.8rem;
     letter-spacing: -0.02em;
     margin-bottom: 1.5rem;
     font-weight: 700;
   }
-  
+
   .sb-card {
     background: #fafafa;
     border-radius: 16px;
@@ -103,12 +98,12 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     margin: 3rem 0;
     border: 1px solid #f0f0f0;
   }
-  
+
   .sb-card ul {
     margin: 1.5rem 0;
     padding-left: 1.5rem;
   }
-  
+
   .sb-card li {
     margin-bottom: 0.75rem;
     line-height: 1.5;
@@ -120,29 +115,22 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     gap: 1.5rem;
     margin-top: 2rem;
   }
-  
+
   @media (min-width: 600px) {
     .sb-grid {
       grid-template-columns: 1fr 1fr;
     }
   }
-  
+
   .sb-step-card {
     background: #fff;
     border: 1px solid #eaeaea;
     border-radius: 12px;
     padding: 2rem;
-    transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
   }
-  
-  .sb-step-card:hover {
-    border-color: #ddd;
-    box-shadow: 0 12px 24px rgba(0,0,0,0.04);
-    transform: translateY(-4px);
-  }
-  
+
   .sb-step-num {
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -152,21 +140,21 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     margin-bottom: 0.75rem;
     display: block;
   }
-  
+
   .sb-step-title {
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 0.75rem;
     letter-spacing: -0.01em;
   }
-  
+
   .sb-step-desc {
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
     margin: 0;
   }
-  
+
   .sb-faq {
     max-width: 650px;
     margin: 0 auto;
@@ -177,18 +165,18 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     padding-bottom: 2rem;
     border-bottom: 1px solid #eee;
   }
-  
+
   .sb-faq-item:last-child {
     border-bottom: none;
   }
-  
+
   .sb-faq-q {
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 0.75rem;
     letter-spacing: -0.01em;
   }
-  
+
   .sb-faq-a {
     color: #444;
     line-height: 1.6;
@@ -250,7 +238,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
   }
   .sb-recap-sample::before {
-    content: "From a real recap (redacted):";
+    content: "Example recap:";
     display: block;
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -286,290 +274,74 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     margin-bottom: 2rem;
     border-left: 3px solid #111;
   }
-  /* Infographic Styles */
-  .sb-toggle-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-  .sb-toggle-label {
-    color: #888;
-    transition: color 0.3s;
-  }
-  .sb-toggle-label.sb-toggle-active {
-    color: #111;
-  }
-  .sb-toggle-btn {
-    width: 50px;
-    height: 26px;
-    background: #e0e0e0;
-    border-radius: 13px;
-    border: none;
-    position: relative;
-    cursor: pointer;
-    padding: 0;
-    transition: background 0.3s;
-  }
-  .sb-toggle-knob {
-    width: 22px;
-    height: 22px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  }
-  .state-sb-active .sb-toggle-btn {
-    background: #111;
-  }
-  .state-sb-active .sb-toggle-knob {
-    transform: translateX(24px);
-  }
-
-  .sb-infographic-container {
-    background: #fafafa;
-    border: 1px solid #eaeaea;
-    border-radius: 12px 12px 0 0;
-    padding: 2rem 1rem 1rem;
-    overflow-x: auto;
-  }
-  .sb-svg {
-    width: 100%;
-    min-width: 600px;
-    height: auto;
-    display: block;
-  }
-  
-  .sb-svg text {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    fill: #111;
-    pointer-events: none;
-    transition: opacity 0.4s;
-  }
-
-  /* Transition Defaults */
-  .ig-bg-line { stroke: #ddd; stroke-width: 2; stroke-dasharray: 4 4; }
-  .ig-fg-line { stroke: #111; stroke-width: 2; transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
-  
-  .ig-node {
-    cursor: pointer;
-  }
-  .ig-node rect, .ig-node circle, .ig-node text {
-    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .ig-node:hover rect, .ig-node:hover circle.outer-circle {
-    stroke-width: 3 !important;
-    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
-  }
-
-  /* SVG State: DEFAULT */
-  .state-default .ig-fg-line { x2: 920px; }
-  .state-default .ig-problem circle { fill: #111; }
-  
-  .state-default .ig-middle1 rect { x: 120px; width: 160px; fill: #fff; stroke: #ccc; stroke-width: 2; }
-  .state-default .ig-text-sb { opacity: 0; }
-  .state-default .ig-text-default { opacity: 1; }
-  
-  .state-default .ig-middle2 { opacity: 1; pointer-events: auto; }
-  .state-default .ig-middle2 rect { fill: #fff; stroke: #ccc; stroke-width: 2; }
-  
-  .state-default .ig-middle3 { opacity: 1; pointer-events: auto; }
-  .state-default .ig-middle3 rect { fill: #fff; stroke: #ccc; stroke-width: 2; }
-
-  .state-default .ig-middle4 rect { x: 720px; width: 160px; fill: #fff; stroke: #ccc; stroke-width: 2; }
-  .state-default .ig-text-alignment { opacity: 0; transform: translateX(0); }
-  .state-default .ig-text-misaligned { opacity: 1; transform: translateX(0); }
-
-  .state-default .ig-decision circle.outer-circle { cx: 920px; fill: #111; }
-  .state-default .ig-decision circle.inner-circle { cx: 920px; fill: #fff; }
-  .state-default .ig-text-decision { opacity: 1; transform: translateX(0); }
-  .state-default .ig-text-decision-sb { opacity: 0; transform: translateX(0); }
-
-  /* SVG State: SOUNDING BOARD (SB) */
-  .state-sb .ig-fg-line { x2: 520px; }
-  .state-sb .ig-problem circle { fill: #111; }
-  
-  .state-sb .ig-middle1 rect { x: 120px; width: 160px; fill: #111; stroke: #111; stroke-width: 2; }
-  .state-sb .ig-middle1 text { fill: #fff; }
-  .state-sb .ig-text-sb { opacity: 1; }
-  .state-sb .ig-text-default { opacity: 0; }
-  
-  .state-sb .ig-middle2 { opacity: 0; pointer-events: none; }
-  .state-sb .ig-middle2 rect { transform: scale(0.9); transform-origin: 400px 100px; }
-
-  .state-sb .ig-middle3 { opacity: 0; pointer-events: none; }
-  .state-sb .ig-middle3 rect { transform: scale(0.9); transform-origin: 600px 100px; }
-  
-  .state-sb .ig-middle4 rect { x: 320px; width: 160px; fill: #fff; stroke: #111; stroke-width: 2; }
-  .state-sb .ig-text-alignment { opacity: 1; transform: translateX(-400px); }
-  .state-sb .ig-text-misaligned { opacity: 0; transform: translateX(-400px); }
-
-  .state-sb .ig-decision circle.outer-circle { cx: 520px; fill: #111; }
-  .state-sb .ig-decision circle.inner-circle { cx: 520px; fill: #fff; }
-  .state-sb .ig-text-decision { opacity: 0; transform: translateX(-400px); }
-  .state-sb .ig-text-decision-sb { opacity: 1; transform: translateX(-400px); }
-
-  /* Readout Panel */
-  .sb-readout-panel {
-    background: #fff;
-    border: 1px solid #eaeaea;
-    border-top: none;
-    border-radius: 0 0 12px 12px;
-    padding: 1.5rem 2rem;
-    min-height: 120px;
-  }
-  .sb-readout-title {
-    font-weight: 700;
-    font-size: 1.05rem;
-    margin-bottom: 0.5rem;
-    color: #111;
-  }
-  .sb-readout-text {
-    font-size: 0.95rem;
-    color: #555;
-    line-height: 1.5;
-  }
-
 </style>
 
 <div class="sb-container">
 
   <header class="sb-hero">
     <div class="sb-hero-content">
-      <h1>One decision. One hour. An architect with no stake in the answer.</h1>
-      <p>A confidential 60-minute sounding-board session on architecture, buy-vs-build, and socio-technical strategy. No project. No multi-day commitment. Book today, think clearly tomorrow.</p>
-      
+      <h1>An hour of thinking with someone who has seen this before.</h1>
+      <p>A confidential sounding-board session on architecture and socio&#8288;-&#8288;technical strategy &mdash; buy vs. build, vendor and platform choices, team boundaries. One decision, sixty minutes, an experienced architect with no stake in the answer.</p>
+
       <div class="sb-hero-skimmer">
-        For VPs, directors, and CTOs with one strategic decision on the desk.<br/>Not for teams, not for implementation.
+        For VPs of Engineering, CTOs, and heads of platform.<br/>One participant, one decision. Not a workshop, not a project.
       </div>
-      
+
       <div>
-        <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
+        <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book a session &rarr;</a>
       </div>
     </div>
     <div class="sb-hero-image">
       <img src="{{ page.image }}" alt="Robin Pokorny" class="sb-image">
       <div class="sb-hero-bio-text">
-        <strong>Robin Pokorny</strong> &mdash; Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
+        <strong>Robin Pokorny</strong> &mdash; socio-technical software architect, based in Berlin. Sr Staff Engineer at Ataccama, conference speaker, twenty years across product engineering and architecture.
       </div>
     </div>
   </header>
 
   <section class="sb-card">
-    <h2>The situation you're probably in</h2>
-    <p class="sb-text-content">You're a VP, director, or CTO, and a decision is sitting on your desk:</p>
+    <h2>When this is the right call</h2>
+    <p class="sb-text-content">You lead engineering, and a decision is on your desk:</p>
     <ul class="sb-text-content">
-      <li><strong>Buy vs. build:</strong> your own team isn't neutral about the answer.</li>
+      <li><strong>Buy vs. build,</strong> and your own team isn't neutral about the answer.</li>
       <li><strong>A vendor or platform choice</strong> that feels off in a way you can't articulate yet.</li>
       <li><strong>A team-boundary or ownership question</strong> that's still a hunch, not yet a conflict.</li>
       <li><strong>An RFC waiting for your approval,</strong> and you want one independent read before you sign off.</li>
-      <li><strong>A consultancy proposal for a six-week engagement,</strong> and you'd like to check it's even the right problem first.</li>
+      <li><strong>A consultancy proposal for a six-week engagement,</strong> and you'd like to confirm it's even the right problem first.</li>
     </ul>
     <p class="sb-text-content" style="color: #666; font-size: 1rem; margin-top: 2rem;">
-      Your options today are all slow or compromised: consultancies need weeks of lead time and multi-day minimums, your team is a stakeholder in the outcome, and peers at other companies can't see your context. Meanwhile the decision quietly degrades into the default one.
+      These decisions rarely lack information. What they lack is a neutral, experienced counterpart: your team is a stakeholder in the outcome, peers at other companies can't see your context, and a consultancy needs weeks before it earns an opinion. This session exists to fill exactly that gap &mdash; a small investment from both sides, and often the fastest way to unblock a decision that has been circling for months.
     </p>
-  </section>
-
-  <!-- INFOGRAPHIC SECTION -->
-  <section class="sb-section" style="margin-top: 6rem; margin-bottom: 6rem;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
-      <h2 style="margin: 0;">The Decision Timeline</h2>
-      
-      <div class="sb-toggle-wrapper">
-        <span class="sb-toggle-label sb-toggle-active" id="lbl-default">Default Path</span>
-        <button class="sb-toggle-btn" id="infographic-toggle" aria-label="Toggle process state">
-          <div class="sb-toggle-knob"></div>
-        </button>
-        <span class="sb-toggle-label" id="lbl-sb">Sounding Board</span>
-      </div>
-    </div>
-
-    <div class="sb-infographic-container state-default" id="infographic-container">
-      <svg viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" class="sb-svg">
-        
-        <!-- Background timeline (dashed) -->
-        <line x1="50" y1="100" x2="920" y2="100" class="ig-bg-line"/>
-        
-        <!-- Foreground timeline (solid) -->
-        <line x1="50" y1="100" x2="920" y2="100" class="ig-fg-line"/>
-
-        <!-- Node 1: Problem -->
-        <g class="ig-node ig-problem" data-id="problem">
-          <circle cx="50" cy="100" r="10" />
-          <text x="50" y="70" text-anchor="middle">The Problem</text>
-        </g>
-
-        <!-- Node 2: Internal RFCs / Sounding Board -->
-        <g class="ig-node ig-middle1" data-id="middle1">
-          <rect x="120" y="70" width="160" height="60" rx="8" />
-          <text x="200" y="105" text-anchor="middle" class="ig-text-default">Endless RFCs</text>
-          <text x="200" y="105" text-anchor="middle" class="ig-text-sb">60-Min Session</text>
-        </g>
-
-        <!-- Node 3: Vendor Demos (Fades out) -->
-        <g class="ig-node ig-middle2" data-id="middle2">
-          <rect x="320" y="70" width="160" height="60" rx="8" />
-          <text x="400" y="105" text-anchor="middle">Vendor Demos</text>
-        </g>
-
-        <!-- Node 4: Paid Discovery (Fades out) -->
-        <g class="ig-node ig-middle3" data-id="middle3">
-          <rect x="520" y="70" width="160" height="60" rx="8" />
-          <text x="600" y="105" text-anchor="middle">Paid Discovery</text>
-        </g>
-
-        <!-- Node 5: Misaligned Execution / Targeted Alignment -->
-        <g class="ig-node ig-middle4" data-id="middle4">
-          <rect x="720" y="70" width="160" height="60" rx="8" />
-          <text x="800" y="105" text-anchor="middle" class="ig-text-misaligned">Misaligned Execution</text>
-          <text x="800" y="105" text-anchor="middle" class="ig-text-alignment">Targeted Alignment</text>
-        </g>
-
-        <!-- Node 6: Decision -->
-        <g class="ig-node ig-decision" data-id="decision">
-          <circle cx="920" cy="100" r="14" class="outer-circle"/>
-          <circle cx="920" cy="100" r="6" class="inner-circle"/>
-          <text x="920" y="70" text-anchor="middle" class="ig-text-decision">Compromised Decision</text>
-          <text x="920" y="70" text-anchor="middle" class="ig-text-decision-sb">Confident Execution</text>
-        </g>
-      </svg>
-    </div>
-
-    <div class="sb-readout-panel">
-      <div class="sb-readout-title" id="readout-title">Click a phase to inspect</div>
-      <div class="sb-readout-text" id="readout-text">Select any block on the timeline above to see what typically happens at that stage.</div>
-    </div>
   </section>
 
   <section class="sb-section sb-text-content">
     <h2>What this is</h2>
-    <p>One hour, one decision, one specialist across the table. I'm a socio-technical software architect focusing on strategic domain-driven design, bounded contexts, team topologies, the seams where organisation and architecture meet. You bring the decision; I bring twenty years of pattern recognition and no stake in the answer.</p>
-    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the fear you haven't named, and map how reversible each option really is. But you leave with <em>your</em> position clarified.</p>
-    
+    <p>One hour, one decision, one specialist across the table. My work sits at the seam where organisation and architecture meet: strategic domain-driven design, bounded contexts, team topologies, and the coördination problems that show up as "technical" debates. You bring the decision; I bring twenty years of pattern recognition and no stake in the answer.</p>
+    <p>This is a <strong>sounding board, not a verdict machine.</strong> I'll challenge your assumptions directly, name the concern you haven't named, and map how reversible each option really is. You leave with <em>your</em> position clarified &mdash; one you can defend to your team, because you've already defended it once.</p>
+
     <blockquote style="margin: 2rem 0; padding: 1.5rem 2rem; background: #f9f9f9; border-left: 4px solid #111; font-size: 1.15rem; font-style: italic; border-radius: 0 8px 8px 0;">
-      The last ten minutes are the deliverable. You say your decision back to me the way you'll say it to your team. If you can't say it convincingly to me, you're not ready to say it to them. We fix that in the room.
+      The last ten minutes are the deliverable. You say your decision back to me the way you'll say it to your team. If it doesn't hold up in the room, we fix it in the room.
     </blockquote>
   </section>
 
   <section class="sb-section sb-text-content">
-    <!-- TODO(robin): confirm vignettes are real-anonymised or switch intro to 'Illustrative examples…' -->
-    <h2>Decisions that have come through this room</h2>
-    <p><em>Details changed to protect confidentiality; the shape of each decision is real.</em></p>
-    
+    <h2>Who you'll be talking to</h2>
+    <p>I'm Robin Pokorny, a socio-technical software architect based in Berlin. For twenty years I've worked where architecture and organisation intersect: currently as Sr Staff Engineer at Ataccama, previously across product engineering in startups and scale-ups. I practise strategic domain-driven design, work with team topologies daily, and speak about both at international conferences.</p>
+    <p>I run these sessions alongside my full-time role &mdash; deliberately. It keeps my judgment anchored in the day-to-day reality of shipping software with real teams, not in a slide deck from a past life. It also means I hold only a few slots per week, and I'd rather keep the offering small and sharp than scale it.</p>
+  </section>
+
+  <section class="sb-section sb-text-content">
+    <h2>The shape of these decisions</h2>
+    <p><em>Illustrative examples, composited from real situations; details changed.</em></p>
+
     <div style="margin-top: 2rem;">
       <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Buy vs. build</h4>
-      <p>A VP of Engineering arrived with an RFC to build an internal feature-flag and rollout platform — six weeks of back-and-forth already behind it. In the session we separated the actual differentiating requirement (one unusual targeting rule) from the pride of ownership driving the rest. He left with a buy decision, a thin adapter around the one gap, and a written revisit criterion for twelve months out. The RFC thread closed that week.</p>
+      <p>A VP of Engineering arrives with an RFC to build an internal feature-flag and rollout platform &mdash; six weeks of back-and-forth already behind it. In the session we separate the one genuinely differentiating requirement from the pride of ownership driving the rest. He leaves with a buy decision, a thin adapter around the one gap, and a written revisit criterion for twelve months out.</p>
     </div>
 
     <div style="margin-top: 2rem;">
-      <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">The vendor that felt off</h4>
-      <p>A CTO couldn't articulate why a data-platform contract made her uneasy — the demos were good, the price was fine. Mapping the proposal against her team boundaries surfaced it: the contract quietly coupled two domains that needed to evolve independently, putting the vendor in the middle of every future change. She didn't walk away; she renegotiated the scope to one domain. The unease had a name, and the deal got smaller and better.</p>
+      <h4 style="margin-bottom: 0.5rem; font-size: 1.2rem;">The vendor that feels off</h4>
+      <p>A CTO can't articulate why a data-platform contract makes her uneasy &mdash; the demos are good, the price is fine. Mapping the proposal against her team boundaries surfaces it: the contract quietly couples two domains that need to evolve independently, putting the vendor in the middle of every future change. She doesn't walk away; she renegotiates the scope to one domain. The unease gets a name, and the deal gets smaller and better.</p>
     </div>
   </section>
 
@@ -578,7 +350,7 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
     <div class="sb-grid">
       <div class="sb-step-card">
         <span class="sb-step-num">Step 1</span>
-        <h4 class="sb-step-title">Book & pay</h4>
+        <h4 class="sb-step-title">Book &amp; pay</h4>
         <p class="sb-step-desc">Pick a slot, pay by card, done in one sitting.</p>
       </div>
       <div class="sb-step-card">
@@ -595,7 +367,6 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
         <span class="sb-step-num">Step 4</span>
         <h4 class="sb-step-title">Same-day recap</h4>
         <p class="sb-step-desc">A short bullet email: the question, the options, where you landed, and the risks you consciously chose to accept. A paper trail for yourself.</p>
-        <!-- TODO(robin): replace with a genuinely redacted recap or label as example -->
         <div class="sb-recap-sample">
           <ul>
             <li><strong>Decision:</strong> migrate billing to vendor X, scoped to invoicing only</li>
@@ -609,126 +380,57 @@ image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1781183584/202
   </section>
 
   <section class="sb-section sb-text-content" style="max-width: 650px;">
-    <h2>What this is not</h2>
-    <p>Fair warning, because the boundaries are the product:</p>
+    <h2>Fair terms, stated up front</h2>
+    <p>The boundaries are part of the product. Here they are, plainly:</p>
     <ul>
-      <li><strong>Not a team workshop.</strong> One participant (two at most). If your real problem is five architects who disagree, this format won't fix it, and I'll tell you so honestly — including mid-session.</li>
-      <li><strong>Not implementation.</strong> No code, no PR reviews, no hands on keyboards.</li>
-      <li><strong>Not a subscription.</strong> No Slack access, no "quick follow-up calls." One decision per session; a second topic is a second booking.</li>
-      <li><strong>Not a report shop.</strong> You get a sharp recap email, not a 20-page deck. You're paying for judgment, not paper.</li>
+      <li><strong>The 20-minute rule.</strong> If, by the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. Neither of us should pay for an hour that isn't working.</li>
+      <li><strong>One decision per session.</strong> A second topic is a second booking. Depth over coverage.</li>
+      <li><strong>One participant, two at most.</strong> If your real problem is five architects who disagree, this format won't fix it &mdash; and I'll say so, including mid-session.</li>
+      <li><strong>Rescheduling is free up to 24 hours before.</strong> Inside 24 hours the slot can't be resold, so it's charged. That's the honest cost of dedicated time.</li>
+      <li><strong>No implementation, no report.</strong> No code, no PR reviews, no 20-page deck. You get the conversation and a sharp recap email. You're paying for judgment, not paper.</li>
+      <li><strong>Strictly confidential.</strong> Nothing from the session is reused, referenced, or written about without your explicit agreement.</li>
     </ul>
   </section>
 
   <section class="sb-price-block">
-    <h2>€650</h2>
-    <p>prepaid at booking.</p>
-    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 600px; margin-bottom: 2.5rem;">For calibration: a five-engineer team costs roughly €2,500 per day in salaries. If this hour shortens your decision by even a single day (and it usually shortens it by weeks) it has paid for itself several times over.</p>
-    <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Secure your slot now</a>
-    <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">I run these sessions alongside my full-time role, so availability is genuinely limited — book ahead rather than last-minute.</p>
+    <h2>&euro;650</h2>
+    <p>One session, 60 minutes, prepaid at booking. Includes intake review and the same-day recap.</p>
+    <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book a session</a>
+    <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">I hold a small number of slots per week, alongside my full-time role. If none fit, write to me and we'll find one.</p>
   </section>
 
   <section class="sb-section sb-faq">
-    <h2 style="text-align: center; margin-bottom: 3rem;">Frequently Asked Questions</h2>
-    
+    <h2 style="text-align: center; margin-bottom: 3rem;">Questions people ask</h2>
+
     <div class="sb-faq-item">
-      <div class="sb-faq-q">How fast can we actually talk?</div>
-      <div class="sb-faq-a">I hold a small number of dedicated slots each week. Usually you can find time within days; in busy weeks it may be the following week.</div>
+      <div class="sb-faq-q">How soon can we talk?</div>
+      <div class="sb-faq-a">Usually within days; in busy weeks, the following week. The booking calendar shows exactly what's open.</div>
     </div>
-    
+
     <div class="sb-faq-item">
       <div class="sb-faq-q">What if 60 minutes isn't enough?</div>
-      <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's an alignment problem inside your team, and that's yours to run — you'll at least leave knowing that's what it is.</div>
+      <div class="sb-faq-a">Then the problem is bigger than a sounding board, and I'll say so plainly rather than let the clock run out politely. Usually that means it's an alignment problem inside your team &mdash; and knowing that is itself worth the hour.</div>
     </div>
-    
+
     <div class="sb-faq-item">
       <div class="sb-faq-q">Can I bring a colleague?</div>
-      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, and a sounding board session isn't the tool for that.</div>
+      <div class="sb-faq-a">One colleague, yes. Three colleagues means you need the room aligned, and a sounding board isn't the tool for that.</div>
     </div>
-    
+
     <div class="sb-faq-item">
-      <div class="sb-faq-q">What if I need to reschedule?</div>
-      <div class="sb-faq-a">Free up to 24 hours before the session. Inside 24 hours the slot can't be resold, so it's charged. That's the honest cost of holding dedicated time.</div>
+      <div class="sb-faq-q">Will you tell me what to do?</div>
+      <div class="sb-faq-a">I'll tell you what I see, including things you may not want to hear. But the decision stays yours &mdash; that's the point. A decision you were handed is one you'll reëxamine at the first sign of trouble; a decision you made holds.</div>
     </div>
-    
+
     <div class="sb-faq-item">
-      <div class="sb-faq-q">Do you refund if it wasn't useful?</div>
-      <div class="sb-faq-a">If, at the 20-minute mark, either of us concludes this isn't the right format for your problem, we stop and I refund in full. After that, we're committed for the hour.</div>
+      <div class="sb-faq-q">Is this confidential?</div>
+      <div class="sb-faq-a">Fully. An NDA is fine if your legal team wants one &mdash; send it with the intake form.</div>
     </div>
   </section>
 
   <section class="sb-section" style="text-align: center; margin-bottom: 6rem;">
-    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Ready?</h2>
-    <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #444;">One decision is sitting on your desk right now. Give it an hour.</p>
-    <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book your session &rarr;</a>
+    <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #444; max-width: 550px; margin-left: auto; margin-right: auto;">If this sounds like the right room for the decision you're carrying, the calendar is open.</p>
+    <a href="https://cal.com/robinpokorny/60min" class="sb-btn">Book a session &rarr;</a>
   </section>
 
 </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('infographic-toggle');
-    const container = document.getElementById('infographic-container');
-    const toggleWrapper = toggleBtn.parentElement;
-    const lblDefault = document.getElementById('lbl-default');
-    const lblSb = document.getElementById('lbl-sb');
-    const readoutTitle = document.getElementById('readout-title');
-    const readoutText = document.getElementById('readout-text');
-    
-    let currentState = 'default';
-    
-    const readouts = {
-      default: {
-        problem: { title: "The Problem", text: "A strategic decision hits your desk. It feels complex, and the stakes are high." },
-        middle1: { title: "Endless RFCs", text: "Internal teams debate the solution, but with a stake in the outcome. The thread becomes a battle for ownership rather than architecture." },
-        middle2: { title: "Vendor Demos", text: "Weeks lost to sales calls and proof-of-concepts that look great but hide architectural coupling." },
-        middle3: { title: "Paid Discovery", text: "Traditional agencies require multi-week discovery phases and heavy SOWs just to understand your baseline." },
-        middle4: { title: "Misaligned Execution", text: "Fatigue forces a compromised decision. The team starts building, but core assumptions remain untested until they break." },
-        decision: { title: "The Compromised Decision", text: "You inherited tech debt because it was the path of least resistance." }
-      },
-      sb: {
-        problem: { title: "The Problem", text: "A strategic decision hits your desk. It feels complex, and the stakes are high." },
-        middle1: { title: "60-Minute Sounding Board", text: "An impartial expert stress-tests your thinking and maps the reversibility of your options. You leave with a clarified position." },
-        middle4: { title: "Targeted Alignment", text: "You still have to align your team, but now you have a coherent narrative and a clear understanding of the trade-offs you are consciously accepting." },
-        decision: { title: "Confident Execution", text: "The team builds against a solid decision. The timeline is shorter not because of magic, but because the foundational ambiguity is gone." }
-      }
-    };
-
-    function setReadout(id) {
-      const data = readouts[currentState][id];
-      if (data) {
-        readoutTitle.textContent = data.title;
-        readoutText.textContent = data.text;
-      } else {
-        readoutTitle.textContent = "Click a phase to inspect";
-        readoutText.textContent = "Select any block on the timeline above to see what typically happens at that stage.";
-      }
-    }
-
-    toggleBtn.addEventListener('click', () => {
-      if (currentState === 'default') {
-        currentState = 'sb';
-        container.classList.remove('state-default');
-        container.classList.add('state-sb');
-        toggleWrapper.classList.add('state-sb-active');
-        lblDefault.classList.remove('sb-toggle-active');
-        lblSb.classList.add('sb-toggle-active');
-      } else {
-        currentState = 'default';
-        container.classList.remove('state-sb');
-        container.classList.add('state-default');
-        toggleWrapper.classList.remove('state-sb-active');
-        lblDefault.classList.add('sb-toggle-active');
-        lblSb.classList.remove('sb-toggle-active');
-      }
-      setReadout(null);
-    });
-
-    const nodes = document.querySelectorAll('.ig-node, .ig-bypassed-group');
-    nodes.forEach(node => {
-      node.addEventListener('click', () => {
-        const id = node.getAttribute('data-id');
-        setReadout(id);
-      });
-    });
-  });
-</script>
