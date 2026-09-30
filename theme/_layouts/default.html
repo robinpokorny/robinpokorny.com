@@ -33,7 +33,12 @@
       </button>
       {% endif %}
 
-      <button class="toggle navicon-button" type="button" on="tap:sidebar.toggle">
+      <button
+        class="toggle navicon-button"
+        type="button"
+        on="tap:sidebar.toggle"
+        aria-controls="sidebar"
+      >
         <span class="toggle-inner">
           <span class="sidebar-toggle-label screen-reader-text"
             >{{ site.data.theme.t.menu | default: 'Menu' }}</span
@@ -43,7 +48,14 @@
       </button>
     </div>
 
-    <amp-sidebar id="sidebar" layout="nodisplay" side="left" class="sidebar">
+    <amp-sidebar
+      id="sidebar"
+      layout="nodisplay"
+      side="left"
+      class="sidebar"
+      role="navigation"
+      aria-label="{{ site.data.theme.t.menu | default: 'Menu' }}"
+    >
       <div class="inner">
         {% include navigation.html %}
         {% include contact-list.html %}
