@@ -10,11 +10,11 @@ introduction: >-
   GraphQL_, and _Kotlin_.
 
 
-  Over the 12+ years in the industry, I've worked in fintech and large-scale SaaS companies, leading cross-functional teams and fostering alignment between engineering, product, and business.
+  Over the 14+ years in the industry, I've worked in fintech and large-scale SaaS companies, leading cross-functional teams and fostering alignment between engineering, product, and business.
 
 
   As a tech lead, I specialise in education, coördination, and ensuring system coherence through communication. I also organise several meetups — I co-founded [Frontendisti.cz](https://frontendisti.cz/), and run [React Berlin](https://www.meetup.com/react-berlin-meetup/).
-featured_talk: https://webexpo.net/prague2026/sessions/robin-pokorny-coming-in-2026/
+featured_talk: https://www.frontkon.tech/events/frontkon-26/talks/ai-made-every-developer-a-tech-lead-now-what
 ---
 
 {% include page-intro.html %}
