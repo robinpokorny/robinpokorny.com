@@ -1,4 +1,11 @@
 items:
+  - date: 2026-10-06
+    title: AI Made Every Developer a Tech Lead. Now What?
+    event: "FrontKon #26"
+    eventUrl: https://www.frontkon.tech/events/frontkon-26/talks/ai-made-every-developer-a-tech-lead-now-what
+    image: https://res.cloudinary.com/dljslvfla/image/upload/t_Thumb/v1792141619/frame-00021_a6iztz.jpg
+    slides: https://noti.st/robinpokorny/cGiCPV/ai-made-every-developer-a-tech-lead-now-what
+    description: "[List of books & resources](https://robinpokorny.com/ai-tech-lead)"
   - date: 2025-12-04
     title: I Loved Snapshots in 2016. A Decade Later, Let's Revisit
     eventUrl: https://www.meetup.com/react-berlin-meetup/events/312165575/?eventOrigin=group_events_list
