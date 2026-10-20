@@ -2,6 +2,8 @@
    Site-wide
    ========================================================================== */
 
+@use "sass:color";
+
 .site-title {
   @include fluid-type($min-vw, $max-vw, 20px, 24px);
   margin: 0;
@@ -48,7 +50,7 @@
 
 .back-to-top {
   display: block;
-  color: lighten($text-color, 50%);
+  color: color.adjust($text-color, $lightness: 50%);
   font-size: 0.75em;
   text-transform: uppercase;
   text-align: right;
@@ -71,12 +73,12 @@
 .taxonomy-title {
   @include fluid-type($min-vw, $max-vw, 28px, 32px);
   margin-bottom: 0.5em;
-  color: lighten($text-color, 60%);
+  color: color.adjust($text-color, $lightness: 60%);
   font-family: $base-font-family;
 }
 
 .taxonomy-count {
-  color: lighten($text-color, 50%);
+  color: color.adjust($text-color, $lightness: 50%);
 }
 
 .taxonomy-index {
