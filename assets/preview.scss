@@ -1,3 +1,6 @@
+---
+---
+
 @charset "UTF-8";
 
 // Theme skin
@@ -5,7 +8,25 @@
 
 @import 'basically-basic';
 
-body {
-  max-width: 768px;
-  padding: 20px;
+// Match Decap CMS markdown preview structure to Jekyll/Rouge output
+.entry-content {
+  > div > p:first-child {
+    font-size: 1.125em;
+    line-height: 1.625;
+  }
+
+  pre {
+    position: relative;
+    margin-bottom: 1em;
+    padding: 1em;
+    background: $base00;
+    color: $base05;
+    font-family: $monospace-font-family;
+    line-height: 1.8;
+
+    code {
+      background: transparent;
+      color: inherit;
+    }
+  }
 }
