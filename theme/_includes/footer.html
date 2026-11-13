@@ -8,14 +8,44 @@
   </div>
 </footer>
 
-<amp-analytics type="gtag" data-credentials="include">
+{% comment %}
+  Umami analytics, AMP-compatible.
+  AMP's sandbox can't run arbitrary JS, so Umami's script.js cannot be used
+  here. Instead amp-analytics POSTs the event as a JSON body ({type, payload})
+  to Umami's /api/send endpoint via transport.useBody, which is the documented
+  Umami+AMP pattern (see umami-software/umami#751).
+{% endcomment %}
+<amp-analytics>
   <script type="application/json">
     {
-      "vars": {
-        "gtag_id": "UA-639471-27",
-        "config": {
-          "UA-639471-27": { "groups": "default" }
+      "requests": {
+        "event": "https://pulse.bruskodu.cz/api/send"
+      },
+      "extraUrlParams": {
+        "payload": {
+          "website": "70f6efde-cea3-49bb-a0f0-fbf3b2581170",
+          "hostname": "${hostname}",
+          "language": "${browserLanguage}",
+          "referrer": "${documentReferrer}",
+          "screen": "${screenResolution}",
+          "title": "${title}",
+          "url": "${sourceUrl}"
         }
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "event",
+          "extraUrlParams": {
+            "type": "event"
+          }
+        }
+      },
+      "transport": {
+        "beacon": true,
+        "xhrpost": true,
+        "image": false,
+        "useBody": true
       }
     }
   </script>
