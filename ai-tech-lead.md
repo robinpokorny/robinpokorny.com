@@ -1,11 +1,13 @@
 ---
 layout: page
-title: FrontKon 2026 · Reading List
+title: AI Tech Lead · Reading List
 permalink: /ai-tech-lead/
 sitemap: false
 ---
 
 The resources mentioned in my talk *AI Made Every Developer a Tech Lead. Now what?*, plus some extra.
+
+> Just looking for the talk? Read the [article](https://robinpokorny.com/blog/ai-made-every-developer-a-tech-lead-now-what/) or [watch the recording](https://youtu.be/vvQsZg0C5I0) (23 min).
 
 ## Introduction
 
