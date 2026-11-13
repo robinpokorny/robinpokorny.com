@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FrontKon 2026 · Reading List
+title: AI Tech Lead · Reading List
 permalink: /ai-tech-lead/
 sitemap: false
 ---
