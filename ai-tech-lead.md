@@ -7,10 +7,7 @@ sitemap: false
 
 The resources mentioned in my talk *AI Made Every Developer a Tech Lead. Now what?*, plus some extra.
 
-## The Talk
-
-- [AI Made Every Developer a Tech Lead. Now What?](https://robinpokorny.com/blog/ai-made-every-developer-a-tech-lead-now-what/) · the article
-- [Watch on YouTube](https://youtu.be/vvQsZg0C5I0) · 23 min
+> Just looking for the talk? Read the [article](https://robinpokorny.com/blog/ai-made-every-developer-a-tech-lead-now-what/) or [watch the recording](https://youtu.be/vvQsZg0C5I0) (23 min).
 
 ## Introduction
 
